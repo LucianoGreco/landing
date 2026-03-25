@@ -1,0 +1,21 @@
+DATOS DEL CLIENTE
+
+Nombre del negocio:
+Slogan:
+Descripción:
+
+Teléfono:
+WhatsApp:
+Dirección:
+
+Instagram:
+Facebook:
+
+Productos:
+- Nombre:
+- Descripción:
+- Precio:
+
+Imágenes:
+- Logo:
+- Hero:

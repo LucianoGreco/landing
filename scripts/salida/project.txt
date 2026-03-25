@@ -1,0 +1,1481 @@
+📁 FABRICA-AGENTES — ELEMENTOS SELECCIONADOS
+📅 Generado : 2026-03-25 14:43:22
+📦 Fuentes  : 1
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+📂 3. PROYECTOS
+   Ruta: D:\desarrollo\3. proyectos
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+└── 2. 📁 landing
+    └── 2.1. 📁 cafeteria-deportiva
+        ├── 2.1.1. 📁 assets
+        │   └── 2.1.1.2. 📁 images
+        │       ├── 2.1.1.2.2. 📄 about.jpg
+        │       ├── 2.1.1.2.1. 📁 gallery
+        │       │   ├── 2.1.1.2.1.1. 📄 gallery-1.png
+        │       │   ├── 2.1.1.2.1.2. 📄 gallery-2.png
+        │       │   ├── 2.1.1.2.1.3. 📄 gallery-3.png
+        │       │   └── 2.1.1.2.1.4. 📄 gallery-4.png
+        │       ├── 2.1.1.2.3. 📄 hero-bg.jpg
+        │       ├── 2.1.1.2.4. 📄 menu-item-1.jpg
+        │       ├── 2.1.1.2.5. 📄 menu-item-2.png
+        │       └── 2.1.1.2.6. 📄 menu-item-3.png
+        ├── 2.1.2. 📁 css
+        │   ├── 2.1.2.1. 📄 animations.css
+        │   └── 2.1.2.2. 📄 styles.css
+        ├── 2.1.4. 📄 index.html
+        └── 2.1.3. 📁 js
+            └── 2.1.3.1. 📄 main.js
+
+================================================================================
+
+2.1.1.2.2. 📄 about.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\about.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.1. 📄 gallery-1.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-1.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.2. 📄 gallery-2.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-2.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.3. 📄 gallery-3.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-3.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.4. 📄 gallery-4.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-4.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.3. 📄 hero-bg.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\hero-bg.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.4. 📄 menu-item-1.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-1.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.5. 📄 menu-item-2.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-2.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.6. 📄 menu-item-3.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-3.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.2.1. 📄 animations.css
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\animations.css
+	codigo :
+--------------------------------------------------------------------------------
+/* ============================================================
+   KOS COFFEE CORNER — animations.css
+   F1: FRONT-015 fabPop keyframe añadido
+   ============================================================ */
+
+/* ── Keyframes ──────────────────────────────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scrollLine {
+  0%   { transform: scaleY(0); transform-origin: top; opacity: 1; }
+  50%  { transform: scaleY(1); transform-origin: top; opacity: 1; }
+  100% { transform: scaleY(1); transform-origin: bottom; opacity: 0; }
+}
+@keyframes badgePop {
+  0%   { opacity: 0; transform: scale(.7) translateY(10px); }
+  70%  { transform: scale(1.06) translateY(-2px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* FRONT-015 — FAB WhatsApp aparición */
+@keyframes fabPop {
+  0%   { opacity: 0; transform: scale(0) rotate(-45deg); }
+  70%  { transform: scale(1.12) rotate(5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+/* ── Clases de reveal (manejadas por JS + IntersectionObserver) ── */
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-up {
+  opacity: 0;
+}
+
+/* Cuando JS agrega .is-visible */
+.reveal.is-visible {
+  animation: fadeIn .8s ease forwards;
+}
+.reveal-left.is-visible {
+  animation: fadeInLeft .8s ease forwards;
+}
+.reveal-right.is-visible {
+  animation: fadeInRight .8s ease forwards;
+}
+.reveal-up.is-visible {
+  animation: fadeInUp .7s ease forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+/* ── Hero: animación inicial directa (sin JS) ─────────────────── */
+/* FRONT-004: .hero__content ya no depende de .reveal/.is-visible   */
+.hero__content {
+  animation: fadeInUp 1s ease .2s both;
+}
+
+/* ── Badge del about ──────────────────────────────────────────── */
+.welcome__badge {
+  animation-play-state: paused;
+}
+.welcome__image.is-visible .welcome__badge {
+  animation: badgePop .6s ease .6s both;
+  animation-play-state: running;
+}
+
+/* ── Hover en menú cards: brillo sutil ────────────────────────── */
+.menu-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,.08) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity .4s;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.menu-card { position: relative; }
+.menu-card:hover::after { opacity: 1; }
+
+/* ── Galería: overlay en hover ────────────────────────────────── */
+.gallery-grid__item {
+  position: relative;
+}
+.gallery-grid__item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(27, 51, 40, 0);
+  transition: background .4s ease;
+  border-radius: inherit;
+}
+.gallery-grid__item:hover::after {
+  background: rgba(27, 51, 40, .25);
+}
+
+/* ── Smooth underline en links ────────────────────────────────── */
+.contact__list a {
+  position: relative;
+}
+.contact__list a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width .3s ease;
+}
+.contact__list a:hover::after { width: 100%; }
+
+/* ── Prefers reduced motion ───────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal-left, .reveal-right, .reveal-up,
+  .hero__content, .welcome__badge, .fab-whatsapp {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+================================================================================
+
+2.1.2.2. 📄 styles.css
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\styles.css
+	codigo :
+--------------------------------------------------------------------------------
+/* ============================================================
+   KOS COFFEE CORNER — styles.css
+   Paleta: Verde oscuro / Crema / Lavanda / Dorado
+   Tipografía: Oswald (títulos) + Lora (cuerpo)
+   F1: FRONT-001 navbar | FRONT-008 precio | FRONT-012 specificity
+       FRONT-015 FAB | FRONT-018 breakpoint 750px
+   ============================================================ */
+
+/* ── Variables ─────────────────────────────────────────────── */
+:root {
+  --cream:         #F4EFE4;
+  --cream-dark:    #E8E0D0;
+  --green-dark:    #1B3328;
+  --green-mid:     #2A4F3A;
+  --green-light:   #3D7A54;
+  --lavender:      #CCC5DC;
+  --lavender-dark: #A89FBE;
+  --gold:          #C9953A;
+  --gold-light:    #E8B85A;
+  --text:          #2B2215;
+  --text-muted:    #6B5E4A;
+  --white:         #FFFFFF;
+
+  --font-display: 'Oswald', sans-serif;
+  --font-body:    'Lora', serif;
+  --font-ui:      'Montserrat', sans-serif;
+
+  --radius:    12px;
+  --radius-lg: 24px;
+  --shadow:    0 8px 32px rgba(27,51,40,.15);
+  --shadow-lg: 0 20px 60px rgba(27,51,40,.22);
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  --navbar-height: 72px; /* alto del navbar para scroll-margin */
+}
+
+/* ── Reset ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--text);
+  overflow-x: hidden;
+}
+img { display: block; width: 100%; height: 100%; object-fit: cover; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* FRONT-001: compensar navbar fijo en smooth scroll */
+section[id] {
+  scroll-margin-top: var(--navbar-height);
+}
+
+/* ── Container ──────────────────────────────────────────────── */
+.container {
+  width: min(1200px, 92vw);
+  margin-inline: auto;
+}
+
+/* ============================================================
+   NAVBAR — FRONT-001
+   ============================================================ */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  padding: 20px 0;
+  transition: background .35s ease, padding .35s ease, box-shadow .35s ease;
+}
+.navbar--scrolled {
+  background: var(--green-dark);
+  padding: 12px 0;
+  box-shadow: 0 2px 24px rgba(0,0,0,.4);
+}
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.navbar__logo .logo-text {
+  font-family: var(--font-body);
+  font-size: 1.65rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: .04em;
+}
+.navbar__logo .logo-sub {
+  font-family: var(--font-ui);
+  font-size: .52rem;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-top: 2px;
+}
+.navbar__list {
+  display: flex;
+  gap: 36px;
+}
+.navbar__link {
+  font-family: var(--font-ui);
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.82);
+  transition: color .3s ease;
+  position: relative;
+}
+.navbar__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: var(--gold-light);
+  transition: width .3s ease;
+}
+.navbar__link:hover {
+  color: var(--white);
+}
+.navbar__link:hover::after {
+  width: 100%;
+}
+/* Hamburger button */
+.navbar__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.navbar__burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform .3s ease, opacity .3s ease;
+}
+.navbar__burger.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar__burger.is-open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.navbar__burger.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Botones ─────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+.btn--primary {
+  background: var(--green-dark);
+  color: var(--white);
+  border-color: var(--green-dark);
+}
+.btn--primary:hover {
+  background: var(--green-mid);
+  border-color: var(--green-mid);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(27,51,40,.35);
+}
+.btn--outline {
+  background: transparent;
+  color: var(--green-dark);
+  border-color: var(--green-dark);
+}
+.btn--outline:hover {
+  background: var(--green-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+/* ── Tipografía global ───────────────────────────────────────── */
+.section-tag {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--green-light);
+  margin-bottom: 12px;
+}
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.1;
+  color: var(--green-dark);
+}
+.section-title em {
+  font-style: italic;
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.divider {
+  width: 48px;
+  height: 3px;
+  background: var(--gold);
+  border-radius: 2px;
+  margin: 20px 0 28px;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  background-image: url('../assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    rgba(27,51,40,.72) 0%,
+    rgba(27,51,40,.45) 50%,
+    rgba(20,20,20,.6) 100%
+  );
+}
+.hero__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--white);
+  padding: 0 24px;
+  /* FRONT-004: animación CSS directa, sin depender de JS */
+}
+.hero__eyebrow {
+  font-family: var(--font-ui);
+  font-size: .8rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 20px;
+  opacity: .9;
+}
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-weight: 700;
+  line-height: 1.0;
+  color: var(--white);
+  margin-bottom: 16px;
+  text-shadow: 0 4px 24px rgba(0,0,0,.3);
+}
+.hero__title em {
+  font-style: italic;
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--gold-light);
+}
+.hero__sub {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-style: italic;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 40px;
+}
+.hero__scroll-hint {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.hero__scroll-hint span {
+  display: block;
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(255,255,255,.6), transparent);
+  margin: 0 auto;
+  animation: scrollLine 2s ease-in-out infinite;
+}
+
+/* ============================================================
+   BIENVENIDA
+   ============================================================ */
+.welcome {
+  padding: 100px 0;
+  background: var(--cream);
+}
+.welcome__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.welcome__text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+
+/* FRONT-012: eliminados !important — mayor especificidad en lugar de fuerza bruta */
+.welcome__text p.welcome__highlight {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--green-mid);
+  font-style: italic;
+}
+
+.welcome__image {
+  position: relative;
+}
+.welcome__img-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4/5;
+  box-shadow: var(--shadow-lg);
+}
+.welcome__badge {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  background: var(--green-dark);
+  color: var(--white);
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: var(--shadow);
+}
+.welcome__badge i {
+  font-size: 1.6rem;
+  color: var(--gold-light);
+}
+.welcome__badge span {
+  font-family: var(--font-ui);
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 1.4;
+}
+
+/* ============================================================
+   MENÚ
+   ============================================================ */
+.menu-section {
+  position: relative;
+  padding: 100px 0;
+  background: var(--lavender);
+  overflow: hidden;
+}
+.menu-section__bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 20%, rgba(200,192,216,.5) 0%, transparent 70%),
+              radial-gradient(ellipse at 20% 80%, rgba(61,122,84,.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 48px;
+}
+.menu-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(27,51,40,.1);
+  transition: var(--transition);
+}
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+.menu-card--featured {
+  transform: scale(1.04);
+  box-shadow: var(--shadow-lg);
+}
+.menu-card--featured:hover {
+  transform: scale(1.04) translateY(-8px);
+}
+.menu-card__img-wrap {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.menu-card__img-wrap img {
+  transition: transform .6s ease;
+}
+.menu-card:hover .menu-card__img-wrap img {
+  transform: scale(1.08);
+}
+.menu-card__badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: var(--gold);
+  color: var(--white);
+  font-family: var(--font-ui);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+.menu-card__body {
+  padding: 24px;
+  text-align: center;
+}
+.menu-card__body h3 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+.menu-card__body p {
+  font-size: .92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* FRONT-008: precio en tarjetas de menú */
+.menu-card__price {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--font-ui);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: .02em;
+}
+
+.menu-cta { text-align: center; }
+
+/* ============================================================
+   CLUB / GALERÍA
+   ============================================================ */
+.club {
+  padding: 100px 0;
+  background: var(--cream-dark);
+}
+.club__header { text-align: center; margin-bottom: 56px; }
+.club__title { font-size: clamp(1.8rem, 3.5vw, 2.8rem); }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px;
+  gap: 16px;
+}
+.gallery-grid__item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery-grid__item img {
+  transition: transform .6s ease;
+}
+.gallery-grid__item:hover img {
+  transform: scale(1.08);
+}
+.gallery-grid__item--tall {
+  grid-row: span 2;
+}
+.club__tagline {
+  text-align: center;
+  margin-top: 48px;
+  font-family: var(--font-body);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   CONTACTO
+   ============================================================ */
+.contact {
+  padding: 100px 0;
+  background: var(--green-dark);
+  color: var(--white);
+}
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.contact__map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  background: var(--green-mid);
+}
+/* FRONT-010: eliminado .contact__map-placeholder del HTML;
+   ya no necesita estilos. Se mantiene aquí comentado por referencia. */
+.contact .section-tag { color: var(--gold-light); }
+.contact .section-title { color: var(--white); }
+.contact .divider { background: var(--gold); }
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+.contact__list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1rem;
+  color: rgba(255,255,255,.85);
+}
+.contact__list li i {
+  width: 20px;
+  font-size: 1.1rem;
+  color: var(--gold-light);
+  flex-shrink: 0;
+}
+.contact__list a {
+  color: var(--gold-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity .2s;
+}
+.contact__list a:hover { opacity: .7; }
+.contact__social {
+  display: flex;
+  gap: 16px;
+}
+.contact__social a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: rgba(255,255,255,.7);
+  transition: var(--transition);
+}
+.contact__social a:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--white);
+  transform: translateY(-3px);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background: var(--text);
+  padding: 40px 0;
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+.logo-text {
+  font-family: var(--font-body);
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: .05em;
+}
+.logo-sub {
+  font-family: var(--font-ui);
+  font-size: .6rem;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-top: 2px;
+}
+.footer__copy,
+.footer__made {
+  font-family: var(--font-ui);
+  font-size: .78rem;
+  color: rgba(255,255,255,.35);
+  letter-spacing: .04em;
+}
+
+/* ============================================================
+   FAB WHATSAPP — FRONT-015
+   ============================================================ */
+.fab-whatsapp {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 950;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  box-shadow: 0 4px 20px rgba(37,211,102,.4);
+  transition: transform .35s cubic-bezier(.25,.46,.45,.94), box-shadow .35s ease;
+  animation: fabPop .5s ease 1.8s both;
+}
+.fab-whatsapp:hover {
+  transform: scale(1.12) translateY(-3px);
+  box-shadow: 0 8px 32px rgba(37,211,102,.55);
+  color: #fff;
+}
+
+/* ============================================================
+   RESPONSIVO
+   ============================================================ */
+@media (max-width: 900px) {
+  .welcome__grid,
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .welcome__image { order: -1; }
+  .welcome__img-frame { aspect-ratio: 16/9; }
+  .welcome__badge { bottom: -16px; left: 16px; }
+
+  .menu-grid { grid-template-columns: 1fr 1fr; }
+  .menu-card--featured { transform: none; }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .gallery-grid__item--tall { grid-row: span 1; }
+}
+
+/* FRONT-018: breakpoint 750px para menú entre 600–900px */
+@media (max-width: 750px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin-inline: auto;
+  }
+}
+
+/* Navbar mobile */
+@media (max-width: 768px) {
+  .navbar__burger { display: flex; }
+  .navbar__nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--green-dark);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s ease, padding .4s ease;
+  }
+  .navbar__nav.is-open {
+    max-height: 360px;
+    padding: 12px 0 20px;
+  }
+  .navbar__list {
+    flex-direction: column;
+    gap: 0;
+    padding: 0 24px;
+  }
+  .navbar__link {
+    display: block;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    font-size: .82rem;
+  }
+  .navbar__list li:last-child .navbar__link { border-bottom: none; }
+}
+
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .hero__title { font-size: 3rem; }
+  .section-title { font-size: 1.8rem; }
+
+  .welcome { padding: 60px 0; }
+  .menu-section { padding: 60px 0; }
+  .club { padding: 60px 0; }
+  .contact { padding: 60px 0; }
+
+  .fab-whatsapp {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+================================================================================
+
+2.1.4. 📄 index.html
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\index.html
+	codigo :
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ░░ SEO — FRONT-003 ░░ -->
+  <title>KOS Coffee Corner — El café que te ganaste</title>
+  <meta name="description" content="KOS Coffee Corner: el refugio post-entrenamiento para ciclistas y deportistas. Café de especialidad, comida saludable y comunidad en un solo lugar."/>
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:type"        content="website"/>
+  <meta property="og:title"       content="KOS Coffee Corner — El café que te ganaste"/>
+  <meta property="og:description" content="Tu ritual de cierre después de entrenar. Café de especialidad y buena comida para los que no paran."/>
+  <meta property="og:image"       content="assets/images/hero-bg.jpg"/>
+  <meta property="og:url"         content="https://koscoffeecorner.com"/>
+  <meta property="og:locale"      content="es_AR"/>
+  <meta name="twitter:card"       content="summary_large_image"/>
+  <meta name="twitter:title"      content="KOS Coffee Corner — El café que te ganaste"/>
+  <meta name="twitter:description"content="Tu ritual de cierre después de entrenar."/>
+  <meta name="twitter:image"      content="assets/images/hero-bg.jpg"/>
+
+  <!-- ░░ FAVICON — FRONT-002 ░░ -->
+  <!-- TODO: reemplazar con favicon real del cliente -->
+  <link rel="icon"             type="image/x-icon" href="assets/favicon.ico"/>
+  <link rel="icon"             type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
+
+  <!-- ░░ PRELOAD HERO — FRONT-005 (previene CLS) ░░ -->
+  <link rel="preload" as="image" href="assets/images/hero-bg.jpg"/>
+
+  <!-- ░░ SCHEMA.ORG LocalBusiness — FRONT-016 ░░ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "KOS Coffee Corner",
+    "description": "El café que te ganaste. Refugio post-entrenamiento para deportistas.",
+    "url": "https://koscoffeecorner.com",
+    "telephone": "+5411123456789",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Ejemplo 123",
+      "addressLocality": "Ciudad Real",
+      "addressCountry": "AR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:30",
+        "closes": "20:30"
+      }
+    ],
+    "servesCuisine": "Café de especialidad",
+    "priceRange": "$$",
+    "sameAs": [
+      "https://www.instagram.com/koscoffeecorner",
+      "https://www.facebook.com/koscoffeecorner"
+    ]
+  }
+  </script>
+
+  <!-- ░░ TIPOGRAFÍAS ░░ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+</head>
+<body>
+
+  <!-- ░░ NAVBAR — FRONT-001 ░░ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="navbar__logo" aria-label="KOS Coffee Corner — inicio">
+        <span class="logo-text">Kos</span>
+        <span class="logo-sub">Coffee Corner</span>
+      </a>
+      <nav class="navbar__nav" id="navMenu" aria-label="Navegación principal">
+        <ul class="navbar__list">
+          <li><a href="#inicio"   class="navbar__link">Inicio</a></li>
+          <li><a href="#nosotros" class="navbar__link">Nosotros</a></li>
+          <li><a href="#menu"     class="navbar__link">Menú</a></li>
+          <li><a href="#club"     class="navbar__link">Club</a></li>
+          <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+        </ul>
+      </nav>
+      <button
+        class="navbar__burger"
+        id="navBurger"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <!-- FRONT-004: .hero__content sin clase .reveal — visible aunque JS falle -->
+  <section class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">KOS Coffee Corner</p>
+      <h1 class="hero__title">El café que<br><em>te ganaste.</em></h1>
+      <p class="hero__sub">Tu ritual de cierre después de entrenar.</p>
+      <!-- FRONT-013: botón apunta a #contacto con texto correcto -->
+      <a href="#contacto" class="btn btn--primary">Encontrá tu lugar <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ░░ BIENVENIDA ░░ -->
+  <section class="welcome" id="nosotros">
+    <div class="container welcome__grid">
+      <div class="welcome__text reveal-left">
+        <span class="section-tag">Punto de llegada</span>
+        <h2 class="section-title">Bienvenido a tu<br>punto de llegada.</h2>
+        <div class="divider"></div>
+        <p>No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy. Lo que importa es que ya estás acá.</p>
+        <p>Entendemos que el esfuerzo no termina cuando se detiene el cronómetro; termina cuando encontrás el lugar donde recuperar el aliento.</p>
+        <!-- FRONT-012: clase compuesta, sin !important en CSS -->
+        <p class="welcome__highlight">Somos el refugio oficial de los que se atreven a moverse.</p>
+      </div>
+      <div class="welcome__image reveal-right">
+        <div class="welcome__img-frame">
+          <!-- FRONT-011: width/height explícitos previenen CLS (ratio 4:5) -->
+          <img
+            src="assets/images/about.jpg"
+            alt="Ciclista disfrutando un café en KOS Coffee Corner"
+            width="800"
+            height="1000"
+            loading="lazy"
+          />
+        </div>
+        <div class="welcome__badge">
+          <i class="fas fa-mug-hot"></i>
+          <span>Post-entreno<br>perfecto</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ MENÚ DESTACADO ░░ -->
+  <section class="menu-section" id="menu">
+    <div class="menu-section__bg"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Combustible destacado</span>
+        <h2 class="section-title">Lo que tu cuerpo<br>está pidiendo.</h2>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card reveal-up" style="--delay: 0.1s">
+          <div class="menu-card__img-wrap">
+            <!-- FRONT-011: dimensiones explícitas (ratio 1:1) -->
+            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+            <img
+              src="assets/images/menu-item-1.jpg"
+              alt="El Sprint — espresso corto e intenso"
+              width="400"
+              height="400"
+              loading="lazy"
+            />
+            <div class="menu-card__badge">Favorito</div>
+          </div>
+          <div class="menu-card__body">
+            <h3>El Sprint</h3>
+            <p>Corto, intenso, para los que no se detienen.</p>
+            <!-- FRONT-008: precio visible en card -->
+            <span class="menu-card__price">$850</span>
+          </div>
+        </article>
+
+        <article class="menu-card menu-card--featured reveal-up" style="--delay: 0.2s">
+          <div class="menu-card__img-wrap">
+            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+            <img
+              src="assets/images/menu-item-2.png"
+              alt="Cadencia Plana — café equilibrado"
+              width="400"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div class="menu-card__body">
+            <h3>Cadencia Plana</h3>
+            <p>Equilibrio perfecto entre fuerza y suavidad.</p>
+            <span class="menu-card__price">$1.100</span>
+          </div>
+        </article>
+
+        <article class="menu-card reveal-up" style="--delay: 0.3s">
+          <div class="menu-card__img-wrap">
+            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+            <img
+              src="assets/images/menu-item-3.png"
+              alt="Tostón Finisher — pan de masa madre con palta y huevo"
+              width="400"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div class="menu-card__body">
+            <h3>Tostón Finisher</h3>
+            <p><em>Pan de masa madre, palta, huevo soft y semillas.</em></p>
+            <span class="menu-card__price">$1.800</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- FRONT-013: texto corregido — ya no dice "Ver menú completo" apuntando a #contacto -->
+      <div class="menu-cta reveal">
+        <a href="#contacto" class="btn btn--outline">Contactanos <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CLUB ░░ -->
+  <section class="club" id="club">
+    <div class="container">
+      <div class="club__header reveal">
+        <h2 class="section-title club__title">KOS no es un local de paso;<br>es un <em>club sin membresía.</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <!-- FRONT-006: extensiones normalizadas a .jpg → renombrar archivos físicos -->
+        <!-- FRONT-011: dimensiones explícitas para prevenir CLS               -->
+        <div class="gallery-grid__item gallery-grid__item--tall reveal-up" style="--delay: 0s">
+          <img
+            src="assets/images/gallery/gallery-1.png"
+            alt="Comunidad KOS — ciclistas reunidos"
+            width="400"
+            height="416"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-grid__item reveal-up" style="--delay: 0.1s">
+          <img
+            src="assets/images/gallery/gallery-2.png"
+            alt="Staff KOS atendiendo"
+            width="400"
+            height="200"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-grid__item reveal-up" style="--delay: 0.2s">
+          <img
+            src="assets/images/gallery/gallery-3.png"
+            alt="Café para llevar en KOS"
+            width="400"
+            height="200"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-grid__item reveal-up" style="--delay: 0.3s">
+          <img
+            src="assets/images/gallery/gallery-4.png"
+            alt="Ambiente KOS Coffee Corner"
+            width="400"
+            height="200"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <p class="club__tagline reveal"><em>Te estabamos esperando.</em></p>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACTO ░░ -->
+  <section class="contact" id="contacto">
+    <div class="container contact__grid">
+      <div class="contact__map reveal-left">
+        <!-- FRONT-010: eliminado .contact__map-placeholder del DOM -->
+        <!-- Solo queda el iframe activo                            -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.134103031805!2d-68.31328774010848!3d-34.627094441236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a818f1c440df%3A0x1ccba11ccf2cd5a9!2sPlaza%20Esp%C3%ADnola!5e0!3m2!1sen!2sar!4v1774455015744!5m2!1sen!2sar"
+          width="600"
+          height="450"
+          style="border:0; width:100%; height:100%; display:block;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación KOS Coffee Corner en Google Maps"
+        ></iframe>
+      </div>
+      <div class="contact__info reveal-right">
+        <span class="section-tag">Encontranos</span>
+        <h2 class="section-title">Frená.<br>Estamos acá.</h2>
+        <div class="divider"></div>
+        <!-- FRONT-007: TODO — reemplazar con datos reales del cliente -->
+        <ul class="contact__list">
+          <li>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <span>Av. Ejemplo 123, Ciudad Real</span>
+          </li>
+          <li>
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <a href="tel:+5411123456789">11 1234-5678</a>
+          </li>
+          <li>
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
+          </li>
+          <li>
+            <i class="far fa-clock" aria-hidden="true"></i>
+            <!-- FRONT-007: MED-007 horario completo pendiente de datos reales -->
+            <span>Sábados de 08:30 a 20:30 hs.</span>
+          </li>
+        </ul>
+        <!-- FRONT-014: target _blank + rel noopener en redes sociales -->
+        <div class="contact__social">
+          <a
+            href="https://www.instagram.com/koscoffeecorner"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de KOS Coffee Corner"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/koscoffeecorner"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook de KOS Coffee Corner"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@koscoffeecorner"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok de KOS Coffee Corner"
+          >
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <span class="logo-text">Kos</span>
+        <span class="logo-sub">COFFEE CORNER</span>
+      </div>
+      <!-- FRONT-017: span.footer__year para que JS inserte el año dinámicamente -->
+      <p class="footer__copy">© <span class="footer__year"></span> KOS Coffee Corner — Todos los derechos reservados.</p>
+      <p class="footer__made">Hecho con ☕ para los que no paran.</p>
+    </div>
+  </footer>
+
+  <!-- ░░ FAB WHATSAPP — FRONT-015 ░░ -->
+  <!-- FRONT-007: TODO — reemplazar número con el del cliente -->
+  <a
+    href="https://wa.me/5411123456789"
+    class="fab-whatsapp"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactar KOS Coffee Corner por WhatsApp"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+================================================================================
+
+2.1.3.1. 📄 main.js
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\js\main.js
+	codigo :
+--------------------------------------------------------------------------------
+/* ============================================================
+   KOS COFFEE CORNER — main.js
+   F1: FRONT-001 navbar | FRONT-009 rAF parallax | FRONT-017 año
+   ============================================================ */
+
+/* ── Año actual en footer ────────────────────────────────────── */
+const yearEl = document.querySelector('.footer__year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+/* ── Scroll reveal con IntersectionObserver ─────────────────── */
+const revealEls = document.querySelectorAll(
+  '.reveal, .reveal-left, .reveal-right, .reveal-up'
+);
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+);
+
+revealEls.forEach((el) => revealObserver.observe(el));
+
+/* ── Smooth scroll para links de navegación ─────────────────── */
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener('click', (e) => {
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      /* Cerrar menú mobile si está abierto */
+      navMenu.classList.remove('is-open');
+      navBurger.classList.remove('is-open');
+      navBurger.setAttribute('aria-expanded', 'false');
+    }
+  });
+});
+
+/* ── Parallax con rAF ────────────────────────────────────────── */
+/* FRONT-009: cancelAnimationFrame evita acumulación de callbacks */
+const hero = document.querySelector('.hero');
+let rafId;
+
+if (hero) {
+  window.addEventListener('scroll', () => {
+    cancelAnimationFrame(rafId);
+    rafId = requestAnimationFrame(() => {
+      const scrollY = window.scrollY;
+      if (scrollY < window.innerHeight) {
+        hero.style.backgroundPositionY = `calc(50% + ${scrollY * 0.35}px)`;
+      }
+    });
+  }, { passive: true });
+}
+
+/* ── Navbar: clase scrolled + burger ────────────────────────── */
+/* FRONT-001 */
+const navbar    = document.getElementById('navbar');
+const navMenu   = document.getElementById('navMenu');
+const navBurger = document.getElementById('navBurger');
+
+/* Opacidad al hacer scroll */
+const navScrollThreshold = 60;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > navScrollThreshold) {
+    navbar.classList.add('navbar--scrolled');
+  } else {
+    navbar.classList.remove('navbar--scrolled');
+  }
+}, { passive: true });
+
+/* Correr al cargar por si la página ya está scrolleada */
+if (window.scrollY > navScrollThreshold) {
+  navbar.classList.add('navbar--scrolled');
+}
+
+/* Hamburger toggle */
+if (navBurger) {
+  navBurger.addEventListener('click', () => {
+    const isOpen = navMenu.classList.toggle('is-open');
+    navBurger.classList.toggle('is-open', isOpen);
+    navBurger.setAttribute('aria-expanded', isOpen);
+  });
+}
+
+/* Cerrar menú al hacer click fuera */
+document.addEventListener('click', (e) => {
+  if (
+    navMenu.classList.contains('is-open') &&
+    !navbar.contains(e.target)
+  ) {
+    navMenu.classList.remove('is-open');
+    navBurger.classList.remove('is-open');
+    navBurger.setAttribute('aria-expanded', 'false');
+  }
+});
