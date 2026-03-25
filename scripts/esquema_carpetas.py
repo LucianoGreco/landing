@@ -11,64 +11,35 @@ from datetime import datetime
 from collections import defaultdict
 
 # ====== SALIDA ======
-OUTPUT_DIR = r"D:\desarrollo\1. fabrica\scripts\salida"
+OUTPUT_DIR = r"D:\desarrollo\3. proyectos\landing\scripts\salida."
 
 # ====== ROOT ======
-ROOT_DIR = r"D:\desarrollo\1. fabrica"
+ROOT_DIR = r"D:\desarrollo\3. proyectos\landing"
 
 # ====== GRUPOS DE SALIDA ======
 # Cada entrada tiene:
 #   "archivo"  : nombre del archivo de salida
 #   "elementos": rutas relativas al root
 GRUPOS = [
+    # {
+    #     "archivo": ".claude.txt",
+    #     "elementos": [
+    #         ".claude"
+    #     ],
+    # },
     {
-        "archivo": "1. archivo_raiz.txt",
+        "archivo": "cafeteria-deportiva.txt",
         "elementos": [
-            "fabrica-agentes/.env",
-            "fabrica-agentes/.env.example",
-            "fabrica-agentes/conftest.py",
-            "fabrica-agentes/manage.py",
-            "fabrica-agentes/pytest.ini",
-            "fabrica-agentes/README.md",
-            "fabrica-agentes/requirements.txt",
+            "cafeteria-deportiva",
         ],
     },
-    {
-        "archivo": "2. core.txt",
-        "elementos": [
-            "fabrica-agentes/core",
-        ],
-    },
-    {
-        "archivo": "3. skills.txt",
-        "elementos": [
-            "fabrica-agentes/skills",
-        ],
-    },
-    {
-        "archivo": "4. dashboard.txt",
-        "elementos": [
-            "fabrica-agentes/dashboard",
-        ],
-    },
-    {
-        "archivo": "5. agents.txt",
-        "elementos": [
-            "fabrica-agentes/agents",
-        ],
-    },
-    {
-        "archivo": "6. resto_archivos.txt",
-        "elementos": [
-            "fabrica-agentes/integrations",
-            "fabrica-agentes/observability",
-            "fabrica-agentes/output",
-            "fabrica-agentes/projects",
-            "fabrica-agentes/scripts",
-            "fabrica-agentes/tests",
-            "fabrica-agentes/workspace",
-        ],
-    },
+    # {
+    #     "archivo": "project-root.txt",
+    #     "elementos": [
+    #         "project-root",
+    #     ],
+    # },
+
 ]
 
 # ====== FILTROS ======

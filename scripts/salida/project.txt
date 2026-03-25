@@ -1,5 +1,5 @@
 📁 FABRICA-AGENTES — ELEMENTOS SELECCIONADOS
-📅 Generado : 2026-03-25 14:43:22
+📅 Generado : 2026-03-25 19:03:32
 📦 Fuentes  : 1
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -8,29 +8,32 @@
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 └── 2. 📁 landing
-    └── 2.1. 📁 cafeteria-deportiva
-        ├── 2.1.1. 📁 assets
-        │   └── 2.1.1.2. 📁 images
-        │       ├── 2.1.1.2.2. 📄 about.jpg
-        │       ├── 2.1.1.2.1. 📁 gallery
-        │       │   ├── 2.1.1.2.1.1. 📄 gallery-1.png
-        │       │   ├── 2.1.1.2.1.2. 📄 gallery-2.png
-        │       │   ├── 2.1.1.2.1.3. 📄 gallery-3.png
-        │       │   └── 2.1.1.2.1.4. 📄 gallery-4.png
-        │       ├── 2.1.1.2.3. 📄 hero-bg.jpg
-        │       ├── 2.1.1.2.4. 📄 menu-item-1.jpg
-        │       ├── 2.1.1.2.5. 📄 menu-item-2.png
-        │       └── 2.1.1.2.6. 📄 menu-item-3.png
-        ├── 2.1.2. 📁 css
-        │   ├── 2.1.2.1. 📄 animations.css
-        │   └── 2.1.2.2. 📄 styles.css
-        ├── 2.1.4. 📄 index.html
-        └── 2.1.3. 📁 js
-            └── 2.1.3.1. 📄 main.js
+    └── 2.2. 📁 cafeteria-deportiva
+        ├── 2.2.1. 📁 assets
+        │   └── 2.2.1.2. 📁 images
+        │       ├── 2.2.1.2.2. 📄 about.jpg
+        │       ├── 2.2.1.2.1. 📁 gallery
+        │       │   ├── 2.2.1.2.1.1. 📄 gallery-1.png
+        │       │   ├── 2.2.1.2.1.2. 📄 gallery-2.png
+        │       │   ├── 2.2.1.2.1.3. 📄 gallery-3.png
+        │       │   └── 2.2.1.2.1.4. 📄 gallery-4.png
+        │       ├── 2.2.1.2.3. 📄 hero-bg.jpg
+        │       ├── 2.2.1.2.4. 📄 menu-item-1.jpg
+        │       ├── 2.2.1.2.5. 📄 menu-item-2.png
+        │       └── 2.2.1.2.6. 📄 menu-item-3.png
+        ├── 2.2.2. 📁 css
+        │   ├── 2.2.2.1. 📄 animations.css
+        │   └── 2.2.2.2. 📄 styles.css
+        ├── 2.2.3. 📁 docs
+        │   └── 2.2.3.1. 📄 ai-context.md
+        ├── 2.2.5. 📄 gitignore
+        ├── 2.2.6. 📄 index.html
+        └── 2.2.4. 📁 js
+            └── 2.2.4.1. 📄 main.js
 
 ================================================================================
 
-2.1.1.2.2. 📄 about.jpg
+2.2.1.2.2. 📄 about.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\about.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -38,7 +41,7 @@
 
 ================================================================================
 
-2.1.1.2.1.1. 📄 gallery-1.png
+2.2.1.2.1.1. 📄 gallery-1.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-1.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -46,7 +49,7 @@
 
 ================================================================================
 
-2.1.1.2.1.2. 📄 gallery-2.png
+2.2.1.2.1.2. 📄 gallery-2.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-2.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -54,7 +57,7 @@
 
 ================================================================================
 
-2.1.1.2.1.3. 📄 gallery-3.png
+2.2.1.2.1.3. 📄 gallery-3.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-3.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -62,7 +65,7 @@
 
 ================================================================================
 
-2.1.1.2.1.4. 📄 gallery-4.png
+2.2.1.2.1.4. 📄 gallery-4.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-4.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -70,7 +73,7 @@
 
 ================================================================================
 
-2.1.1.2.3. 📄 hero-bg.jpg
+2.2.1.2.3. 📄 hero-bg.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\hero-bg.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -78,7 +81,7 @@
 
 ================================================================================
 
-2.1.1.2.4. 📄 menu-item-1.jpg
+2.2.1.2.4. 📄 menu-item-1.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-1.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -86,7 +89,7 @@
 
 ================================================================================
 
-2.1.1.2.5. 📄 menu-item-2.png
+2.2.1.2.5. 📄 menu-item-2.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-2.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -94,7 +97,7 @@
 
 ================================================================================
 
-2.1.1.2.6. 📄 menu-item-3.png
+2.2.1.2.6. 📄 menu-item-3.png
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-3.png
 	codigo :
 --------------------------------------------------------------------------------
@@ -102,13 +105,14 @@
 
 ================================================================================
 
-2.1.2.1. 📄 animations.css
+2.2.2.1. 📄 animations.css
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\animations.css
 	codigo :
 --------------------------------------------------------------------------------
 /* ============================================================
    KOS COFFEE CORNER — animations.css
-   F1: FRONT-015 fabPop keyframe añadido
+   Keyframes + clases reveal + animaciones específicas
+   F1: FRONT-015 fabPop | FRONT-004 hero directo
    ============================================================ */
 
 /* ── Keyframes ──────────────────────────────────────────────── */
@@ -146,7 +150,7 @@
   100% { opacity: 1; transform: scale(1) rotate(0deg); }
 }
 
-/* ── Clases de reveal (manejadas por JS + IntersectionObserver) ── */
+/* ── Clases reveal (activadas por JS + IntersectionObserver) ── */
 .reveal,
 .reveal-left,
 .reveal-right,
@@ -154,28 +158,20 @@
   opacity: 0;
 }
 
-/* Cuando JS agrega .is-visible */
-.reveal.is-visible {
-  animation: fadeIn .8s ease forwards;
-}
-.reveal-left.is-visible {
-  animation: fadeInLeft .8s ease forwards;
-}
-.reveal-right.is-visible {
-  animation: fadeInRight .8s ease forwards;
-}
+.reveal.is-visible       { animation: fadeIn      .8s ease forwards; }
+.reveal-left.is-visible  { animation: fadeInLeft  .8s ease forwards; }
+.reveal-right.is-visible { animation: fadeInRight .8s ease forwards; }
 .reveal-up.is-visible {
   animation: fadeInUp .7s ease forwards;
   animation-delay: var(--delay, 0s);
 }
 
-/* ── Hero: animación inicial directa (sin JS) ─────────────────── */
-/* FRONT-004: .hero__content ya no depende de .reveal/.is-visible   */
+/* FRONT-004: hero anima directo sin JS ni .reveal */
 .hero__content {
   animation: fadeInUp 1s ease .2s both;
 }
 
-/* ── Badge del about ──────────────────────────────────────────── */
+/* ── Badge about ──────────────────────────────────────────────── */
 .welcome__badge {
   animation-play-state: paused;
 }
@@ -184,7 +180,7 @@
   animation-play-state: running;
 }
 
-/* ── Hover en menú cards: brillo sutil ────────────────────────── */
+/* ── Hover: brillo en cards de menú ──────────────────────────── */
 .menu-card::after {
   content: '';
   position: absolute;
@@ -195,36 +191,28 @@
   pointer-events: none;
   border-radius: inherit;
 }
-.menu-card { position: relative; }
 .menu-card:hover::after { opacity: 1; }
 
-/* ── Galería: overlay en hover ────────────────────────────────── */
-.gallery-grid__item {
-  position: relative;
-}
+/* ── Hover: overlay en galería ───────────────────────────────── */
 .gallery-grid__item::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(27, 51, 40, 0);
+  background: rgba(27,51,40,0);
   transition: background .4s ease;
   border-radius: inherit;
 }
-.gallery-grid__item:hover::after {
-  background: rgba(27, 51, 40, .25);
-}
+.gallery-grid__item:hover::after { background: rgba(27,51,40,.25); }
 
-/* ── Smooth underline en links ────────────────────────────────── */
+/* ── Hover: underline en links de contacto ───────────────────── */
 .contact__list a {
   position: relative;
 }
 .contact__list a::after {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 1px;
+  left: 0; bottom: -2px;
+  width: 0; height: 1px;
   background: currentColor;
   transition: width .3s ease;
 }
@@ -242,7 +230,7 @@
 
 ================================================================================
 
-2.1.2.2. 📄 styles.css
+2.2.2.2. 📄 styles.css
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\styles.css
 	codigo :
 --------------------------------------------------------------------------------
@@ -262,7 +250,6 @@
   --green-mid:     #2A4F3A;
   --green-light:   #3D7A54;
   --lavender:      #CCC5DC;
-  --lavender-dark: #A89FBE;
   --gold:          #C9953A;
   --gold-light:    #E8B85A;
   --text:          #2B2215;
@@ -279,7 +266,7 @@
   --shadow-lg: 0 20px 60px rgba(27,51,40,.22);
   --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
-  --navbar-height: 72px; /* alto del navbar para scroll-margin */
+  --navbar-height: 72px;
 }
 
 /* ── Reset ──────────────────────────────────────────────────── */
@@ -311,9 +298,7 @@ section[id] {
    ============================================================ */
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   z-index: 900;
   padding: 20px 0;
   transition: background .35s ease, padding .35s ease, box-shadow .35s ease;
@@ -366,20 +351,14 @@ section[id] {
 .navbar__link::after {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0;
-  height: 1px;
+  left: 0; bottom: -4px;
+  width: 0; height: 1px;
   background: var(--gold-light);
   transition: width .3s ease;
 }
-.navbar__link:hover {
-  color: var(--white);
-}
-.navbar__link:hover::after {
-  width: 100%;
-}
-/* Hamburger button */
+.navbar__link:hover { color: var(--white); }
+.navbar__link:hover::after { width: 100%; }
+
 .navbar__burger {
   display: none;
   flex-direction: column;
@@ -391,22 +370,14 @@ section[id] {
 }
 .navbar__burger span {
   display: block;
-  width: 24px;
-  height: 2px;
+  width: 24px; height: 2px;
   background: var(--white);
   border-radius: 2px;
   transition: transform .3s ease, opacity .3s ease;
 }
-.navbar__burger.is-open span:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-.navbar__burger.is-open span:nth-child(2) {
-  opacity: 0;
-  transform: scaleX(0);
-}
-.navbar__burger.is-open span:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
+.navbar__burger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.navbar__burger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.navbar__burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 /* ── Botones ─────────────────────────────────────────────────── */
 .btn {
@@ -475,8 +446,7 @@ section[id] {
   margin-bottom: 56px;
 }
 .divider {
-  width: 48px;
-  height: 3px;
+  width: 48px; height: 3px;
   background: var(--gold);
   border-radius: 2px;
   margin: 20px 0 28px;
@@ -513,7 +483,7 @@ section[id] {
   text-align: center;
   color: var(--white);
   padding: 0 24px;
-  /* FRONT-004: animación CSS directa, sin depender de JS */
+  /* FRONT-004: animación CSS directa, sin depender de JS — ver animations.css */
 }
 .hero__eyebrow {
   font-family: var(--font-ui);
@@ -555,8 +525,7 @@ section[id] {
 }
 .hero__scroll-hint span {
   display: block;
-  width: 1px;
-  height: 60px;
+  width: 1px; height: 60px;
   background: linear-gradient(to bottom, rgba(255,255,255,.6), transparent);
   margin: 0 auto;
   animation: scrollLine 2s ease-in-out infinite;
@@ -582,7 +551,7 @@ section[id] {
   margin-bottom: 18px;
 }
 
-/* FRONT-012: eliminados !important — mayor especificidad en lugar de fuerza bruta */
+/* FRONT-012: mayor especificidad en lugar de !important */
 .welcome__text p.welcome__highlight {
   font-size: 1.1rem;
   font-weight: 500;
@@ -590,9 +559,7 @@ section[id] {
   font-style: italic;
 }
 
-.welcome__image {
-  position: relative;
-}
+.welcome__image { position: relative; }
 .welcome__img-frame {
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -601,8 +568,7 @@ section[id] {
 }
 .welcome__badge {
   position: absolute;
-  bottom: -20px;
-  left: -20px;
+  bottom: -20px; left: -20px;
   background: var(--green-dark);
   color: var(--white);
   padding: 16px 20px;
@@ -612,10 +578,7 @@ section[id] {
   gap: 12px;
   box-shadow: var(--shadow);
 }
-.welcome__badge i {
-  font-size: 1.6rem;
-  color: var(--gold-light);
-}
+.welcome__badge i { font-size: 1.6rem; color: var(--gold-light); }
 .welcome__badge span {
   font-family: var(--font-ui);
   font-size: .8rem;
@@ -652,6 +615,7 @@ section[id] {
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(27,51,40,.1);
   transition: var(--transition);
+  position: relative;
 }
 .menu-card:hover {
   transform: translateY(-8px);
@@ -661,24 +625,17 @@ section[id] {
   transform: scale(1.04);
   box-shadow: var(--shadow-lg);
 }
-.menu-card--featured:hover {
-  transform: scale(1.04) translateY(-8px);
-}
+.menu-card--featured:hover { transform: scale(1.04) translateY(-8px); }
 .menu-card__img-wrap {
   position: relative;
   aspect-ratio: 1;
   overflow: hidden;
 }
-.menu-card__img-wrap img {
-  transition: transform .6s ease;
-}
-.menu-card:hover .menu-card__img-wrap img {
-  transform: scale(1.08);
-}
+.menu-card__img-wrap img { transition: transform .6s ease; }
+.menu-card:hover .menu-card__img-wrap img { transform: scale(1.08); }
 .menu-card__badge {
   position: absolute;
-  top: 14px;
-  right: 14px;
+  top: 14px; right: 14px;
   background: var(--gold);
   color: var(--white);
   font-family: var(--font-ui);
@@ -738,16 +695,11 @@ section[id] {
   border-radius: var(--radius);
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
-.gallery-grid__item img {
-  transition: transform .6s ease;
-}
-.gallery-grid__item:hover img {
-  transform: scale(1.08);
-}
-.gallery-grid__item--tall {
-  grid-row: span 2;
-}
+.gallery-grid__item img { transition: transform .6s ease; }
+.gallery-grid__item:hover img { transform: scale(1.08); }
+.gallery-grid__item--tall { grid-row: span 2; }
 .club__tagline {
   text-align: center;
   margin-top: 48px;
@@ -777,11 +729,9 @@ section[id] {
   aspect-ratio: 4/3;
   background: var(--green-mid);
 }
-/* FRONT-010: eliminado .contact__map-placeholder del HTML;
-   ya no necesita estilos. Se mantiene aquí comentado por referencia. */
-.contact .section-tag { color: var(--gold-light); }
+.contact .section-tag  { color: var(--gold-light); }
 .contact .section-title { color: var(--white); }
-.contact .divider { background: var(--gold); }
+.contact .divider      { background: var(--gold); }
 .contact__list {
   display: flex;
   flex-direction: column;
@@ -813,8 +763,7 @@ section[id] {
   gap: 16px;
 }
 .contact__social a {
-  width: 44px;
-  height: 44px;
+  width: 44px; height: 44px;
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,.2);
   display: flex;
@@ -879,11 +828,9 @@ section[id] {
    ============================================================ */
 .fab-whatsapp {
   position: fixed;
-  bottom: 28px;
-  right: 28px;
+  bottom: 28px; right: 28px;
   z-index: 950;
-  width: 56px;
-  height: 56px;
+  width: 56px; height: 56px;
   border-radius: 50%;
   background: #25D366;
   color: #fff;
@@ -933,14 +880,11 @@ section[id] {
   }
 }
 
-/* Navbar mobile */
 @media (max-width: 768px) {
   .navbar__burger { display: flex; }
   .navbar__nav {
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    top: 100%; left: 0; right: 0;
     background: var(--green-dark);
     max-height: 0;
     overflow: hidden;
@@ -965,32 +909,129 @@ section[id] {
 }
 
 @media (max-width: 600px) {
-  .menu-grid {
-    grid-template-columns: 1fr;
-    max-width: none;
-  }
+  .menu-grid { grid-template-columns: 1fr; max-width: none; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 
   .hero__title { font-size: 3rem; }
   .section-title { font-size: 1.8rem; }
 
-  .welcome { padding: 60px 0; }
+  .welcome      { padding: 60px 0; }
   .menu-section { padding: 60px 0; }
-  .club { padding: 60px 0; }
-  .contact { padding: 60px 0; }
+  .club         { padding: 60px 0; }
+  .contact      { padding: 60px 0; }
 
   .fab-whatsapp {
-    width: 50px;
-    height: 50px;
+    width: 50px; height: 50px;
     font-size: 1.5rem;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20px; right: 20px;
   }
 }
 
 ================================================================================
 
-2.1.4. 📄 index.html
+2.2.3.1. 📄 ai-context.md
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\docs\ai-context.md
+	codigo :
+--------------------------------------------------------------------------------
+# Proyecto
+
+Landing page estática — KOS Coffee Corner (cafetería deportiva)
+
+# Stack
+
+- HTML5 semántico
+- CSS modular (styles.css + animations.css)
+- Vanilla JS (main.js)
+- Sin frameworks, sin build tools
+
+# Estructura de archivos
+
+```
+cafeteria-deportiva/
+  assets/images/        → imágenes (hero-bg.jpg, about.jpg, menu-item-*.*, gallery/*)
+  css/
+    styles.css          → estilos principales
+    animations.css      → keyframes + clases reveal
+  js/
+    main.js             → navbar, scroll reveal, parallax, smooth scroll
+  index.html            → estructura completa
+```
+
+# Convenciones CSS
+
+- BEM: bloque__elemento--modificador
+- Variables CSS en :root
+- Clases de animación: .reveal / .reveal-left / .reveal-right / .reveal-up
+- JS activa .is-visible via IntersectionObserver
+
+# Convenciones JS
+
+- Sin jQuery, sin librerías
+- IntersectionObserver para scroll reveal
+- rAF (requestAnimationFrame) para parallax
+- Event delegation donde sea posible
+
+# Convenciones HTML
+
+- Secciones con IDs: #inicio, #menu, #nosotros, #galeria, #contacto
+- section-tag + section-title en cada sección
+- Imágenes con width/height/loading="lazy"
+- ARIA labels en elementos interactivos
+
+# Reglas estrictas
+
+- No agregar dependencias externas
+- No romper animaciones existentes (.reveal-* deben seguir funcionando)
+- Mantener BEM en clases nuevas
+- CSS nuevo va en styles.css (no inline)
+- JS nuevo va en main.js
+
+# TODOs activos en el proyecto
+
+- FRONT-007: reemplazar datos de contacto con datos reales del cliente
+  - Dirección: "Av. Ejemplo 123, Ciudad Real"
+  - Teléfono: "11 1234-5678"
+  - WhatsApp FAB: wa.me/5411123456789
+  - Horario completo pendiente
+
+# Output esperado
+
+- Solo código
+- Sin explicaciones
+- Listo para copiar y pegar
+
+================================================================================
+
+2.2.5. 📄 gitignore
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\gitignore
+	codigo :
+--------------------------------------------------------------------------------
+# ── Carpetas internas (no van al hosting) ───────────────────────
+descargas/
+docs/
+plan_maestro/
+
+# ── Contexto de IA ───────────────────────────────────────────────
+.claude/
+
+# ── Scripts de desarrollo ────────────────────────────────────────
+scripts/
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editores ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+================================================================================
+
+2.2.6. 📄 index.html
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\index.html
 	codigo :
 --------------------------------------------------------------------------------
@@ -1007,13 +1048,13 @@ section[id] {
   <meta property="og:type"        content="website"/>
   <meta property="og:title"       content="KOS Coffee Corner — El café que te ganaste"/>
   <meta property="og:description" content="Tu ritual de cierre después de entrenar. Café de especialidad y buena comida para los que no paran."/>
-  <meta property="og:image"       content="assets/images/hero-bg.jpg"/>
-  <meta property="og:url"         content="https://koscoffeecorner.com"/>
+  <meta property="og:image"       content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/><!-- SEO-002: TODO confirmar URL absoluta real -->
+  <meta property="og:url"         content="https://koscoffeecorner.com"/><!-- SEO-001: TODO confirmar dominio real -->
   <meta property="og:locale"      content="es_AR"/>
   <meta name="twitter:card"       content="summary_large_image"/>
   <meta name="twitter:title"      content="KOS Coffee Corner — El café que te ganaste"/>
   <meta name="twitter:description"content="Tu ritual de cierre después de entrenar."/>
-  <meta name="twitter:image"      content="assets/images/hero-bg.jpg"/>
+  <meta name="twitter:image"      content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/>
 
   <!-- ░░ FAVICON — FRONT-002 ░░ -->
   <!-- TODO: reemplazar con favicon real del cliente -->
@@ -1021,8 +1062,8 @@ section[id] {
   <link rel="icon"             type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
 
-  <!-- ░░ PRELOAD HERO — FRONT-005 (previene CLS) ░░ -->
-  <link rel="preload" as="image" href="assets/images/hero-bg.jpg"/>
+  <!-- ░░ PRELOAD HERO — FRONT-005 + PERF-001 ░░ -->
+  <link rel="preload" as="image" href="assets/images/hero-bg.jpg" fetchpriority="high"/>
 
   <!-- ░░ SCHEMA.ORG LocalBusiness — FRONT-016 ░░ -->
   <script type="application/ld+json">
@@ -1032,7 +1073,7 @@ section[id] {
     "name": "KOS Coffee Corner",
     "description": "El café que te ganaste. Refugio post-entrenamiento para deportistas.",
     "url": "https://koscoffeecorner.com",
-    "telephone": "+5411123456789",
+    "telephone": "+542604331727",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Av. Ejemplo 123",
@@ -1275,7 +1316,6 @@ section[id] {
     <div class="container contact__grid">
       <div class="contact__map reveal-left">
         <!-- FRONT-010: eliminado .contact__map-placeholder del DOM -->
-        <!-- Solo queda el iframe activo                            -->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.134103031805!2d-68.31328774010848!3d-34.627094441236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a818f1c440df%3A0x1ccba11ccf2cd5a9!2sPlaza%20Esp%C3%ADnola!5e0!3m2!1sen!2sar!4v1774455015744!5m2!1sen!2sar"
           width="600"
@@ -1303,6 +1343,7 @@ section[id] {
           </li>
           <li>
             <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <!-- WHATS-001: unificado a 542604331727 -->
             <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
           </li>
           <li>
@@ -1318,25 +1359,19 @@ section[id] {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram de KOS Coffee Corner"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
+          ><i class="fab fa-instagram"></i></a>
           <a
             href="https://www.facebook.com/koscoffeecorner"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook de KOS Coffee Corner"
-          >
-            <i class="fab fa-facebook-f"></i>
-          </a>
+          ><i class="fab fa-facebook-f"></i></a>
           <a
             href="https://www.tiktok.com/@koscoffeecorner"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok de KOS Coffee Corner"
-          >
-            <i class="fab fa-tiktok"></i>
-          </a>
+          ><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
     </div>
@@ -1356,9 +1391,9 @@ section[id] {
   </footer>
 
   <!-- ░░ FAB WHATSAPP — FRONT-015 ░░ -->
-  <!-- FRONT-007: TODO — reemplazar número con el del cliente -->
+  <!-- WHATS-001: unificado a 542604331727 -->
   <a
-    href="https://wa.me/5411123456789"
+    href="https://wa.me/542604331727"
     class="fab-whatsapp"
     target="_blank"
     rel="noopener noreferrer"
@@ -1373,7 +1408,7 @@ section[id] {
 
 ================================================================================
 
-2.1.3.1. 📄 main.js
+2.2.4.1. 📄 main.js
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\js\main.js
 	codigo :
 --------------------------------------------------------------------------------

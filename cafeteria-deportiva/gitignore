@@ -1,0 +1,21 @@
+# ── Carpetas internas (no van al hosting) ───────────────────────
+descargas/
+docs/
+plan_maestro/
+
+# ── Contexto de IA ───────────────────────────────────────────────
+.claude/
+
+# ── Scripts de desarrollo ────────────────────────────────────────
+scripts/
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editores ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

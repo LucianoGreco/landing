@@ -14,7 +14,6 @@
   --green-mid:     #2A4F3A;
   --green-light:   #3D7A54;
   --lavender:      #CCC5DC;
-  --lavender-dark: #A89FBE;
   --gold:          #C9953A;
   --gold-light:    #E8B85A;
   --text:          #2B2215;
@@ -31,7 +30,7 @@
   --shadow-lg: 0 20px 60px rgba(27,51,40,.22);
   --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
-  --navbar-height: 72px; /* alto del navbar para scroll-margin */
+  --navbar-height: 72px;
 }
 
 /* ── Reset ──────────────────────────────────────────────────── */
@@ -63,9 +62,7 @@ section[id] {
    ============================================================ */
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   z-index: 900;
   padding: 20px 0;
   transition: background .35s ease, padding .35s ease, box-shadow .35s ease;
@@ -118,20 +115,14 @@ section[id] {
 .navbar__link::after {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0;
-  height: 1px;
+  left: 0; bottom: -4px;
+  width: 0; height: 1px;
   background: var(--gold-light);
   transition: width .3s ease;
 }
-.navbar__link:hover {
-  color: var(--white);
-}
-.navbar__link:hover::after {
-  width: 100%;
-}
-/* Hamburger button */
+.navbar__link:hover { color: var(--white); }
+.navbar__link:hover::after { width: 100%; }
+
 .navbar__burger {
   display: none;
   flex-direction: column;
@@ -143,22 +134,14 @@ section[id] {
 }
 .navbar__burger span {
   display: block;
-  width: 24px;
-  height: 2px;
+  width: 24px; height: 2px;
   background: var(--white);
   border-radius: 2px;
   transition: transform .3s ease, opacity .3s ease;
 }
-.navbar__burger.is-open span:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-.navbar__burger.is-open span:nth-child(2) {
-  opacity: 0;
-  transform: scaleX(0);
-}
-.navbar__burger.is-open span:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
+.navbar__burger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.navbar__burger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.navbar__burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 /* ── Botones ─────────────────────────────────────────────────── */
 .btn {
@@ -227,8 +210,7 @@ section[id] {
   margin-bottom: 56px;
 }
 .divider {
-  width: 48px;
-  height: 3px;
+  width: 48px; height: 3px;
   background: var(--gold);
   border-radius: 2px;
   margin: 20px 0 28px;
@@ -265,7 +247,7 @@ section[id] {
   text-align: center;
   color: var(--white);
   padding: 0 24px;
-  /* FRONT-004: animación CSS directa, sin depender de JS */
+  /* FRONT-004: animación CSS directa, sin depender de JS — ver animations.css */
 }
 .hero__eyebrow {
   font-family: var(--font-ui);
@@ -307,8 +289,7 @@ section[id] {
 }
 .hero__scroll-hint span {
   display: block;
-  width: 1px;
-  height: 60px;
+  width: 1px; height: 60px;
   background: linear-gradient(to bottom, rgba(255,255,255,.6), transparent);
   margin: 0 auto;
   animation: scrollLine 2s ease-in-out infinite;
@@ -334,7 +315,7 @@ section[id] {
   margin-bottom: 18px;
 }
 
-/* FRONT-012: eliminados !important — mayor especificidad en lugar de fuerza bruta */
+/* FRONT-012: mayor especificidad en lugar de !important */
 .welcome__text p.welcome__highlight {
   font-size: 1.1rem;
   font-weight: 500;
@@ -342,9 +323,7 @@ section[id] {
   font-style: italic;
 }
 
-.welcome__image {
-  position: relative;
-}
+.welcome__image { position: relative; }
 .welcome__img-frame {
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -353,8 +332,7 @@ section[id] {
 }
 .welcome__badge {
   position: absolute;
-  bottom: -20px;
-  left: -20px;
+  bottom: -20px; left: -20px;
   background: var(--green-dark);
   color: var(--white);
   padding: 16px 20px;
@@ -364,10 +342,7 @@ section[id] {
   gap: 12px;
   box-shadow: var(--shadow);
 }
-.welcome__badge i {
-  font-size: 1.6rem;
-  color: var(--gold-light);
-}
+.welcome__badge i { font-size: 1.6rem; color: var(--gold-light); }
 .welcome__badge span {
   font-family: var(--font-ui);
   font-size: .8rem;
@@ -404,6 +379,7 @@ section[id] {
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(27,51,40,.1);
   transition: var(--transition);
+  position: relative;
 }
 .menu-card:hover {
   transform: translateY(-8px);
@@ -413,24 +389,17 @@ section[id] {
   transform: scale(1.04);
   box-shadow: var(--shadow-lg);
 }
-.menu-card--featured:hover {
-  transform: scale(1.04) translateY(-8px);
-}
+.menu-card--featured:hover { transform: scale(1.04) translateY(-8px); }
 .menu-card__img-wrap {
   position: relative;
   aspect-ratio: 1;
   overflow: hidden;
 }
-.menu-card__img-wrap img {
-  transition: transform .6s ease;
-}
-.menu-card:hover .menu-card__img-wrap img {
-  transform: scale(1.08);
-}
+.menu-card__img-wrap img { transition: transform .6s ease; }
+.menu-card:hover .menu-card__img-wrap img { transform: scale(1.08); }
 .menu-card__badge {
   position: absolute;
-  top: 14px;
-  right: 14px;
+  top: 14px; right: 14px;
   background: var(--gold);
   color: var(--white);
   font-family: var(--font-ui);
@@ -490,16 +459,11 @@ section[id] {
   border-radius: var(--radius);
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
-.gallery-grid__item img {
-  transition: transform .6s ease;
-}
-.gallery-grid__item:hover img {
-  transform: scale(1.08);
-}
-.gallery-grid__item--tall {
-  grid-row: span 2;
-}
+.gallery-grid__item img { transition: transform .6s ease; }
+.gallery-grid__item:hover img { transform: scale(1.08); }
+.gallery-grid__item--tall { grid-row: span 2; }
 .club__tagline {
   text-align: center;
   margin-top: 48px;
@@ -529,11 +493,9 @@ section[id] {
   aspect-ratio: 4/3;
   background: var(--green-mid);
 }
-/* FRONT-010: eliminado .contact__map-placeholder del HTML;
-   ya no necesita estilos. Se mantiene aquí comentado por referencia. */
-.contact .section-tag { color: var(--gold-light); }
+.contact .section-tag  { color: var(--gold-light); }
 .contact .section-title { color: var(--white); }
-.contact .divider { background: var(--gold); }
+.contact .divider      { background: var(--gold); }
 .contact__list {
   display: flex;
   flex-direction: column;
@@ -565,8 +527,7 @@ section[id] {
   gap: 16px;
 }
 .contact__social a {
-  width: 44px;
-  height: 44px;
+  width: 44px; height: 44px;
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,.2);
   display: flex;
@@ -631,11 +592,9 @@ section[id] {
    ============================================================ */
 .fab-whatsapp {
   position: fixed;
-  bottom: 28px;
-  right: 28px;
+  bottom: 28px; right: 28px;
   z-index: 950;
-  width: 56px;
-  height: 56px;
+  width: 56px; height: 56px;
   border-radius: 50%;
   background: #25D366;
   color: #fff;
@@ -685,14 +644,11 @@ section[id] {
   }
 }
 
-/* Navbar mobile */
 @media (max-width: 768px) {
   .navbar__burger { display: flex; }
   .navbar__nav {
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    top: 100%; left: 0; right: 0;
     background: var(--green-dark);
     max-height: 0;
     overflow: hidden;
@@ -717,25 +673,20 @@ section[id] {
 }
 
 @media (max-width: 600px) {
-  .menu-grid {
-    grid-template-columns: 1fr;
-    max-width: none;
-  }
+  .menu-grid { grid-template-columns: 1fr; max-width: none; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 
   .hero__title { font-size: 3rem; }
   .section-title { font-size: 1.8rem; }
 
-  .welcome { padding: 60px 0; }
+  .welcome      { padding: 60px 0; }
   .menu-section { padding: 60px 0; }
-  .club { padding: 60px 0; }
-  .contact { padding: 60px 0; }
+  .club         { padding: 60px 0; }
+  .contact      { padding: 60px 0; }
 
   .fab-whatsapp {
-    width: 50px;
-    height: 50px;
+    width: 50px; height: 50px;
     font-size: 1.5rem;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20px; right: 20px;
   }
 }

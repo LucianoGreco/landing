@@ -1,6 +1,7 @@
 /* ============================================================
    KOS COFFEE CORNER — animations.css
-   F1: FRONT-015 fabPop keyframe añadido
+   Keyframes + clases reveal + animaciones específicas
+   F1: FRONT-015 fabPop | FRONT-004 hero directo
    ============================================================ */
 
 /* ── Keyframes ──────────────────────────────────────────────── */
@@ -38,7 +39,7 @@
   100% { opacity: 1; transform: scale(1) rotate(0deg); }
 }
 
-/* ── Clases de reveal (manejadas por JS + IntersectionObserver) ── */
+/* ── Clases reveal (activadas por JS + IntersectionObserver) ── */
 .reveal,
 .reveal-left,
 .reveal-right,
@@ -46,28 +47,20 @@
   opacity: 0;
 }
 
-/* Cuando JS agrega .is-visible */
-.reveal.is-visible {
-  animation: fadeIn .8s ease forwards;
-}
-.reveal-left.is-visible {
-  animation: fadeInLeft .8s ease forwards;
-}
-.reveal-right.is-visible {
-  animation: fadeInRight .8s ease forwards;
-}
+.reveal.is-visible       { animation: fadeIn      .8s ease forwards; }
+.reveal-left.is-visible  { animation: fadeInLeft  .8s ease forwards; }
+.reveal-right.is-visible { animation: fadeInRight .8s ease forwards; }
 .reveal-up.is-visible {
   animation: fadeInUp .7s ease forwards;
   animation-delay: var(--delay, 0s);
 }
 
-/* ── Hero: animación inicial directa (sin JS) ─────────────────── */
-/* FRONT-004: .hero__content ya no depende de .reveal/.is-visible   */
+/* FRONT-004: hero anima directo sin JS ni .reveal */
 .hero__content {
   animation: fadeInUp 1s ease .2s both;
 }
 
-/* ── Badge del about ──────────────────────────────────────────── */
+/* ── Badge about ──────────────────────────────────────────────── */
 .welcome__badge {
   animation-play-state: paused;
 }
@@ -76,7 +69,7 @@
   animation-play-state: running;
 }
 
-/* ── Hover en menú cards: brillo sutil ────────────────────────── */
+/* ── Hover: brillo en cards de menú ──────────────────────────── */
 .menu-card::after {
   content: '';
   position: absolute;
@@ -87,36 +80,28 @@
   pointer-events: none;
   border-radius: inherit;
 }
-.menu-card { position: relative; }
 .menu-card:hover::after { opacity: 1; }
 
-/* ── Galería: overlay en hover ────────────────────────────────── */
-.gallery-grid__item {
-  position: relative;
-}
+/* ── Hover: overlay en galería ───────────────────────────────── */
 .gallery-grid__item::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(27, 51, 40, 0);
+  background: rgba(27,51,40,0);
   transition: background .4s ease;
   border-radius: inherit;
 }
-.gallery-grid__item:hover::after {
-  background: rgba(27, 51, 40, .25);
-}
+.gallery-grid__item:hover::after { background: rgba(27,51,40,.25); }
 
-/* ── Smooth underline en links ────────────────────────────────── */
+/* ── Hover: underline en links de contacto ───────────────────── */
 .contact__list a {
   position: relative;
 }
 .contact__list a::after {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 1px;
+  left: 0; bottom: -2px;
+  width: 0; height: 1px;
   background: currentColor;
   transition: width .3s ease;
 }

@@ -11,13 +11,13 @@
   <meta property="og:type"        content="website"/>
   <meta property="og:title"       content="KOS Coffee Corner — El café que te ganaste"/>
   <meta property="og:description" content="Tu ritual de cierre después de entrenar. Café de especialidad y buena comida para los que no paran."/>
-  <meta property="og:image"       content="assets/images/hero-bg.jpg"/>
-  <meta property="og:url"         content="https://koscoffeecorner.com"/>
+  <meta property="og:image"       content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/><!-- SEO-002: TODO confirmar URL absoluta real -->
+  <meta property="og:url"         content="https://koscoffeecorner.com"/><!-- SEO-001: TODO confirmar dominio real -->
   <meta property="og:locale"      content="es_AR"/>
   <meta name="twitter:card"       content="summary_large_image"/>
   <meta name="twitter:title"      content="KOS Coffee Corner — El café que te ganaste"/>
   <meta name="twitter:description"content="Tu ritual de cierre después de entrenar."/>
-  <meta name="twitter:image"      content="assets/images/hero-bg.jpg"/>
+  <meta name="twitter:image"      content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/>
 
   <!-- ░░ FAVICON — FRONT-002 ░░ -->
   <!-- TODO: reemplazar con favicon real del cliente -->
@@ -25,8 +25,8 @@
   <link rel="icon"             type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
 
-  <!-- ░░ PRELOAD HERO — FRONT-005 (previene CLS) ░░ -->
-  <link rel="preload" as="image" href="assets/images/hero-bg.jpg"/>
+  <!-- ░░ PRELOAD HERO — FRONT-005 + PERF-001 ░░ -->
+  <link rel="preload" as="image" href="assets/images/hero-bg.jpg" fetchpriority="high"/>
 
   <!-- ░░ SCHEMA.ORG LocalBusiness — FRONT-016 ░░ -->
   <script type="application/ld+json">
@@ -36,7 +36,7 @@
     "name": "KOS Coffee Corner",
     "description": "El café que te ganaste. Refugio post-entrenamiento para deportistas.",
     "url": "https://koscoffeecorner.com",
-    "telephone": "+5411123456789",
+    "telephone": "+542604331727",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Av. Ejemplo 123",
@@ -279,7 +279,6 @@
     <div class="container contact__grid">
       <div class="contact__map reveal-left">
         <!-- FRONT-010: eliminado .contact__map-placeholder del DOM -->
-        <!-- Solo queda el iframe activo                            -->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.134103031805!2d-68.31328774010848!3d-34.627094441236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a818f1c440df%3A0x1ccba11ccf2cd5a9!2sPlaza%20Esp%C3%ADnola!5e0!3m2!1sen!2sar!4v1774455015744!5m2!1sen!2sar"
           width="600"
@@ -307,6 +306,7 @@
           </li>
           <li>
             <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <!-- WHATS-001: unificado a 542604331727 -->
             <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
           </li>
           <li>
@@ -322,25 +322,19 @@
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram de KOS Coffee Corner"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
+          ><i class="fab fa-instagram"></i></a>
           <a
             href="https://www.facebook.com/koscoffeecorner"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook de KOS Coffee Corner"
-          >
-            <i class="fab fa-facebook-f"></i>
-          </a>
+          ><i class="fab fa-facebook-f"></i></a>
           <a
             href="https://www.tiktok.com/@koscoffeecorner"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok de KOS Coffee Corner"
-          >
-            <i class="fab fa-tiktok"></i>
-          </a>
+          ><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
     </div>
@@ -360,9 +354,9 @@
   </footer>
 
   <!-- ░░ FAB WHATSAPP — FRONT-015 ░░ -->
-  <!-- FRONT-007: TODO — reemplazar número con el del cliente -->
+  <!-- WHATS-001: unificado a 542604331727 -->
   <a
-    href="https://wa.me/5411123456789"
+    href="https://wa.me/542604331727"
     class="fab-whatsapp"
     target="_blank"
     rel="noopener noreferrer"

@@ -1,0 +1,81 @@
+{
+  "Nueva sección HTML": {
+    "prefix": "ai-section",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Agregar nueva sección: $1",
+      "Seguir convenciones BEM y estructura de secciones existentes (section-tag + section-title).",
+      "Incluir clases .reveal-* correspondientes.",
+      "",
+      "Solo código HTML."
+    ]
+  },
+
+  "Nuevo bloque CSS": {
+    "prefix": "ai-css",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Agregar estilos para: $1",
+      "Seguir convenciones BEM. Usar variables CSS existentes de :root.",
+      "No romper animaciones .reveal-*.",
+      "",
+      "Solo código CSS."
+    ]
+  },
+
+  "Nueva funcionalidad JS": {
+    "prefix": "ai-js",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Agregar funcionalidad: $1",
+      "Sin librerías externas. Vanilla JS puro.",
+      "Si necesita scroll → usar rAF. Si necesita observar elementos → usar IntersectionObserver.",
+      "",
+      "Solo código JS."
+    ]
+  },
+
+  "Fix bug": {
+    "prefix": "ai-fix",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Bug: $1",
+      "",
+      "Código con el bug:",
+      "$2",
+      "",
+      "Solo código corregido."
+    ]
+  },
+
+  "Reemplazar datos cliente (FRONT-007)": {
+    "prefix": "ai-cliente",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Reemplazar todos los datos placeholder del cliente en index.html:",
+      "- Dirección: $1",
+      "- Teléfono: $2",
+      "- WhatsApp: $3",
+      "- Horario: $4",
+      "",
+      "Devolver solo los bloques HTML modificados."
+    ]
+  },
+
+  "Nueva animación CSS": {
+    "prefix": "ai-anim",
+    "body": [
+      "Usar reglas del proyecto.",
+      "",
+      "Agregar animación para: $1",
+      "Seguir patrón de animations.css: keyframe + clase de activación con .is-visible si aplica.",
+      "",
+      "Solo código CSS."
+    ]
+  }
+}
