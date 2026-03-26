@@ -4,38 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- ░░ SEO — FRONT-003 ░░ -->
-  <title>KOS Coffee Corner — El café que te ganaste</title>
-  <meta name="description" content="KOS Coffee Corner: el refugio post-entrenamiento para ciclistas y deportistas. Café de especialidad, comida saludable y comunidad en un solo lugar."/>
+  <!-- ░░ SEO — v4.0 ░░ -->
+  <title>KOS Coffee Sport — Tu punto de llegada</title>
+  <meta name="description" content="KOS Coffee Sport: el punto de llegada para ciclistas y deportistas. Café de especialidad, zona de carga, tienda de ciclismo y comunidad en un solo lugar."/>
   <meta name="robots" content="index, follow"/>
   <meta property="og:type"        content="website"/>
-  <meta property="og:title"       content="KOS Coffee Corner — El café que te ganaste"/>
-  <meta property="og:description" content="Tu ritual de cierre después de entrenar. Café de especialidad y buena comida para los que no paran."/>
-  <meta property="og:image"       content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/><!-- SEO-002: TODO confirmar URL absoluta real -->
-  <meta property="og:url"         content="https://koscoffeecorner.com"/><!-- SEO-001: TODO confirmar dominio real -->
+  <meta property="og:title"       content="KOS Coffee Sport — Tu punto de llegada"/>
+  <meta property="og:description" content="Entrenar. Frenar. Café. Bienvenido a tu punto de llegada."/>
+  <meta property="og:image"       content="https://koscoffeesport.com.ar/assets/images/logo.png"/><!-- SEO-002: TODO confirmar URL absoluta real -->
+  <meta property="og:url"         content="https://koscoffeesport.com.ar"/><!-- SEO-001: TODO confirmar dominio real -->
   <meta property="og:locale"      content="es_AR"/>
   <meta name="twitter:card"       content="summary_large_image"/>
-  <meta name="twitter:title"      content="KOS Coffee Corner — El café que te ganaste"/>
-  <meta name="twitter:description"content="Tu ritual de cierre después de entrenar."/>
-  <meta name="twitter:image"      content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/>
+  <meta name="twitter:title"      content="KOS Coffee Sport — Tu punto de llegada"/>
+  <meta name="twitter:description"content="Entrenar. Frenar. Café."/>
+  <meta name="twitter:image"      content="https://koscoffeesport.com.ar/assets/images/logo.png"/>
 
-  <!-- ░░ FAVICON — FRONT-002 ░░ -->
-  <!-- TODO: reemplazar con favicon real del cliente -->
+  <!-- ░░ FAVICON — FAV-001: pendiente ░░ -->
   <link rel="icon"             type="image/x-icon" href="assets/favicon.ico"/>
   <link rel="icon"             type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
 
-  <!-- ░░ PRELOAD HERO — FRONT-005 + PERF-001 ░░ -->
+  <!-- ░░ PRELOAD HERO — PERF-001 ░░ -->
   <link rel="preload" as="image" href="assets/images/hero-bg.jpg" fetchpriority="high"/>
 
-  <!-- ░░ SCHEMA.ORG LocalBusiness — FRONT-016 ░░ -->
+  <!-- ░░ SCHEMA.ORG LocalBusiness — v4.0 ░░ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CafeOrCoffeeShop",
-    "name": "KOS Coffee Corner",
-    "description": "El café que te ganaste. Refugio post-entrenamiento para deportistas.",
-    "url": "https://koscoffeecorner.com",
+    "name": "KOS Coffee Sport",
+    "description": "Tu punto de llegada. Café de especialidad, zona de carga y tienda de ciclismo para deportistas.",
+    "url": "https://koscoffeesport.com.ar",
     "telephone": "+542604331727",
     "address": {
       "@type": "PostalAddress",
@@ -54,36 +53,49 @@
     "servesCuisine": "Café de especialidad",
     "priceRange": "$$",
     "sameAs": [
-      "https://www.instagram.com/koscoffeecorner",
-      "https://www.facebook.com/koscoffeecorner"
+      "https://www.instagram.com/koscoffeesport"
     ]
   }
   </script>
 
-  <!-- ░░ TIPOGRAFÍAS ░░ -->
+  <!-- ░░ TIPOGRAFÍAS — v4.0 ░░
+       Manrope: tipografía principal oficial (Brand Book)
+       Caveat:  aproximación a Jelek Type hasta tener el archivo de fuente
+       Dancing Script: aproximación a UT Breado Script
+       NOTA: reemplazar Caveat y Dancing Script con los archivos de fuente
+             oficiales Jelek Type y UT Breado Script cuando estén disponibles.
+  ░░ -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Caveat:wght@500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="stylesheet" href="css/animations.css"/>
 </head>
 <body>
 
-  <!-- ░░ NAVBAR — FRONT-001 ░░ -->
+  <!-- ░░ NAVBAR — v4.0 ░░ -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <a href="#inicio" class="navbar__logo" aria-label="KOS Coffee Corner — inicio">
-        <span class="logo-text">Kos</span>
-        <span class="logo-sub">Coffee Corner</span>
+      <!-- LOGO-001: logo actualizado — usa logo-negro.png sobre fondo claro -->
+      <!-- JS cambia a logo-blanco.png cuando navbar--scrolled está activo -->
+      <a href="#inicio" class="navbar__logo" aria-label="KOS Coffee Sport — inicio">
+        <img
+          src="assets/images/logo-negro.png"
+          alt="KOS Coffee Sport"
+          class="navbar__logo-img"
+          id="navLogo"
+          width="120"
+          height="48"
+        />
       </a>
       <nav class="navbar__nav" id="navMenu" aria-label="Navegación principal">
         <ul class="navbar__list">
-          <li><a href="#inicio"   class="navbar__link">Inicio</a></li>
-          <li><a href="#nosotros" class="navbar__link">Nosotros</a></li>
-          <li><a href="#menu"     class="navbar__link">Menú</a></li>
-          <li><a href="#club"     class="navbar__link">Club</a></li>
-          <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+          <li><a href="#manifiesto"     class="navbar__link">El Manifiesto</a></li>
+          <li><a href="#servicios"      class="navbar__link">Servicios</a></li>
+          <li><a href="#tienda"         class="navbar__link">Tienda</a></li>
+          <li><a href="#abastecimiento" class="navbar__link">Abastecimiento</a></li>
+          <li><a href="#contacto"       class="navbar__link">Contacto</a></li>
         </ul>
       </nav>
       <button
@@ -100,185 +112,469 @@
     </div>
   </header>
 
-  <!-- ░░ HERO ░░ -->
-  <!-- FRONT-004: .hero__content sin clase .reveal — visible aunque JS falle -->
+  <!-- ░░ HERO — #inicio ░░ -->
+  <!-- FRONT-004: .hero__content sin .reveal — visible aunque JS falle -->
   <section class="hero" id="inicio">
     <div class="hero__overlay"></div>
     <div class="hero__content">
-      <p class="hero__eyebrow">KOS Coffee Corner</p>
-      <h1 class="hero__title">El café que<br><em>te ganaste.</em></h1>
-      <p class="hero__sub">Tu ritual de cierre después de entrenar.</p>
-      <!-- FRONT-013: botón apunta a #contacto con texto correcto -->
-      <a href="#contacto" class="btn btn--primary">Encontrá tu lugar <i class="fas fa-arrow-right"></i></a>
+      <p class="hero__eyebrow">KOS Coffee Sport</p>
+      <h1 class="hero__title">Tu punto<br>de llegada.</h1>
+      <p class="hero__script">Entrenar. Frenar. Café.</p>
+      <p class="hero__sub">No importa cuántos kilómetros quedan en las piernas.<br>Acá se para. Acá se recupera. Acá sos parte.</p>
+      <div class="hero__ctas">
+        <a href="#manifiesto"  class="btn btn--cream">Llegar</a>
+        <a href="#servicios"   class="btn btn--outline-cream">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero__illustration" aria-hidden="true">
+      <img
+        src="assets/images/about.jpg"
+        alt=""
+        width="320"
+        height="400"
+        loading="eager"
+      />
     </div>
     <div class="hero__scroll-hint" aria-hidden="true">
       <span></span>
     </div>
   </section>
 
-  <!-- ░░ BIENVENIDA ░░ -->
-  <section class="welcome" id="nosotros">
-    <div class="container welcome__grid">
-      <div class="welcome__text reveal-left">
-        <span class="section-tag">Punto de llegada</span>
-        <h2 class="section-title">Bienvenido a tu<br>punto de llegada.</h2>
+  <!-- ░░ EL MANIFIESTO — #manifiesto ░░ -->
+  <section class="manifiesto" id="manifiesto">
+    <div class="container manifiesto__grid">
+      <div class="manifiesto__text reveal-left">
+        <span class="section-tag">El Manifiesto</span>
+        <h2 class="section-title">No importa<br>por dónde viniste.</h2>
         <div class="divider"></div>
-        <p>No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy. Lo que importa es que ya estás acá.</p>
-        <p>Entendemos que el esfuerzo no termina cuando se detiene el cronómetro; termina cuando encontrás el lugar donde recuperar el aliento.</p>
-        <!-- FRONT-012: clase compuesta, sin !important en CSS -->
-        <p class="welcome__highlight">Somos el refugio oficial de los que se atreven a moverse.</p>
+        <blockquote class="manifiesto__quote">
+          "No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy.
+           Lo que importa es que ya estás acá."
+        </blockquote>
+        <p>Entendemos que el esfuerzo no termina cuando se detiene el cronómetro. Termina cuando encontrás el lugar donde recuperar el aliento.</p>
+        <p class="manifiesto__highlight">Entrenar. Frenar. Café. Bienvenido a tu punto de llegada.</p>
+        <div class="manifiesto__valores">
+          <div class="valor">
+            <span class="valor__titulo">Nobleza</span>
+            <span class="valor__desc">Materia prima real. Sin adornos innecesarios.</span>
+          </div>
+          <div class="valor">
+            <span class="valor__titulo">Resiliencia</span>
+            <span class="valor__desc">Cada kilómetro cuenta. Honramos la disciplina.</span>
+          </div>
+          <div class="valor">
+            <span class="valor__titulo">Pertenencia</span>
+            <span class="valor__desc">Club sin membresía. Hogar fuera de casa.</span>
+          </div>
+        </div>
       </div>
-      <div class="welcome__image reveal-right">
-        <div class="welcome__img-frame">
-          <!-- FRONT-011: width/height explícitos previenen CLS (ratio 4:5) -->
+      <div class="manifiesto__image reveal-right">
+        <div class="manifiesto__img-frame">
           <img
-            src="assets/images/about.jpg"
-            alt="Ciclista disfrutando un café en KOS Coffee Corner"
-            width="800"
-            height="1000"
+            src="assets/images/about-runner.jpg"
+            alt="Ciclista KOS corriendo con café"
+            width="700"
+            height="880"
             loading="lazy"
           />
         </div>
-        <div class="welcome__badge">
-          <i class="fas fa-mug-hot"></i>
-          <span>Post-entreno<br>perfecto</span>
+        <div class="manifiesto__badge">
+          <img
+            src="assets/images/icon-hi.jpg"
+            alt=""
+            width="48"
+            height="48"
+            aria-hidden="true"
+          />
+          <span>Te estábamos<br>esperando.</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ░░ MENÚ DESTACADO ░░ -->
-  <section class="menu-section" id="menu">
-    <div class="menu-section__bg"></div>
+  <!-- ░░ SERVICIOS — #servicios ░░ -->
+  <section class="servicios" id="servicios">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Combustible destacado</span>
-        <h2 class="section-title">Lo que tu cuerpo<br>está pidiendo.</h2>
+        <span class="section-tag">Servicios</span>
+        <h2 class="section-title">Tu punto de llegada.</h2>
+        <p class="section-lead">Bajá las pulsaciones. Recuperá.<br>Este es tu lugar.</p>
       </div>
 
-      <div class="menu-grid">
+      <div class="servicios__grid">
 
-        <article class="menu-card reveal-up" style="--delay: 0.1s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-011: dimensiones explícitas (ratio 1:1) -->
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <!-- SERVICIO 1: Zona de Carga -->
+        <article class="servicio-card reveal-up" style="--delay: 0.0s">
+          <div class="servicio-card__icon">
+            <img
+              src="assets/images/icon-coffee.jpg"
+              alt=""
+              width="80"
+              height="80"
+              loading="lazy"
+              aria-hidden="true"
+            />
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Zona de Carga</h3>
+            <p class="servicio-card__sub">Come. Hidratate. Recupérate.</p>
+            <p class="servicio-card__text">Food y bebidas de calidad antes y después del entrenamiento. Vestuario disponible para que salgas como llegaste.</p>
+          </div>
+        </article>
+
+        <!-- SERVICIO 2: Tienda KOS -->
+        <article class="servicio-card reveal-up" style="--delay: 0.1s">
+          <div class="servicio-card__icon servicio-card__icon--store">
+            <i class="fas fa-bicycle" aria-hidden="true"></i>
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Tienda KOS</h3>
+            <p class="servicio-card__sub">Equipamiento para seguir rodando.</p>
+            <p class="servicio-card__text">Guantes, cascos y accesorios seleccionados para ciclistas. Sin apuro de compra. ¿Te interesa algo? Lo separamos.</p>
+            <a href="#tienda" class="btn btn--green btn--sm">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- SERVICIO 3: El Checkpoint -->
+        <article class="servicio-card reveal-up" style="--delay: 0.2s">
+          <div class="servicio-card__icon">
+            <img
+              src="assets/images/icon-hi.jpg"
+              alt=""
+              width="80"
+              height="80"
+              loading="lazy"
+              aria-hidden="true"
+            />
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">El Checkpoint</h3>
+            <p class="servicio-card__sub">No tenés que consumir. Solo llegar.</p>
+            <p class="servicio-card__text">Este es el punto donde todos paramos. TV, buena música y gente que entiende de lo que hablás. La comunidad no requiere membresía.</p>
+          </div>
+        </article>
+
+        <!-- SERVICIO 4: Service Técnico -->
+        <article class="servicio-card reveal-up" style="--delay: 0.3s">
+          <div class="servicio-card__icon servicio-card__icon--tools">
+            <i class="fas fa-tools" aria-hidden="true"></i>
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Service Técnico</h3>
+            <p class="servicio-card__sub">Tu bici también merece un descanso.</p>
+            <p class="servicio-card__text">Cambio de cubiertas, inflado y ajuste básico post-competencia. Lista para la próxima salida.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TIENDA — #tienda ░░ -->
+  <section class="tienda" id="tienda">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Equipamiento</span>
+        <h2 class="section-title">Equipamiento.</h2>
+        <p class="section-lead">Sin apuro de compra. Sin presión.<br>Explorá, consultá y decidís cuando querés.</p>
+      </div>
+
+      <!-- Tabs de filtro -->
+      <div class="tienda__tabs" role="tablist" aria-label="Filtrar productos">
+        <button class="tienda__tab is-active" data-filter="todos"        role="tab" aria-selected="true" >Todos</button>
+        <button class="tienda__tab"            data-filter="cascos"      role="tab" aria-selected="false">Cascos</button>
+        <button class="tienda__tab"            data-filter="guantes"     role="tab" aria-selected="false">Guantes</button>
+        <button class="tienda__tab"            data-filter="luces"       role="tab" aria-selected="false">Luces</button>
+        <button class="tienda__tab"            data-filter="gafas"       role="tab" aria-selected="false">Gafas</button>
+        <button class="tienda__tab"            data-filter="ropa"        role="tab" aria-selected="false">Ropa técnica</button>
+        <button class="tienda__tab"            data-filter="suplementos" role="tab" aria-selected="false">Suplementos</button>
+      </div>
+
+      <div class="tienda__grid" id="tiendaGrid">
+
+        <!-- ── CASCO ──────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="cascos" style="--delay:0.0s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/casco-01.jpg" alt="Casco de ciclismo — vista frontal"        width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/casco-02.jpg" alt="Casco de ciclismo — vista lateral"        width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/casco-03.jpg" alt="Casco de ciclismo — detalle ventilación"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--cascos">Cascos</span>
+            <h3 class="tienda__product-name">Casco de Ciclismo</h3>
+            <p class="tienda__product-desc">Protección ligera con sistema de ventilación optimizado. Ideal para ciclismo urbano y de ruta.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Casco de Ciclismo" aria-label="Consultar por Casco de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── GUANTES ─────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="guantes" style="--delay:0.1s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/guantes-01.jpg" alt="Guantes de ciclismo — vista palmar"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/guantes-02.jpg" alt="Guantes de ciclismo — vista dorsal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/guantes-03.jpg" alt="Guantes de ciclismo — detalle grip"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--guantes">Guantes</span>
+            <h3 class="tienda__product-name">Guantes de Ciclismo</h3>
+            <p class="tienda__product-desc">Gel acolchado en palma, agarre antideslizante y dorso transpirable. Tallas S a XL disponibles.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Guantes de Ciclismo" aria-label="Consultar por Guantes de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── LUCES ───────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="luces" style="--delay:0.2s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/luces-01.jpg" alt="Set de luces para bicicleta — vista general"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/luces-02.jpg" alt="Luz delantera LED — detalle montaje"           width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/luces-03.jpg" alt="Luz trasera LED roja — en uso nocturno"        width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--luces">Luces</span>
+            <h3 class="tienda__product-name">Luces LED (Delantera + Trasera)</h3>
+            <p class="tienda__product-desc">Set completo recargable por USB. Delantera blanca de alto brillo y trasera roja con modo flash. Clip universal.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Set de Luces LED (Delantera + Trasera)" aria-label="Consultar por Luces LED en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── GAFAS ───────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="gafas" style="--delay:0.3s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/gafas-01.jpg" alt="Gafas de ciclismo — vista frontal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/gafas-02.jpg" alt="Gafas de ciclismo — vista lateral"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/gafas-03.jpg" alt="Gafas de ciclismo — detalle lente"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--gafas">Gafas</span>
+            <h3 class="tienda__product-name">Gafas de Ciclismo</h3>
+            <p class="tienda__product-desc">Lente polarizado UV400, montura ligera y antideslizante. Protección total contra viento y polvo en ruta.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Gafas de Ciclismo" aria-label="Consultar por Gafas de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── ROPA TÉCNICA ────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="ropa" style="--delay:0.4s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/ropa-01.jpg" alt="Conjunto ciclismo maillot y culotte — vista frontal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/ropa-02.jpg" alt="Maillot técnico — detalle tejido transpirable"         width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/ropa-03.jpg" alt="Culotte con badana — detalle costura"                  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--ropa">Ropa técnica</span>
+            <h3 class="tienda__product-name">Ropa Técnica (Maillot + Culotte)</h3>
+            <p class="tienda__product-desc">Conjunto de ciclismo en tejido transpirable y compresivo. Maillot manga corta + culotte con badana anatomica. Tallas S a XL.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Ropa Técnica (Maillot + Culotte)" aria-label="Consultar por Ropa Técnica en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── SUPLEMENTOS ────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="suplementos" style="--delay:0.5s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/creatina-01.jpg" alt="Creatina monohidrato — presentación tarro"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/creatina-02.jpg" alt="Creatina monohidrato — detalle etiqueta"    width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/creatina-03.jpg" alt="Creatina monohidrato — dosis y uso"         width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--suplementos">Suplementos</span>
+            <h3 class="tienda__product-name">Creatina Monohidrato</h3>
+            <p class="tienda__product-desc">Creatina pura de alta solubilidad. Ideal para rendimiento explosivo y recuperación muscular post-entreno. Sin aditivos.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Creatina Monohidrato" aria-label="Consultar por Creatina Monohidrato en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+      </div><!-- /tienda__grid -->
+    </div>
+  </section>
+
+  <!-- ░░ ABASTECIMIENTO — #abastecimiento ░░ -->
+  <section class="abastecimiento" id="abastecimiento">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--cream">Abastecimiento</span>
+        <h2 class="section-title section-title--cream">Abastecimiento.</h2>
+        <p class="section-lead section-lead--cream">Todo lo que necesitás para el próximo entreno.<br>Nutrición deportiva, indumentaria y accesorios en un solo punto.</p>
+      </div>
+      <div class="abastecimiento__grid">
+
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.0s">
+          <div class="abastecimiento__img-wrap">
             <img
               src="assets/images/menu-item-1.jpg"
-              alt="El Sprint — espresso corto e intenso"
-              width="400"
-              height="400"
+              alt="Espresso KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
-            <div class="menu-card__badge">Favorito</div>
           </div>
-          <div class="menu-card__body">
-            <h3>El Sprint</h3>
-            <p>Corto, intenso, para los que no se detienen.</p>
-            <!-- FRONT-008: precio visible en card -->
-            <span class="menu-card__price">$850</span>
+          <div class="abastecimiento__body">
+            <h3>Coffee Sprint</h3>
+            <p>Yogurt natural, granola artesanal y frutas de estación. El combo que te pone de pie antes de salir.</p>
           </div>
         </article>
 
-        <article class="menu-card menu-card--featured reveal-up" style="--delay: 0.2s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.1s">
+          <div class="abastecimiento__img-wrap">
             <img
-              src="assets/images/menu-item-2.png"
-              alt="Cadencia Plana — café equilibrado"
-              width="400"
-              height="400"
+              src="assets/images/menu-item-2.jpg"
+              alt="Latte KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
           </div>
-          <div class="menu-card__body">
-            <h3>Cadencia Plana</h3>
-            <p>Equilibrio perfecto entre fuerza y suavidad.</p>
-            <span class="menu-card__price">$1.100</span>
+          <div class="abastecimiento__body">
+            <h3>Cadencia</h3>
+            <p>Café con leche de especialidad. Lento cuando el cuerpo lo pide. Perfecto para bajar las pulsaciones.</p>
           </div>
         </article>
 
-        <article class="menu-card reveal-up" style="--delay: 0.3s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.2s">
+          <div class="abastecimiento__img-wrap">
             <img
-              src="assets/images/menu-item-3.png"
-              alt="Tostón Finisher — pan de masa madre con palta y huevo"
-              width="400"
-              height="400"
+              src="assets/images/menu-item-3.jpg"
+              alt="Tostón Finisher KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
           </div>
-          <div class="menu-card__body">
+          <div class="abastecimiento__body">
             <h3>Tostón Finisher</h3>
-            <p><em>Pan de masa madre, palta, huevo soft y semillas.</em></p>
-            <span class="menu-card__price">$1.800</span>
+            <p>Pan de masa madre, palta, huevo soft y semillas. El finisher que el cuerpo merecía.</p>
           </div>
         </article>
 
       </div>
-
-      <!-- FRONT-013: texto corregido — ya no dice "Ver menú completo" apuntando a #contacto -->
-      <div class="menu-cta reveal">
-        <a href="#contacto" class="btn btn--outline">Contactanos <i class="fas fa-arrow-right"></i></a>
+      <div class="abastecimiento__cta reveal">
+        <!-- WHATS-001: número unificado -->
+        <a
+          href="https://wa.me/542604331727"
+          class="btn btn--cream"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Sumarte <i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
   </section>
 
-  <!-- ░░ CLUB ░░ -->
-  <section class="club" id="club">
+  <!-- ░░ EVENTOS / EL PATIO — #eventos ░░ -->
+  <section class="eventos" id="eventos">
     <div class="container">
-      <div class="club__header reveal">
-        <h2 class="section-title club__title">KOS no es un local de paso;<br>es un <em>club sin membresía.</em></h2>
+      <div class="eventos__grid">
+        <div class="eventos__text reveal-left">
+          <span class="section-tag">El Patio</span>
+          <h2 class="section-title">El punto de concentración.</h2>
+          <div class="divider"></div>
+          <p>El punto de concentración antes de la largada. Espacio abierto para grupos, charlas y encuentros. Sin membresía. Sin burocracia. Solo llegás.</p>
+          <ul class="eventos__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Charlas de nutrición deportiva</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Encuentros de comunidad ciclista</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Concentración pre-competencia</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Eventos de portología</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Alquiler del espacio para eventos</li>
+          </ul>
+          <!-- WHATS-001 -->
+          <a
+            href="https://wa.me/542604331727?text=Hola%20KOS!%20%F0%9F%91%8B%20Quer%C3%ADa%20consultar%20sobre%20disponibilidad%20del%20espacio."
+            class="btn btn--green"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Consultar disponibilidad <i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="eventos__gallery reveal-right">
+          <div class="eventos__gallery-grid">
+            <div class="eventos__gallery-item eventos__gallery-item--tall">
+              <img
+                src="assets/images/gallery-1.jpg"
+                alt="KOS Coffee Sport — comunidad ciclista"
+                width="400"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="eventos__gallery-item">
+              <img
+                src="assets/images/gallery-2.jpg"
+                alt="KOS Coffee Sport — ambiente"
+                width="400"
+                height="240"
+                loading="lazy"
+              />
+            </div>
+            <div class="eventos__gallery-item">
+              <img
+                src="assets/images/gallery-3.jpg"
+                alt="KOS Coffee Sport — post-entreno"
+                width="400"
+                height="240"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="gallery-grid">
-        <!-- FRONT-006: extensiones normalizadas a .jpg → renombrar archivos físicos -->
-        <!-- FRONT-011: dimensiones explícitas para prevenir CLS               -->
-        <div class="gallery-grid__item gallery-grid__item--tall reveal-up" style="--delay: 0s">
-          <img
-            src="assets/images/gallery/gallery-1.png"
-            alt="Comunidad KOS — ciclistas reunidos"
-            width="400"
-            height="416"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.1s">
-          <img
-            src="assets/images/gallery/gallery-2.png"
-            alt="Staff KOS atendiendo"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.2s">
-          <img
-            src="assets/images/gallery/gallery-3.png"
-            alt="Café para llevar en KOS"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.3s">
-          <img
-            src="assets/images/gallery/gallery-4.png"
-            alt="Ambiente KOS Coffee Corner"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      <p class="club__tagline reveal"><em>Te estabamos esperando.</em></p>
     </div>
   </section>
 
-  <!-- ░░ CONTACTO ░░ -->
+  <!-- ░░ CONTACTO — #contacto ░░ -->
+  <!-- FRONT-007: TODO — reemplazar con datos reales del cliente -->
   <section class="contact" id="contacto">
     <div class="container contact__grid">
       <div class="contact__map reveal-left">
-        <!-- FRONT-010: eliminado .contact__map-placeholder del DOM -->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.134103031805!2d-68.31328774010848!3d-34.627094441236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a818f1c440df%3A0x1ccba11ccf2cd5a9!2sPlaza%20Esp%C3%ADnola!5e0!3m2!1sen!2sar!4v1774455015744!5m2!1sen!2sar"
           width="600"
@@ -287,53 +583,53 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Ubicación KOS Coffee Corner en Google Maps"
+          title="Ubicación KOS Coffee Sport en Google Maps"
         ></iframe>
       </div>
       <div class="contact__info reveal-right">
-        <span class="section-tag">Encontranos</span>
-        <h2 class="section-title">Frená.<br>Estamos acá.</h2>
-        <div class="divider"></div>
-        <!-- FRONT-007: TODO — reemplazar con datos reales del cliente -->
+        <span class="section-tag section-tag--cream">Encontranos</span>
+        <h2 class="section-title section-title--cream">Llegá.</h2>
+        <p class="contact__lead">Ya sabés dónde es. Solo falta que aparezcas.</p>
+        <div class="divider divider--cream"></div>
+        <!-- FRONT-007: reemplazar con datos reales -->
         <ul class="contact__list">
           <li>
-            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-            <span>Av. Ejemplo 123, Ciudad Real</span>
+            <img src="assets/images/icon-location.jpg" alt="" width="24" height="24" aria-hidden="true" class="contact__icon-img"/>
+            <span>Av. Ejemplo 123, Ciudad Real</span><!-- TODO: dirección real -->
           </li>
           <li>
             <i class="fas fa-phone" aria-hidden="true"></i>
-            <a href="tel:+5411123456789">11 1234-5678</a>
+            <a href="tel:+5411123456789">11 1234-5678</a><!-- TODO: teléfono real -->
           </li>
           <li>
             <i class="fab fa-whatsapp" aria-hidden="true"></i>
-            <!-- WHATS-001: unificado a 542604331727 -->
-            <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
+            <!-- WHATS-001: número unificado -->
+            <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribirnos por WhatsApp</a>
           </li>
           <li>
             <i class="far fa-clock" aria-hidden="true"></i>
-            <!-- FRONT-007: MED-007 horario completo pendiente de datos reales -->
+            <!-- FRONT-007: SCH-001 horario completo pendiente -->
             <span>Sábados de 08:30 a 20:30 hs.</span>
           </li>
         </ul>
-        <!-- FRONT-014: target _blank + rel noopener en redes sociales -->
         <div class="contact__social">
           <a
-            href="https://www.instagram.com/koscoffeecorner"
+            href="https://www.instagram.com/koscoffeesport"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Instagram de KOS Coffee Corner"
+            aria-label="Instagram de KOS Coffee Sport"
           ><i class="fab fa-instagram"></i></a>
           <a
-            href="https://www.facebook.com/koscoffeecorner"
+            href="https://www.strava.com"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Facebook de KOS Coffee Corner"
-          ><i class="fab fa-facebook-f"></i></a>
+            aria-label="Strava de KOS Coffee Sport"
+          ><i class="fab fa-strava"></i></a>
           <a
-            href="https://www.tiktok.com/@koscoffeecorner"
+            href="https://www.tiktok.com/@koscoffeesport"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="TikTok de KOS Coffee Corner"
+            aria-label="TikTok de KOS Coffee Sport"
           ><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
@@ -343,24 +639,37 @@
   <!-- ░░ FOOTER ░░ -->
   <footer class="footer">
     <div class="container footer__inner">
-      <div class="footer__logo">
-        <span class="logo-text">Kos</span>
-        <span class="logo-sub">COFFEE CORNER</span>
+      <a href="#inicio" class="footer__logo" aria-label="KOS Coffee Sport — volver al inicio">
+        <img
+          src="assets/images/logo-blanco.png"
+          alt="KOS Coffee Sport"
+          width="140"
+          height="56"
+          loading="lazy"
+        />
+      </a>
+      <div class="footer__ilus" aria-hidden="true">
+        <img
+          src="assets/images/about-runner.jpg"
+          alt=""
+          width="80"
+          height="100"
+          loading="lazy"
+        />
       </div>
-      <!-- FRONT-017: span.footer__year para que JS inserte el año dinámicamente -->
-      <p class="footer__copy">© <span class="footer__year"></span> KOS Coffee Corner — Todos los derechos reservados.</p>
-      <p class="footer__made">Hecho con ☕ para los que no paran.</p>
+      <p class="footer__copy">© <span class="footer__year"></span> KOS Coffee Sport — Todos los derechos reservados.</p>
+      <p class="footer__made">Hecho con café para los que no paran.</p>
     </div>
   </footer>
 
   <!-- ░░ FAB WHATSAPP — FRONT-015 ░░ -->
-  <!-- WHATS-001: unificado a 542604331727 -->
+  <!-- WHATS-001: número unificado -->
   <a
     href="https://wa.me/542604331727"
     class="fab-whatsapp"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Contactar KOS Coffee Corner por WhatsApp"
+    aria-label="Contactar KOS Coffee Sport por WhatsApp"
   >
     <i class="fab fa-whatsapp"></i>
   </a>

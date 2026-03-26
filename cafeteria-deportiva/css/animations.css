@@ -1,7 +1,6 @@
 /* ============================================================
-   KOS COFFEE CORNER — animations.css
-   Keyframes + clases reveal + animaciones específicas
-   F1: FRONT-015 fabPop | FRONT-004 hero directo
+   KOS COFFEE SPORT — animations.css  v4.0
+   Keyframes + clases reveal + micro-interacciones
    ============================================================ */
 
 /* ── Keyframes ──────────────────────────────────────────────── */
@@ -31,7 +30,6 @@
   70%  { transform: scale(1.06) translateY(-2px); }
   100% { opacity: 1; transform: scale(1) translateY(0); }
 }
-
 /* FRONT-015 — FAB WhatsApp aparición */
 @keyframes fabPop {
   0%   { opacity: 0; transform: scale(0) rotate(-45deg); }
@@ -40,58 +38,61 @@
 }
 
 /* ── Clases reveal (activadas por JS + IntersectionObserver) ── */
+/* REGLA: no eliminar estas clases, el observer depende de ellas */
 .reveal,
 .reveal-left,
 .reveal-right,
 .reveal-up {
   opacity: 0;
 }
-
 .reveal.is-visible       { animation: fadeIn      .8s ease forwards; }
 .reveal-left.is-visible  { animation: fadeInLeft  .8s ease forwards; }
 .reveal-right.is-visible { animation: fadeInRight .8s ease forwards; }
 .reveal-up.is-visible {
-  animation: fadeInUp .7s ease forwards;
+  animation: fadeInUp .65s ease forwards;
   animation-delay: var(--delay, 0s);
 }
 
 /* FRONT-004: hero anima directo sin JS ni .reveal */
 .hero__content {
-  animation: fadeInUp 1s ease .2s both;
+  animation: fadeInUp 1s ease .15s both;
 }
 
-/* ── Badge about ──────────────────────────────────────────────── */
-.welcome__badge {
+/* ── Badge del manifiesto ─────────────────────────────────────── */
+.manifiesto__badge {
   animation-play-state: paused;
+  opacity: 0;
 }
-.welcome__image.is-visible .welcome__badge {
-  animation: badgePop .6s ease .6s both;
+.manifiesto__image.is-visible .manifiesto__badge {
+  animation: badgePop .6s ease .7s both;
   animation-play-state: running;
 }
 
-/* ── Hover: brillo en cards de menú ──────────────────────────── */
-.menu-card::after {
+/* ── Hover: brillo sutil en cards de servicio ────────────────── */
+.servicio-card::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,.08) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(255,255,255,.06) 0%, transparent 60%);
   opacity: 0;
   transition: opacity .4s;
   pointer-events: none;
   border-radius: inherit;
 }
-.menu-card:hover::after { opacity: 1; }
+.servicio-card { position: relative; }
+.servicio-card:hover::after { opacity: 1; }
 
-/* ── Hover: overlay en galería ───────────────────────────────── */
-.gallery-grid__item::after {
+/* ── Hover: overlay en galería de eventos ────────────────────── */
+.eventos__gallery-item::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(27,51,40,0);
+  background: rgba(14,62,52,0);
   transition: background .4s ease;
   border-radius: inherit;
 }
-.gallery-grid__item:hover::after { background: rgba(27,51,40,.25); }
+.eventos__gallery-item { position: relative; }
+.eventos__gallery-item:hover::after { background: rgba(14,62,52,.20); }
 
 /* ── Hover: underline en links de contacto ───────────────────── */
 .contact__list a {
@@ -107,10 +108,21 @@
 }
 .contact__list a:hover::after { width: 100%; }
 
+/* ── Tienda: transición al filtrar por tabs ──────────────────── */
+.tienda__card {
+  transition: transform .35s ease, box-shadow .35s ease, opacity .25s ease;
+}
+/* El estado .is-hidden se maneja con display:none en styles.css */
+/* Esta clase extra sirve para fade-out antes de ocultar */
+.tienda__card.is-fading {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
 /* ── Prefers reduced motion ───────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .reveal, .reveal-left, .reveal-right, .reveal-up,
-  .hero__content, .welcome__badge, .fab-whatsapp {
+  .hero__content, .manifiesto__badge, .fab-whatsapp {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
