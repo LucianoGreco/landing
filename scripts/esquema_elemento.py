@@ -37,6 +37,7 @@ FUENTES = [
         "root": r"D:\desarrollo\3. proyectos",
         "elementos": [
             "landing\cafeteria-deportiva",
+
         ],
     },
 ]

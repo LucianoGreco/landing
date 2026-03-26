@@ -28,9 +28,9 @@ GRUPOS = [
     #     ],
     # },
     {
-        "archivo": "cafeteria-deportiva.txt",
+        "archivo": "cafeteria-deportiva-assets.txt",
         "elementos": [
-            "cafeteria-deportiva",
+            "cafeteria-deportiva\assets",
         ],
     },
     # {

@@ -1,5 +1,5 @@
 📁 FABRICA-AGENTES — ELEMENTOS SELECCIONADOS
-📅 Generado : 2026-03-25 19:03:32
+📅 Generado : 2026-03-26 04:12:14
 📦 Fuentes  : 1
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -8,32 +8,92 @@
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 └── 2. 📁 landing
-    └── 2.2. 📁 cafeteria-deportiva
-        ├── 2.2.1. 📁 assets
-        │   └── 2.2.1.2. 📁 images
-        │       ├── 2.2.1.2.2. 📄 about.jpg
-        │       ├── 2.2.1.2.1. 📁 gallery
-        │       │   ├── 2.2.1.2.1.1. 📄 gallery-1.png
-        │       │   ├── 2.2.1.2.1.2. 📄 gallery-2.png
-        │       │   ├── 2.2.1.2.1.3. 📄 gallery-3.png
-        │       │   └── 2.2.1.2.1.4. 📄 gallery-4.png
-        │       ├── 2.2.1.2.3. 📄 hero-bg.jpg
-        │       ├── 2.2.1.2.4. 📄 menu-item-1.jpg
-        │       ├── 2.2.1.2.5. 📄 menu-item-2.png
-        │       └── 2.2.1.2.6. 📄 menu-item-3.png
-        ├── 2.2.2. 📁 css
-        │   ├── 2.2.2.1. 📄 animations.css
-        │   └── 2.2.2.2. 📄 styles.css
-        ├── 2.2.3. 📁 docs
-        │   └── 2.2.3.1. 📄 ai-context.md
-        ├── 2.2.5. 📄 gitignore
-        ├── 2.2.6. 📄 index.html
-        └── 2.2.4. 📁 js
-            └── 2.2.4.1. 📄 main.js
+    └── 2.1. 📁 cafeteria-deportiva
+        ├── 2.1.4. 📄 .gitignore
+        ├── 2.1.1. 📁 assets
+        │   └── 2.1.1.2. 📁 images
+        │       ├── 2.1.1.2.2. 📄 about-runner.jpg
+        │       ├── 2.1.1.2.3. 📄 about.jpg
+        │       ├── 2.1.1.2.4. 📄 gallery-1.jpg
+        │       ├── 2.1.1.2.5. 📄 gallery-2.jpg
+        │       ├── 2.1.1.2.6. 📄 gallery-3.jpg
+        │       ├── 2.1.1.2.7. 📄 hero-bg.jpg
+        │       ├── 2.1.1.2.8. 📄 icon-coffee.jpg
+        │       ├── 2.1.1.2.9. 📄 icon-hi.jpg
+        │       ├── 2.1.1.2.10. 📄 icon-location.jpg
+        │       ├── 2.1.1.2.11. 📄 logo-blanco.png
+        │       ├── 2.1.1.2.12. 📄 logo-negro.png
+        │       ├── 2.1.1.2.13. 📄 logo.png
+        │       ├── 2.1.1.2.14. 📄 menu-item-1.jpg
+        │       ├── 2.1.1.2.15. 📄 menu-item-2.jpg
+        │       ├── 2.1.1.2.16. 📄 menu-item-3.jpg
+        │       └── 2.1.1.2.1. 📁 tienda
+        │           ├── 2.1.1.2.1.1. 📄 casco-01.jpg
+        │           ├── 2.1.1.2.1.2. 📄 casco-02.jpg
+        │           ├── 2.1.1.2.1.3. 📄 casco-03.jpg
+        │           ├── 2.1.1.2.1.4. 📄 creatina-01.jpg
+        │           ├── 2.1.1.2.1.5. 📄 creatina-02.jpg
+        │           ├── 2.1.1.2.1.6. 📄 creatina-03.jpg
+        │           ├── 2.1.1.2.1.7. 📄 gafas-01.jpg
+        │           ├── 2.1.1.2.1.8. 📄 gafas-02.jpg
+        │           ├── 2.1.1.2.1.9. 📄 gafas-03.jpg
+        │           ├── 2.1.1.2.1.10. 📄 guantes-01.jpg
+        │           ├── 2.1.1.2.1.11. 📄 guantes-02.jpg
+        │           ├── 2.1.1.2.1.12. 📄 guantes-03.jpg
+        │           ├── 2.1.1.2.1.13. 📄 luces-01.jpg
+        │           ├── 2.1.1.2.1.14. 📄 luces-02.jpg
+        │           ├── 2.1.1.2.1.15. 📄 luces-03.jpg
+        │           ├── 2.1.1.2.1.16. 📄 ropa-01.jpg
+        │           ├── 2.1.1.2.1.17. 📄 ropa-02.jpg
+        │           └── 2.1.1.2.1.18. 📄 ropa-03.jpg
+        ├── 2.1.2. 📁 css
+        │   ├── 2.1.2.1. 📄 animations.css
+        │   └── 2.1.2.2. 📄 styles.css
+        ├── 2.1.5. 📄 index.html
+        ├── 2.1.3. 📁 js
+        │   └── 2.1.3.1. 📄 main.js
+        └── 2.1.6. 📄 vercel.json
 
 ================================================================================
 
-2.2.1.2.2. 📄 about.jpg
+2.1.4. 📄 .gitignore
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\.gitignore
+	codigo :
+--------------------------------------------------------------------------------
+# ── Carpetas internas (no van al hosting) ───────────────────────
+descargas/
+docs/
+plan_maestro/
+
+# ── Contexto de IA ───────────────────────────────────────────────
+.claude/
+
+# ── Scripts de desarrollo ────────────────────────────────────────
+scripts/
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editores ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+================================================================================
+
+2.1.1.2.2. 📄 about-runner.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\about-runner.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.3. 📄 about.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\about.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -41,39 +101,31 @@
 
 ================================================================================
 
-2.2.1.2.1.1. 📄 gallery-1.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-1.png
+2.1.1.2.4. 📄 gallery-1.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery-1.jpg
 	codigo :
 --------------------------------------------------------------------------------
 [archivo binario]
 
 ================================================================================
 
-2.2.1.2.1.2. 📄 gallery-2.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-2.png
+2.1.1.2.5. 📄 gallery-2.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery-2.jpg
 	codigo :
 --------------------------------------------------------------------------------
 [archivo binario]
 
 ================================================================================
 
-2.2.1.2.1.3. 📄 gallery-3.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-3.png
+2.1.1.2.6. 📄 gallery-3.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery-3.jpg
 	codigo :
 --------------------------------------------------------------------------------
 [archivo binario]
 
 ================================================================================
 
-2.2.1.2.1.4. 📄 gallery-4.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\gallery\gallery-4.png
-	codigo :
---------------------------------------------------------------------------------
-[archivo binario]
-
-================================================================================
-
-2.2.1.2.3. 📄 hero-bg.jpg
+2.1.1.2.7. 📄 hero-bg.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\hero-bg.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -81,7 +133,55 @@
 
 ================================================================================
 
-2.2.1.2.4. 📄 menu-item-1.jpg
+2.1.1.2.8. 📄 icon-coffee.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\icon-coffee.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.9. 📄 icon-hi.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\icon-hi.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.10. 📄 icon-location.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\icon-location.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.11. 📄 logo-blanco.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\logo-blanco.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.12. 📄 logo-negro.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\logo-negro.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.13. 📄 logo.png
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\logo.png
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.14. 📄 menu-item-1.jpg
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-1.jpg
 	codigo :
 --------------------------------------------------------------------------------
@@ -89,30 +189,173 @@
 
 ================================================================================
 
-2.2.1.2.5. 📄 menu-item-2.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-2.png
+2.1.1.2.15. 📄 menu-item-2.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-2.jpg
 	codigo :
 --------------------------------------------------------------------------------
 [archivo binario]
 
 ================================================================================
 
-2.2.1.2.6. 📄 menu-item-3.png
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-3.png
+2.1.1.2.16. 📄 menu-item-3.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\menu-item-3.jpg
 	codigo :
 --------------------------------------------------------------------------------
 [archivo binario]
 
 ================================================================================
 
-2.2.2.1. 📄 animations.css
+2.1.1.2.1.1. 📄 casco-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\casco-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.2. 📄 casco-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\casco-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.3. 📄 casco-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\casco-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.4. 📄 creatina-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\creatina-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.5. 📄 creatina-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\creatina-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.6. 📄 creatina-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\creatina-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.7. 📄 gafas-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\gafas-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.8. 📄 gafas-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\gafas-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.9. 📄 gafas-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\gafas-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.10. 📄 guantes-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\guantes-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.11. 📄 guantes-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\guantes-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.12. 📄 guantes-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\guantes-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.13. 📄 luces-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\luces-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.14. 📄 luces-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\luces-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.15. 📄 luces-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\luces-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.16. 📄 ropa-01.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\ropa-01.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.17. 📄 ropa-02.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\ropa-02.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.1.2.1.18. 📄 ropa-03.jpg
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\assets\images\tienda\ropa-03.jpg
+	codigo :
+--------------------------------------------------------------------------------
+[archivo binario]
+
+================================================================================
+
+2.1.2.1. 📄 animations.css
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\animations.css
 	codigo :
 --------------------------------------------------------------------------------
 /* ============================================================
-   KOS COFFEE CORNER — animations.css
-   Keyframes + clases reveal + animaciones específicas
-   F1: FRONT-015 fabPop | FRONT-004 hero directo
+   KOS COFFEE SPORT — animations.css  v4.0
+   Keyframes + clases reveal + micro-interacciones
    ============================================================ */
 
 /* ── Keyframes ──────────────────────────────────────────────── */
@@ -142,7 +385,6 @@
   70%  { transform: scale(1.06) translateY(-2px); }
   100% { opacity: 1; transform: scale(1) translateY(0); }
 }
-
 /* FRONT-015 — FAB WhatsApp aparición */
 @keyframes fabPop {
   0%   { opacity: 0; transform: scale(0) rotate(-45deg); }
@@ -151,58 +393,61 @@
 }
 
 /* ── Clases reveal (activadas por JS + IntersectionObserver) ── */
+/* REGLA: no eliminar estas clases, el observer depende de ellas */
 .reveal,
 .reveal-left,
 .reveal-right,
 .reveal-up {
   opacity: 0;
 }
-
 .reveal.is-visible       { animation: fadeIn      .8s ease forwards; }
 .reveal-left.is-visible  { animation: fadeInLeft  .8s ease forwards; }
 .reveal-right.is-visible { animation: fadeInRight .8s ease forwards; }
 .reveal-up.is-visible {
-  animation: fadeInUp .7s ease forwards;
+  animation: fadeInUp .65s ease forwards;
   animation-delay: var(--delay, 0s);
 }
 
 /* FRONT-004: hero anima directo sin JS ni .reveal */
 .hero__content {
-  animation: fadeInUp 1s ease .2s both;
+  animation: fadeInUp 1s ease .15s both;
 }
 
-/* ── Badge about ──────────────────────────────────────────────── */
-.welcome__badge {
+/* ── Badge del manifiesto ─────────────────────────────────────── */
+.manifiesto__badge {
   animation-play-state: paused;
+  opacity: 0;
 }
-.welcome__image.is-visible .welcome__badge {
-  animation: badgePop .6s ease .6s both;
+.manifiesto__image.is-visible .manifiesto__badge {
+  animation: badgePop .6s ease .7s both;
   animation-play-state: running;
 }
 
-/* ── Hover: brillo en cards de menú ──────────────────────────── */
-.menu-card::after {
+/* ── Hover: brillo sutil en cards de servicio ────────────────── */
+.servicio-card::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,.08) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(255,255,255,.06) 0%, transparent 60%);
   opacity: 0;
   transition: opacity .4s;
   pointer-events: none;
   border-radius: inherit;
 }
-.menu-card:hover::after { opacity: 1; }
+.servicio-card { position: relative; }
+.servicio-card:hover::after { opacity: 1; }
 
-/* ── Hover: overlay en galería ───────────────────────────────── */
-.gallery-grid__item::after {
+/* ── Hover: overlay en galería de eventos ────────────────────── */
+.eventos__gallery-item::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(27,51,40,0);
+  background: rgba(14,62,52,0);
   transition: background .4s ease;
   border-radius: inherit;
 }
-.gallery-grid__item:hover::after { background: rgba(27,51,40,.25); }
+.eventos__gallery-item { position: relative; }
+.eventos__gallery-item:hover::after { background: rgba(14,62,52,.20); }
 
 /* ── Hover: underline en links de contacto ───────────────────── */
 .contact__list a {
@@ -218,10 +463,21 @@
 }
 .contact__list a:hover::after { width: 100%; }
 
+/* ── Tienda: transición al filtrar por tabs ──────────────────── */
+.tienda__card {
+  transition: transform .35s ease, box-shadow .35s ease, opacity .25s ease;
+}
+/* El estado .is-hidden se maneja con display:none en styles.css */
+/* Esta clase extra sirve para fade-out antes de ocultar */
+.tienda__card.is-fading {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
 /* ── Prefers reduced motion ───────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .reveal, .reveal-left, .reveal-right, .reveal-up,
-  .hero__content, .welcome__badge, .fab-whatsapp {
+  .hero__content, .manifiesto__badge, .fab-whatsapp {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
@@ -230,42 +486,47 @@
 
 ================================================================================
 
-2.2.2.2. 📄 styles.css
+2.1.2.2. 📄 styles.css
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\css\styles.css
 	codigo :
 --------------------------------------------------------------------------------
 /* ============================================================
-   KOS COFFEE CORNER — styles.css
-   Paleta: Verde oscuro / Crema / Lavanda / Dorado
-   Tipografía: Oswald (títulos) + Lora (cuerpo)
-   F1: FRONT-001 navbar | FRONT-008 precio | FRONT-012 specificity
-       FRONT-015 FAB | FRONT-018 breakpoint 750px
+   KOS COFFEE SPORT — styles.css  v4.0
+   Brand Book: Verde Musetta / Crema Cafe / Lavanda Sprint
+   Tipografía: Manrope (principal) + Caveat (Jelek aprox.) +
+               Dancing Script (UT Breado Script aprox.)
+   NOTA: reemplazar Caveat y Dancing Script por Jelek Type y
+         UT Breado Script cuando los archivos de fuente estén
+         disponibles. Solo cambiar --font-display y --font-script.
    ============================================================ */
 
-/* ── Variables ─────────────────────────────────────────────── */
+/* ── Variables — Brand Book Oficial ───────────────────────── */
 :root {
-  --cream:         #F4EFE4;
-  --cream-dark:    #E8E0D0;
-  --green-dark:    #1B3328;
-  --green-mid:     #2A4F3A;
-  --green-light:   #3D7A54;
-  --lavender:      #CCC5DC;
-  --gold:          #C9953A;
-  --gold-light:    #E8B85A;
-  --text:          #2B2215;
-  --text-muted:    #6B5E4A;
-  --white:         #FFFFFF;
+  /* Paleta */
+  --green:          #0e3e34;
+  --green-80:       rgba(14, 62, 52, 0.80);
+  --green-50:       rgba(14, 62, 52, 0.50);
+  --green-30:       rgba(14, 62, 52, 0.30);
+  --cream:          #f9f5dd;
+  --cream-dark:     #f0ebcf;
+  --lavender:       #d2cbed;
+  --lavender-dark:  #bfb8dc;
+  --text:           #1a1a1a;
+  --text-muted:     #4a4a4a;
+  --white:          #ffffff;
 
-  --font-display: 'Oswald', sans-serif;
-  --font-body:    'Lora', serif;
-  --font-ui:      'Montserrat', sans-serif;
+  /* Tipografías — Brand Book */
+  --font-main:    'Manrope', sans-serif;
+  --font-display: 'Caveat', cursive;       /* → reemplazar con Jelek Type */
+  --font-script:  'Dancing Script', cursive; /* → reemplazar con UT Breado Script */
 
-  --radius:    12px;
-  --radius-lg: 24px;
-  --shadow:    0 8px 32px rgba(27,51,40,.15);
-  --shadow-lg: 0 20px 60px rgba(27,51,40,.22);
-  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
+  /* Espaciados y radios */
+  --radius:        10px;
+  --radius-lg:     20px;
+  --radius-pill:   100px;
+  --shadow:        0 6px 24px rgba(14, 62, 52, 0.14);
+  --shadow-lg:     0 16px 52px rgba(14, 62, 52, 0.20);
+  --transition:    0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --navbar-height: 72px;
 }
 
@@ -273,19 +534,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 16px; }
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-main);
   background: var(--cream);
   color: var(--text);
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 img { display: block; width: 100%; height: 100%; object-fit: cover; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
-
-/* FRONT-001: compensar navbar fijo en smooth scroll */
-section[id] {
-  scroll-margin-top: var(--navbar-height);
-}
+section[id] { scroll-margin-top: var(--navbar-height); }
 
 /* ── Container ──────────────────────────────────────────────── */
 .container {
@@ -293,58 +551,145 @@ section[id] {
   margin-inline: auto;
 }
 
+/* ── Tipografía global ───────────────────────────────────────── */
+.section-tag {
+  display: inline-block;
+  font-family: var(--font-main);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 12px;
+  opacity: .75;
+}
+.section-tag--cream { color: var(--cream); opacity: .7; }
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.05;
+  color: var(--green);
+  letter-spacing: -.01em;
+}
+.section-title--cream { color: var(--cream); }
+
+.section-lead {
+  margin-top: 16px;
+  font-family: var(--font-main);
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+.section-lead--cream { color: rgba(249, 245, 221, 0.80); }
+
+.section-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.divider {
+  width: 40px; height: 3px;
+  background: var(--green);
+  border-radius: 2px;
+  margin: 20px 0 28px;
+}
+.divider--cream { background: var(--cream); opacity: .5; }
+
+/* ── Botones ─────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .04em;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid transparent;
+  line-height: 1;
+}
+.btn--green {
+  background: var(--green);
+  color: var(--cream);
+  border-color: var(--green);
+}
+.btn--green:hover {
+  background: #0c3229;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.btn--cream {
+  background: var(--cream);
+  color: var(--green);
+  border-color: var(--cream);
+}
+.btn--cream:hover {
+  background: var(--cream-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(249,245,221,.25);
+}
+.btn--outline-cream {
+  background: transparent;
+  color: var(--cream);
+  border-color: rgba(249,245,221,.55);
+}
+.btn--outline-cream:hover {
+  background: rgba(249,245,221,.12);
+  border-color: var(--cream);
+  transform: translateY(-2px);
+}
+.btn--sm {
+  padding: 10px 20px;
+  font-size: .82rem;
+}
+
 /* ============================================================
-   NAVBAR — FRONT-001
+   NAVBAR
    ============================================================ */
 .navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 900;
-  padding: 20px 0;
+  padding: 18px 0;
   transition: background .35s ease, padding .35s ease, box-shadow .35s ease;
 }
 .navbar--scrolled {
-  background: var(--green-dark);
+  background: var(--green);
   padding: 12px 0;
-  box-shadow: 0 2px 24px rgba(0,0,0,.4);
+  box-shadow: 0 2px 20px rgba(0,0,0,.35);
 }
 .navbar__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.navbar__logo {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
+.navbar__logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  /* JS: cambia a logo-blanco.png al hacer scroll */
+  transition: opacity .3s ease;
 }
-.navbar__logo .logo-text {
-  font-family: var(--font-body);
-  font-size: 1.65rem;
-  font-style: italic;
-  font-weight: 500;
-  color: var(--white);
-  letter-spacing: .04em;
-}
-.navbar__logo .logo-sub {
-  font-family: var(--font-ui);
-  font-size: .52rem;
-  letter-spacing: .32em;
-  text-transform: uppercase;
-  color: var(--gold-light);
-  margin-top: 2px;
+.navbar--scrolled .navbar__logo-img {
+  /* imagen invertida en navbar verde */
+  filter: brightness(0) invert(1);
 }
 .navbar__list {
   display: flex;
-  gap: 36px;
+  gap: 32px;
 }
 .navbar__link {
-  font-family: var(--font-ui);
+  font-family: var(--font-main);
   font-size: .78rem;
-  font-weight: 500;
-  letter-spacing: .12em;
+  font-weight: 600;
+  letter-spacing: .10em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.82);
+  color: rgba(255,255,255,.85);
   transition: color .3s ease;
   position: relative;
 }
@@ -352,12 +697,19 @@ section[id] {
   content: '';
   position: absolute;
   left: 0; bottom: -4px;
-  width: 0; height: 1px;
-  background: var(--gold-light);
+  width: 0; height: 2px;
+  background: var(--cream);
   transition: width .3s ease;
+  border-radius: 2px;
 }
 .navbar__link:hover { color: var(--white); }
 .navbar__link:hover::after { width: 100%; }
+
+/* Navbar sobre fondo oscuro — links visibles siempre */
+.navbar:not(.navbar--scrolled) .navbar__link {
+  color: rgba(255,255,255,.9);
+  text-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
 
 .navbar__burger {
   display: none;
@@ -379,142 +731,87 @@ section[id] {
 .navbar__burger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
 .navbar__burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ── Botones ─────────────────────────────────────────────────── */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 14px 32px;
-  font-family: var(--font-ui);
-  font-weight: 600;
-  font-size: .9rem;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: var(--transition);
-  border: 2px solid transparent;
-}
-.btn--primary {
-  background: var(--green-dark);
-  color: var(--white);
-  border-color: var(--green-dark);
-}
-.btn--primary:hover {
-  background: var(--green-mid);
-  border-color: var(--green-mid);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(27,51,40,.35);
-}
-.btn--outline {
-  background: transparent;
-  color: var(--green-dark);
-  border-color: var(--green-dark);
-}
-.btn--outline:hover {
-  background: var(--green-dark);
-  color: var(--white);
-  transform: translateY(-2px);
-}
-
-/* ── Tipografía global ───────────────────────────────────────── */
-.section-tag {
-  display: inline-block;
-  font-family: var(--font-ui);
-  font-size: .75rem;
-  font-weight: 500;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: var(--green-light);
-  margin-bottom: 12px;
-}
-.section-title {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  line-height: 1.1;
-  color: var(--green-dark);
-}
-.section-title em {
-  font-style: italic;
-  color: var(--gold);
-  font-family: var(--font-body);
-  font-weight: 400;
-}
-.section-header {
-  text-align: center;
-  margin-bottom: 56px;
-}
-.divider {
-  width: 48px; height: 3px;
-  background: var(--gold);
-  border-radius: 2px;
-  margin: 20px 0 28px;
-}
-
 /* ============================================================
-   HERO
+   HERO — #inicio
    ============================================================ */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
+  min-height: 100vh;
   background-image: url('../assets/images/hero-bg.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 40%;
   display: flex;
   align-items: center;
-  justify-content: center;
   overflow: hidden;
 }
 .hero__overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    160deg,
-    rgba(27,51,40,.72) 0%,
-    rgba(27,51,40,.45) 50%,
-    rgba(20,20,20,.6) 100%
+    155deg,
+    rgba(14,62,52,.82) 0%,
+    rgba(14,62,52,.60) 45%,
+    rgba(10,10,10,.65) 100%
   );
 }
 .hero__content {
   position: relative;
   z-index: 2;
-  text-align: center;
-  color: var(--white);
-  padding: 0 24px;
-  /* FRONT-004: animación CSS directa, sin depender de JS — ver animations.css */
+  color: var(--cream);
+  padding: 120px 5vw 80px;
+  max-width: 680px;
 }
 .hero__eyebrow {
-  font-family: var(--font-ui);
-  font-size: .8rem;
-  letter-spacing: .22em;
+  font-family: var(--font-main);
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .24em;
   text-transform: uppercase;
-  color: var(--gold-light);
-  margin-bottom: 20px;
-  opacity: .9;
+  color: rgba(249,245,221,.65);
+  margin-bottom: 16px;
 }
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-size: clamp(3.8rem, 9vw, 7.5rem);
   font-weight: 700;
-  line-height: 1.0;
-  color: var(--white);
+  line-height: .98;
+  color: var(--cream);
   margin-bottom: 16px;
-  text-shadow: 0 4px 24px rgba(0,0,0,.3);
+  letter-spacing: -.02em;
 }
-.hero__title em {
-  font-style: italic;
-  font-family: var(--font-body);
-  font-weight: 400;
-  color: var(--gold-light);
+.hero__script {
+  font-family: var(--font-script);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: rgba(249,245,221,.80);
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 .hero__sub {
-  font-family: var(--font-body);
-  font-size: clamp(1rem, 2vw, 1.3rem);
-  font-style: italic;
-  color: rgba(255,255,255,.85);
+  font-family: var(--font-main);
+  font-size: clamp(.95rem, 1.8vw, 1.1rem);
+  font-weight: 300;
+  line-height: 1.7;
+  color: rgba(249,245,221,.72);
   margin-bottom: 40px;
+}
+.hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+.hero__illustration {
+  position: absolute;
+  right: 5vw;
+  bottom: 0;
+  width: clamp(180px, 22vw, 300px);
+  z-index: 2;
+  pointer-events: none;
+  opacity: .55;
+}
+.hero__illustration img {
+  object-fit: contain;
+  height: auto;
 }
 .hero__scroll-hint {
   position: absolute;
@@ -525,234 +822,547 @@ section[id] {
 }
 .hero__scroll-hint span {
   display: block;
-  width: 1px; height: 60px;
-  background: linear-gradient(to bottom, rgba(255,255,255,.6), transparent);
+  width: 1px; height: 56px;
+  background: linear-gradient(to bottom, rgba(249,245,221,.6), transparent);
   margin: 0 auto;
   animation: scrollLine 2s ease-in-out infinite;
 }
 
 /* ============================================================
-   BIENVENIDA
+   EL MANIFIESTO — #manifiesto
    ============================================================ */
-.welcome {
+.manifiesto {
   padding: 100px 0;
   background: var(--cream);
 }
-.welcome__grid {
+.manifiesto__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
 }
-.welcome__text p {
-  font-size: 1.05rem;
-  line-height: 1.8;
+.manifiesto__text p {
+  font-size: 1.04rem;
+  line-height: 1.80;
   color: var(--text-muted);
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
-
-/* FRONT-012: mayor especificidad en lugar de !important */
-.welcome__text p.welcome__highlight {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--green-mid);
-  font-style: italic;
+.manifiesto__quote {
+  font-family: var(--font-script);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--green);
+  border-left: 3px solid var(--lavender-dark);
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
 }
-
-.welcome__image { position: relative; }
-.welcome__img-frame {
+.manifiesto__highlight {
+  font-weight: 600;
+  color: var(--green);
+  font-size: 1.06rem;
+}
+.manifiesto__valores {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 32px;
+}
+.valor {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.valor__titulo {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--green);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+.valor__desc {
+  font-size: .92rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.manifiesto__image {
+  position: relative;
+}
+.manifiesto__img-frame {
   border-radius: var(--radius-lg);
   overflow: hidden;
   aspect-ratio: 4/5;
+  background: var(--lavender);
   box-shadow: var(--shadow-lg);
 }
-.welcome__badge {
+.manifiesto__img-frame img {
+  object-position: center center;
+}
+.manifiesto__badge {
   position: absolute;
-  bottom: -20px; left: -20px;
-  background: var(--green-dark);
-  color: var(--white);
-  padding: 16px 20px;
+  bottom: -20px;
+  left: -20px;
+  background: var(--green);
+  color: var(--cream);
+  padding: 14px 18px;
   border-radius: var(--radius);
   display: flex;
   align-items: center;
   gap: 12px;
   box-shadow: var(--shadow);
 }
-.welcome__badge i { font-size: 1.6rem; color: var(--gold-light); }
-.welcome__badge span {
-  font-family: var(--font-ui);
+.manifiesto__badge img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.manifiesto__badge span {
+  font-family: var(--font-main);
   font-size: .8rem;
   font-weight: 600;
-  letter-spacing: .05em;
   line-height: 1.4;
+  color: var(--cream);
 }
 
 /* ============================================================
-   MENÚ
+   SERVICIOS — #servicios
    ============================================================ */
-.menu-section {
-  position: relative;
+.servicios {
   padding: 100px 0;
   background: var(--lavender);
+  position: relative;
   overflow: hidden;
 }
-.menu-section__bg {
+.servicios::before {
+  content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 80% 20%, rgba(200,192,216,.5) 0%, transparent 70%),
-              radial-gradient(ellipse at 20% 80%, rgba(61,122,84,.1) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 70% 30%, rgba(14,62,52,.06) 0%, transparent 65%);
   pointer-events: none;
 }
-.menu-grid {
+.servicios__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.servicio-card {
+  background: var(--cream);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  box-shadow: 0 4px 16px rgba(14,62,52,.08);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.servicio-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+.servicio-card__icon {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: var(--lavender);
+  flex-shrink: 0;
+}
+.servicio-card__icon img {
+  object-fit: contain;
+  padding: 4px;
+}
+.servicio-card__icon--store,
+.servicio-card__icon--tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--green);
+  border-radius: var(--radius);
+  background: var(--lavender);
+}
+.servicio-card__title {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--green);
+  margin-bottom: 4px;
+}
+.servicio-card__sub {
+  font-family: var(--font-script);
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--green);
+  opacity: .65;
+  margin-bottom: 10px;
+}
+.servicio-card__text {
+  font-size: .95rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  flex-grow: 1;
+  margin-bottom: 16px;
+}
+.servicio-card .btn { align-self: flex-start; }
+
+/* ============================================================
+   TIENDA — #tienda
+   ============================================================ */
+.tienda {
+  padding: 100px 0;
+  background: var(--cream);
+}
+
+/* Tabs */
+.tienda__tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.tienda__tab {
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--green-30);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-main);
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.tienda__tab:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+.tienda__tab.is-active {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--cream);
+}
+
+/* Grid */
+.tienda__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.tienda__card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(14,62,52,.07);
+  transition: var(--transition);
+  border: 1px solid rgba(14,62,52,.06);
+}
+.tienda__card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+/* Estado oculto cuando tab filtra */
+.tienda__card.is-hidden {
+  display: none;
+}
+.tienda__card-img {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+.tienda__card-img img { transition: transform .5s ease; }
+.tienda__card:hover .tienda__card-img img { transform: scale(1.06); }
+/* Placeholder mientras no hay imágenes de producto — PROD-001 */
+.tienda__card-img--pending {
+  background: linear-gradient(135deg, var(--green) 0%, #1a5c4a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tienda__img-placeholder {
+  color: rgba(249,245,221,.35);
+  font-family: var(--font-main);
+  font-size: .75rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.8;
+}
+.tienda__img-placeholder i {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 6px;
+}
+.tienda__card-body {
+  padding: 20px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.tienda__badge {
+  display: inline-block;
+  font-family: var(--font-main);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  align-self: flex-start;
+}
+.tienda__badge--cascos    { background: var(--green);      color: var(--cream); }
+.tienda__badge--guantes   { background: var(--lavender);   color: var(--green); }
+.tienda__badge--luces     { background: #e8e4a0;           color: #4a4200; }
+.tienda__badge--gafas     { background: var(--cream-dark); color: var(--text); border: 1px solid var(--green-30); }
+.tienda__badge--ropa      { background: var(--green-30);   color: var(--green); }
+
+/* ── Carrusel de imágenes por producto ───────────────────────── */
+.tienda__carousel {
+  position: relative;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background: var(--green);
+}
+.tienda__carousel-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform .38s cubic-bezier(.25,.46,.45,.94);
+}
+.tienda__carousel-track img {
+  min-width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.tienda__carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: rgba(249,245,221,.88);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green);
+  font-size: .75rem;
+  opacity: 0;
+  transition: opacity .25s ease, background .2s ease;
+}
+.tienda__carousel:hover .tienda__carousel-btn { opacity: 1; }
+.tienda__carousel-btn--prev { left: 10px; }
+.tienda__carousel-btn--next { right: 10px; }
+.tienda__carousel-btn:hover { background: var(--cream); }
+.tienda__carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+.tienda__dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: rgba(249,245,221,.45);
+  cursor: pointer;
+  transition: background .2s ease, transform .2s ease;
+}
+.tienda__dot.is-active {
+  background: var(--cream);
+  transform: scale(1.3);
+}
+
+.tienda__product-name {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--green);
+  margin-top: 4px;
+}
+.tienda__product-desc {
+  font-size: .88rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+.tienda__btn-wa {
+  width: 100%;
+  justify-content: center;
+}
+
+/* ============================================================
+   ABASTECIMIENTO — #abastecimiento
+   ============================================================ */
+.abastecimiento {
+  padding: 100px 0;
+  background: var(--green);
+}
+.abastecimiento__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-bottom: 48px;
 }
-.menu-card {
-  background: var(--white);
+.abastecimiento__card {
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(27,51,40,.1);
+  background: rgba(249,245,221,.06);
+  border: 1px solid rgba(249,245,221,.12);
   transition: var(--transition);
-  position: relative;
 }
-.menu-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-lg);
+.abastecimiento__card:hover {
+  transform: translateY(-5px);
+  background: rgba(249,245,221,.10);
 }
-.menu-card--featured {
-  transform: scale(1.04);
-  box-shadow: var(--shadow-lg);
-}
-.menu-card--featured:hover { transform: scale(1.04) translateY(-8px); }
-.menu-card__img-wrap {
-  position: relative;
-  aspect-ratio: 1;
+.abastecimiento__img-wrap {
+  aspect-ratio: 1/1;
   overflow: hidden;
 }
-.menu-card__img-wrap img { transition: transform .6s ease; }
-.menu-card:hover .menu-card__img-wrap img { transform: scale(1.08); }
-.menu-card__badge {
-  position: absolute;
-  top: 14px; right: 14px;
-  background: var(--gold);
-  color: var(--white);
-  font-family: var(--font-ui);
-  font-size: .7rem;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 20px;
+.abastecimiento__img-wrap img { transition: transform .5s ease; }
+.abastecimiento__card:hover .abastecimiento__img-wrap img { transform: scale(1.06); }
+.abastecimiento__body {
+  padding: 22px 24px;
 }
-.menu-card__body {
-  padding: 24px;
-  text-align: center;
-}
-.menu-card__body h3 {
+.abastecimiento__body h3 {
   font-family: var(--font-display);
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--green-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cream);
   margin-bottom: 8px;
 }
-.menu-card__body p {
-  font-size: .92rem;
-  color: var(--text-muted);
-  line-height: 1.6;
+.abastecimiento__body p {
+  font-size: .9rem;
+  line-height: 1.65;
+  color: rgba(249,245,221,.70);
 }
-
-/* FRONT-008: precio en tarjetas de menú */
-.menu-card__price {
-  display: inline-block;
-  margin-top: 12px;
-  font-family: var(--font-ui);
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: .02em;
+.abastecimiento__cta {
+  text-align: center;
 }
-
-.menu-cta { text-align: center; }
 
 /* ============================================================
-   CLUB / GALERÍA
+   EVENTOS / EL PATIO — #eventos
    ============================================================ */
-.club {
+.eventos {
   padding: 100px 0;
-  background: var(--cream-dark);
+  background: var(--cream);
 }
-.club__header { text-align: center; margin-bottom: 56px; }
-.club__title { font-size: clamp(1.8rem, 3.5vw, 2.8rem); }
-.gallery-grid {
+.eventos__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px 200px;
-  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
 }
-.gallery-grid__item {
+.eventos__text p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.eventos__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+.eventos__list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: .96rem;
+  color: var(--text);
+}
+.eventos__list li i {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--lavender);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green);
+  font-size: .7rem;
+  flex-shrink: 0;
+}
+.eventos__gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 14px;
+}
+.eventos__gallery-item {
   border-radius: var(--radius);
   overflow: hidden;
-  cursor: pointer;
-  position: relative;
 }
-.gallery-grid__item img { transition: transform .6s ease; }
-.gallery-grid__item:hover img { transform: scale(1.08); }
-.gallery-grid__item--tall { grid-row: span 2; }
-.club__tagline {
-  text-align: center;
-  margin-top: 48px;
-  font-family: var(--font-body);
-  font-size: clamp(1.4rem, 2.5vw, 2rem);
-  font-style: italic;
-  color: var(--text-muted);
-}
+.eventos__gallery-item img { transition: transform .5s ease; }
+.eventos__gallery-item:hover img { transform: scale(1.06); }
+.eventos__gallery-item--tall { grid-row: span 2; }
 
 /* ============================================================
-   CONTACTO
+   CONTACTO — #contacto
    ============================================================ */
 .contact {
   padding: 100px 0;
-  background: var(--green-dark);
-  color: var(--white);
+  background: var(--green);
 }
 .contact__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 72px;
   align-items: center;
 }
 .contact__map {
   border-radius: var(--radius-lg);
   overflow: hidden;
   aspect-ratio: 4/3;
-  background: var(--green-mid);
 }
-.contact .section-tag  { color: var(--gold-light); }
-.contact .section-title { color: var(--white); }
-.contact .divider      { background: var(--gold); }
+.contact__lead {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(249,245,221,.72);
+  margin-bottom: 8px;
+  font-weight: 300;
+}
 .contact__list {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  margin-bottom: 36px;
+  gap: 16px;
+  margin-bottom: 32px;
 }
 .contact__list li {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-size: 1rem;
-  color: rgba(255,255,255,.85);
+  font-size: .96rem;
+  color: rgba(255,255,255,.82);
 }
-.contact__list li i {
-  width: 20px;
-  font-size: 1.1rem;
-  color: var(--gold-light);
+.contact__list li i,
+.contact__list li .contact__icon-img {
+  width: 22px;
+  font-size: 1rem;
+  color: rgba(249,245,221,.60);
   flex-shrink: 0;
 }
+.contact__icon-img {
+  height: 22px;
+  object-fit: contain;
+  border-radius: 3px;
+  opacity: .6;
+}
 .contact__list a {
-  color: var(--gold-light);
+  color: var(--cream);
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: opacity .2s;
@@ -760,23 +1370,23 @@ section[id] {
 .contact__list a:hover { opacity: .7; }
 .contact__social {
   display: flex;
-  gap: 16px;
+  gap: 14px;
 }
 .contact__social a {
   width: 44px; height: 44px;
   border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.2);
+  border: 1px solid rgba(249,245,221,.20);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
-  color: rgba(255,255,255,.7);
+  font-size: 1.05rem;
+  color: rgba(249,245,221,.65);
   transition: var(--transition);
 }
 .contact__social a:hover {
-  background: var(--gold);
-  border-color: var(--gold);
-  color: var(--white);
+  background: rgba(249,245,221,.12);
+  border-color: var(--cream);
+  color: var(--cream);
   transform: translateY(-3px);
 }
 
@@ -784,8 +1394,8 @@ section[id] {
    FOOTER
    ============================================================ */
 .footer {
-  background: var(--text);
-  padding: 40px 0;
+  background: #0a2d25;
+  padding: 48px 0 36px;
 }
 .footer__inner {
   display: flex;
@@ -794,33 +1404,28 @@ section[id] {
   gap: 12px;
 }
 .footer__logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1;
+  display: block;
+  margin-bottom: 8px;
 }
-.logo-text {
-  font-family: var(--font-body);
-  font-size: 2.4rem;
-  font-style: italic;
-  font-weight: 500;
-  color: var(--white);
-  letter-spacing: .05em;
+.footer__logo img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
 }
-.logo-sub {
-  font-family: var(--font-ui);
-  font-size: .6rem;
-  letter-spacing: .35em;
-  text-transform: uppercase;
-  color: var(--gold-light);
-  margin-top: 2px;
+.footer__ilus {
+  width: 56px;
+  opacity: .30;
+  margin-bottom: 4px;
 }
+.footer__ilus img { object-fit: contain; }
 .footer__copy,
 .footer__made {
-  font-family: var(--font-ui);
-  font-size: .78rem;
-  color: rgba(255,255,255,.35);
+  font-family: var(--font-main);
+  font-size: .76rem;
+  font-weight: 400;
+  color: rgba(249,245,221,.32);
   letter-spacing: .04em;
+  text-align: center;
 }
 
 /* ============================================================
@@ -830,16 +1435,16 @@ section[id] {
   position: fixed;
   bottom: 28px; right: 28px;
   z-index: 950;
-  width: 56px; height: 56px;
+  width: 58px; height: 58px;
   border-radius: 50%;
   background: #25D366;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.75rem;
-  box-shadow: 0 4px 20px rgba(37,211,102,.4);
-  transition: transform .35s cubic-bezier(.25,.46,.45,.94), box-shadow .35s ease;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 20px rgba(37,211,102,.40);
+  transition: transform .3s cubic-bezier(.25,.46,.45,.94), box-shadow .3s ease;
   animation: fabPop .5s ease 1.8s both;
 }
 .fab-whatsapp:hover {
@@ -851,32 +1456,27 @@ section[id] {
 /* ============================================================
    RESPONSIVO
    ============================================================ */
-@media (max-width: 900px) {
-  .welcome__grid,
+@media (max-width: 960px) {
+  .manifiesto__grid,
   .contact__grid {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 52px;
   }
-  .welcome__image { order: -1; }
-  .welcome__img-frame { aspect-ratio: 16/9; }
-  .welcome__badge { bottom: -16px; left: 16px; }
+  .manifiesto__image { order: -1; }
+  .manifiesto__img-frame { aspect-ratio: 16/9; }
+  .manifiesto__badge { bottom: -16px; left: 16px; }
 
-  .menu-grid { grid-template-columns: 1fr 1fr; }
-  .menu-card--featured { transform: none; }
-
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-  .gallery-grid__item--tall { grid-row: span 1; }
-}
-
-/* FRONT-018: breakpoint 750px para menú entre 600–900px */
-@media (max-width: 750px) {
-  .menu-grid {
+  .servicios__grid {
     grid-template-columns: 1fr;
-    max-width: 400px;
-    margin-inline: auto;
+  }
+
+  .abastecimiento__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .eventos__grid {
+    grid-template-columns: 1fr;
+    gap: 52px;
   }
 }
 
@@ -885,14 +1485,14 @@ section[id] {
   .navbar__nav {
     position: absolute;
     top: 100%; left: 0; right: 0;
-    background: var(--green-dark);
+    background: var(--green);
     max-height: 0;
     overflow: hidden;
     transition: max-height .4s ease, padding .4s ease;
   }
   .navbar__nav.is-open {
-    max-height: 360px;
-    padding: 12px 0 20px;
+    max-height: 380px;
+    padding: 8px 0 16px;
   }
   .navbar__list {
     flex-direction: column;
@@ -901,137 +1501,118 @@ section[id] {
   }
   .navbar__link {
     display: block;
-    padding: 14px 0;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(249,245,221,.08);
     font-size: .82rem;
   }
   .navbar__list li:last-child .navbar__link { border-bottom: none; }
+
+  .tienda__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .servicios__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__illustration { display: none; }
+
+  .eventos__gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .eventos__gallery-item--tall { grid-row: span 1; }
 }
 
 @media (max-width: 600px) {
-  .menu-grid { grid-template-columns: 1fr; max-width: none; }
-  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .hero__title { font-size: 3.4rem; }
+  .hero__ctas { flex-direction: column; align-items: flex-start; }
 
-  .hero__title { font-size: 3rem; }
-  .section-title { font-size: 1.8rem; }
+  .manifiesto    { padding: 72px 0; }
+  .servicios     { padding: 72px 0; }
+  .tienda        { padding: 72px 0; }
+  .abastecimiento{ padding: 72px 0; }
+  .eventos       { padding: 72px 0; }
+  .contact       { padding: 72px 0; }
 
-  .welcome      { padding: 60px 0; }
-  .menu-section { padding: 60px 0; }
-  .club         { padding: 60px 0; }
-  .contact      { padding: 60px 0; }
+  .tienda__grid {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin-inline: auto;
+  }
+
+  .abastecimiento__grid {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin-inline: auto;
+  }
+
+  .section-header { margin-bottom: 40px; }
 
   .fab-whatsapp {
-    width: 50px; height: 50px;
-    font-size: 1.5rem;
+    width: 52px; height: 52px;
+    font-size: 1.55rem;
     bottom: 20px; right: 20px;
   }
 }
 
-================================================================================
+/* ── Vista expandida al filtrar por categoría específica ─────── */
+/* Activa cuando JS agrega .tienda__card--expanded               */
+/* "Todos" no se toca — esta clase nunca se aplica en ese estado */
+.tienda__card--expanded {
+  grid-column: 1 / -1;          /* ocupa todo el ancho del grid  */
+  overflow: visible;
+}
+.tienda__card--expanded .tienda__carousel {
+  aspect-ratio: unset;          /* quita el 1/1 fijo del carrusel */
+  overflow: visible;
+  background: transparent;
+}
+.tienda__card--expanded .tienda__carousel-track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 16px 16px 0;
+  height: auto;
+  transform: none !important;   /* cancela el translateX del carrusel */
+  transition: none !important;
+}
+.tienda__card--expanded .tienda__carousel-track img {
+  min-width: unset;
+  width: 100%;
+  height: 320px;
+  border-radius: var(--radius);
+  object-fit: cover;
+}
+.tienda__card--expanded .tienda__carousel-btn,
+.tienda__card--expanded .tienda__carousel-dots {
+  display: none !important;     /* oculta botones y dots */
+}
 
-2.2.3.1. 📄 ai-context.md
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\docs\ai-context.md
-	codigo :
---------------------------------------------------------------------------------
-# Proyecto
+/* Responsivo: en tablet muestra 3 imágenes más pequeñas */
+@media (max-width: 768px) {
+  .tienda__card--expanded {
+    grid-column: 1 / -1;
+  }
+  .tienda__card--expanded .tienda__carousel-track img {
+    height: 200px;
+  }
+}
 
-Landing page estática — KOS Coffee Corner (cafetería deportiva)
-
-# Stack
-
-- HTML5 semántico
-- CSS modular (styles.css + animations.css)
-- Vanilla JS (main.js)
-- Sin frameworks, sin build tools
-
-# Estructura de archivos
-
-```
-cafeteria-deportiva/
-  assets/images/        → imágenes (hero-bg.jpg, about.jpg, menu-item-*.*, gallery/*)
-  css/
-    styles.css          → estilos principales
-    animations.css      → keyframes + clases reveal
-  js/
-    main.js             → navbar, scroll reveal, parallax, smooth scroll
-  index.html            → estructura completa
-```
-
-# Convenciones CSS
-
-- BEM: bloque__elemento--modificador
-- Variables CSS en :root
-- Clases de animación: .reveal / .reveal-left / .reveal-right / .reveal-up
-- JS activa .is-visible via IntersectionObserver
-
-# Convenciones JS
-
-- Sin jQuery, sin librerías
-- IntersectionObserver para scroll reveal
-- rAF (requestAnimationFrame) para parallax
-- Event delegation donde sea posible
-
-# Convenciones HTML
-
-- Secciones con IDs: #inicio, #menu, #nosotros, #galeria, #contacto
-- section-tag + section-title en cada sección
-- Imágenes con width/height/loading="lazy"
-- ARIA labels en elementos interactivos
-
-# Reglas estrictas
-
-- No agregar dependencias externas
-- No romper animaciones existentes (.reveal-* deben seguir funcionando)
-- Mantener BEM en clases nuevas
-- CSS nuevo va en styles.css (no inline)
-- JS nuevo va en main.js
-
-# TODOs activos en el proyecto
-
-- FRONT-007: reemplazar datos de contacto con datos reales del cliente
-  - Dirección: "Av. Ejemplo 123, Ciudad Real"
-  - Teléfono: "11 1234-5678"
-  - WhatsApp FAB: wa.me/5411123456789
-  - Horario completo pendiente
-
-# Output esperado
-
-- Solo código
-- Sin explicaciones
-- Listo para copiar y pegar
+/* Responsivo: en mobile apila las imágenes */
+@media (max-width: 600px) {
+  .tienda__card--expanded .tienda__carousel-track {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .tienda__card--expanded .tienda__carousel-track img {
+    height: 260px;
+  }
+}
 
 ================================================================================
 
-2.2.5. 📄 gitignore
-	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\gitignore
-	codigo :
---------------------------------------------------------------------------------
-# ── Carpetas internas (no van al hosting) ───────────────────────
-descargas/
-docs/
-plan_maestro/
-
-# ── Contexto de IA ───────────────────────────────────────────────
-.claude/
-
-# ── Scripts de desarrollo ────────────────────────────────────────
-scripts/
-
-# ── OS ───────────────────────────────────────────────────────────
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ── Editores ─────────────────────────────────────────────────────
-.vscode/
-.idea/
-*.swp
-*.swo
-
-
-================================================================================
-
-2.2.6. 📄 index.html
+2.1.5. 📄 index.html
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\index.html
 	codigo :
 --------------------------------------------------------------------------------
@@ -1041,38 +1622,37 @@ desktop.ini
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- ░░ SEO — FRONT-003 ░░ -->
-  <title>KOS Coffee Corner — El café que te ganaste</title>
-  <meta name="description" content="KOS Coffee Corner: el refugio post-entrenamiento para ciclistas y deportistas. Café de especialidad, comida saludable y comunidad en un solo lugar."/>
+  <!-- ░░ SEO — v4.0 ░░ -->
+  <title>KOS Coffee Sport — Tu punto de llegada</title>
+  <meta name="description" content="KOS Coffee Sport: el punto de llegada para ciclistas y deportistas. Café de especialidad, zona de carga, tienda de ciclismo y comunidad en un solo lugar."/>
   <meta name="robots" content="index, follow"/>
   <meta property="og:type"        content="website"/>
-  <meta property="og:title"       content="KOS Coffee Corner — El café que te ganaste"/>
-  <meta property="og:description" content="Tu ritual de cierre después de entrenar. Café de especialidad y buena comida para los que no paran."/>
-  <meta property="og:image"       content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/><!-- SEO-002: TODO confirmar URL absoluta real -->
-  <meta property="og:url"         content="https://koscoffeecorner.com"/><!-- SEO-001: TODO confirmar dominio real -->
+  <meta property="og:title"       content="KOS Coffee Sport — Tu punto de llegada"/>
+  <meta property="og:description" content="Entrenar. Frenar. Café. Bienvenido a tu punto de llegada."/>
+  <meta property="og:image"       content="https://koscoffeesport.com.ar/assets/images/logo.png"/><!-- SEO-002: TODO confirmar URL absoluta real -->
+  <meta property="og:url"         content="https://koscoffeesport.com.ar"/><!-- SEO-001: TODO confirmar dominio real -->
   <meta property="og:locale"      content="es_AR"/>
   <meta name="twitter:card"       content="summary_large_image"/>
-  <meta name="twitter:title"      content="KOS Coffee Corner — El café que te ganaste"/>
-  <meta name="twitter:description"content="Tu ritual de cierre después de entrenar."/>
-  <meta name="twitter:image"      content="https://koscoffeecorner.com/assets/images/hero-bg.jpg"/>
+  <meta name="twitter:title"      content="KOS Coffee Sport — Tu punto de llegada"/>
+  <meta name="twitter:description"content="Entrenar. Frenar. Café."/>
+  <meta name="twitter:image"      content="https://koscoffeesport.com.ar/assets/images/logo.png"/>
 
-  <!-- ░░ FAVICON — FRONT-002 ░░ -->
-  <!-- TODO: reemplazar con favicon real del cliente -->
+  <!-- ░░ FAVICON — FAV-001: pendiente ░░ -->
   <link rel="icon"             type="image/x-icon" href="assets/favicon.ico"/>
   <link rel="icon"             type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png"/>
 
-  <!-- ░░ PRELOAD HERO — FRONT-005 + PERF-001 ░░ -->
+  <!-- ░░ PRELOAD HERO — PERF-001 ░░ -->
   <link rel="preload" as="image" href="assets/images/hero-bg.jpg" fetchpriority="high"/>
 
-  <!-- ░░ SCHEMA.ORG LocalBusiness — FRONT-016 ░░ -->
+  <!-- ░░ SCHEMA.ORG LocalBusiness — v4.0 ░░ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CafeOrCoffeeShop",
-    "name": "KOS Coffee Corner",
-    "description": "El café que te ganaste. Refugio post-entrenamiento para deportistas.",
-    "url": "https://koscoffeecorner.com",
+    "name": "KOS Coffee Sport",
+    "description": "Tu punto de llegada. Café de especialidad, zona de carga y tienda de ciclismo para deportistas.",
+    "url": "https://koscoffeesport.com.ar",
     "telephone": "+542604331727",
     "address": {
       "@type": "PostalAddress",
@@ -1091,36 +1671,49 @@ desktop.ini
     "servesCuisine": "Café de especialidad",
     "priceRange": "$$",
     "sameAs": [
-      "https://www.instagram.com/koscoffeecorner",
-      "https://www.facebook.com/koscoffeecorner"
+      "https://www.instagram.com/koscoffeesport"
     ]
   }
   </script>
 
-  <!-- ░░ TIPOGRAFÍAS ░░ -->
+  <!-- ░░ TIPOGRAFÍAS — v4.0 ░░
+       Manrope: tipografía principal oficial (Brand Book)
+       Caveat:  aproximación a Jelek Type hasta tener el archivo de fuente
+       Dancing Script: aproximación a UT Breado Script
+       NOTA: reemplazar Caveat y Dancing Script con los archivos de fuente
+             oficiales Jelek Type y UT Breado Script cuando estén disponibles.
+  ░░ -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Caveat:wght@500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="stylesheet" href="css/animations.css"/>
 </head>
 <body>
 
-  <!-- ░░ NAVBAR — FRONT-001 ░░ -->
+  <!-- ░░ NAVBAR — v4.0 ░░ -->
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
-      <a href="#inicio" class="navbar__logo" aria-label="KOS Coffee Corner — inicio">
-        <span class="logo-text">Kos</span>
-        <span class="logo-sub">Coffee Corner</span>
+      <!-- LOGO-001: logo actualizado — usa logo-negro.png sobre fondo claro -->
+      <!-- JS cambia a logo-blanco.png cuando navbar--scrolled está activo -->
+      <a href="#inicio" class="navbar__logo" aria-label="KOS Coffee Sport — inicio">
+        <img
+          src="assets/images/logo-negro.png"
+          alt="KOS Coffee Sport"
+          class="navbar__logo-img"
+          id="navLogo"
+          width="120"
+          height="48"
+        />
       </a>
       <nav class="navbar__nav" id="navMenu" aria-label="Navegación principal">
         <ul class="navbar__list">
-          <li><a href="#inicio"   class="navbar__link">Inicio</a></li>
-          <li><a href="#nosotros" class="navbar__link">Nosotros</a></li>
-          <li><a href="#menu"     class="navbar__link">Menú</a></li>
-          <li><a href="#club"     class="navbar__link">Club</a></li>
-          <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+          <li><a href="#manifiesto"     class="navbar__link">El Manifiesto</a></li>
+          <li><a href="#servicios"      class="navbar__link">Servicios</a></li>
+          <li><a href="#tienda"         class="navbar__link">Tienda</a></li>
+          <li><a href="#abastecimiento" class="navbar__link">Abastecimiento</a></li>
+          <li><a href="#contacto"       class="navbar__link">Contacto</a></li>
         </ul>
       </nav>
       <button
@@ -1137,185 +1730,469 @@ desktop.ini
     </div>
   </header>
 
-  <!-- ░░ HERO ░░ -->
-  <!-- FRONT-004: .hero__content sin clase .reveal — visible aunque JS falle -->
+  <!-- ░░ HERO — #inicio ░░ -->
+  <!-- FRONT-004: .hero__content sin .reveal — visible aunque JS falle -->
   <section class="hero" id="inicio">
     <div class="hero__overlay"></div>
     <div class="hero__content">
-      <p class="hero__eyebrow">KOS Coffee Corner</p>
-      <h1 class="hero__title">El café que<br><em>te ganaste.</em></h1>
-      <p class="hero__sub">Tu ritual de cierre después de entrenar.</p>
-      <!-- FRONT-013: botón apunta a #contacto con texto correcto -->
-      <a href="#contacto" class="btn btn--primary">Encontrá tu lugar <i class="fas fa-arrow-right"></i></a>
+      <p class="hero__eyebrow">KOS Coffee Sport</p>
+      <h1 class="hero__title">Tu punto<br>de llegada.</h1>
+      <p class="hero__script">Entrenar. Frenar. Café.</p>
+      <p class="hero__sub">No importa cuántos kilómetros quedan en las piernas.<br>Acá se para. Acá se recupera. Acá sos parte.</p>
+      <div class="hero__ctas">
+        <a href="#manifiesto"  class="btn btn--cream">Llegar</a>
+        <a href="#servicios"   class="btn btn--outline-cream">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero__illustration" aria-hidden="true">
+      <img
+        src="assets/images/about.jpg"
+        alt=""
+        width="320"
+        height="400"
+        loading="eager"
+      />
     </div>
     <div class="hero__scroll-hint" aria-hidden="true">
       <span></span>
     </div>
   </section>
 
-  <!-- ░░ BIENVENIDA ░░ -->
-  <section class="welcome" id="nosotros">
-    <div class="container welcome__grid">
-      <div class="welcome__text reveal-left">
-        <span class="section-tag">Punto de llegada</span>
-        <h2 class="section-title">Bienvenido a tu<br>punto de llegada.</h2>
+  <!-- ░░ EL MANIFIESTO — #manifiesto ░░ -->
+  <section class="manifiesto" id="manifiesto">
+    <div class="container manifiesto__grid">
+      <div class="manifiesto__text reveal-left">
+        <span class="section-tag">El Manifiesto</span>
+        <h2 class="section-title">No importa<br>por dónde viniste.</h2>
         <div class="divider"></div>
-        <p>No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy. Lo que importa es que ya estás acá.</p>
-        <p>Entendemos que el esfuerzo no termina cuando se detiene el cronómetro; termina cuando encontrás el lugar donde recuperar el aliento.</p>
-        <!-- FRONT-012: clase compuesta, sin !important en CSS -->
-        <p class="welcome__highlight">Somos el refugio oficial de los que se atreven a moverse.</p>
+        <blockquote class="manifiesto__quote">
+          "No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy.
+           Lo que importa es que ya estás acá."
+        </blockquote>
+        <p>Entendemos que el esfuerzo no termina cuando se detiene el cronómetro. Termina cuando encontrás el lugar donde recuperar el aliento.</p>
+        <p class="manifiesto__highlight">Entrenar. Frenar. Café. Bienvenido a tu punto de llegada.</p>
+        <div class="manifiesto__valores">
+          <div class="valor">
+            <span class="valor__titulo">Nobleza</span>
+            <span class="valor__desc">Materia prima real. Sin adornos innecesarios.</span>
+          </div>
+          <div class="valor">
+            <span class="valor__titulo">Resiliencia</span>
+            <span class="valor__desc">Cada kilómetro cuenta. Honramos la disciplina.</span>
+          </div>
+          <div class="valor">
+            <span class="valor__titulo">Pertenencia</span>
+            <span class="valor__desc">Club sin membresía. Hogar fuera de casa.</span>
+          </div>
+        </div>
       </div>
-      <div class="welcome__image reveal-right">
-        <div class="welcome__img-frame">
-          <!-- FRONT-011: width/height explícitos previenen CLS (ratio 4:5) -->
+      <div class="manifiesto__image reveal-right">
+        <div class="manifiesto__img-frame">
           <img
-            src="assets/images/about.jpg"
-            alt="Ciclista disfrutando un café en KOS Coffee Corner"
-            width="800"
-            height="1000"
+            src="assets/images/about-runner.jpg"
+            alt="Ciclista KOS corriendo con café"
+            width="700"
+            height="880"
             loading="lazy"
           />
         </div>
-        <div class="welcome__badge">
-          <i class="fas fa-mug-hot"></i>
-          <span>Post-entreno<br>perfecto</span>
+        <div class="manifiesto__badge">
+          <img
+            src="assets/images/icon-hi.jpg"
+            alt=""
+            width="48"
+            height="48"
+            aria-hidden="true"
+          />
+          <span>Te estábamos<br>esperando.</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ░░ MENÚ DESTACADO ░░ -->
-  <section class="menu-section" id="menu">
-    <div class="menu-section__bg"></div>
+  <!-- ░░ SERVICIOS — #servicios ░░ -->
+  <section class="servicios" id="servicios">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Combustible destacado</span>
-        <h2 class="section-title">Lo que tu cuerpo<br>está pidiendo.</h2>
+        <span class="section-tag">Servicios</span>
+        <h2 class="section-title">Tu punto de llegada.</h2>
+        <p class="section-lead">Bajá las pulsaciones. Recuperá.<br>Este es tu lugar.</p>
       </div>
 
-      <div class="menu-grid">
+      <div class="servicios__grid">
 
-        <article class="menu-card reveal-up" style="--delay: 0.1s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-011: dimensiones explícitas (ratio 1:1) -->
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <!-- SERVICIO 1: Zona de Carga -->
+        <article class="servicio-card reveal-up" style="--delay: 0.0s">
+          <div class="servicio-card__icon">
+            <img
+              src="assets/images/icon-coffee.jpg"
+              alt=""
+              width="80"
+              height="80"
+              loading="lazy"
+              aria-hidden="true"
+            />
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Zona de Carga</h3>
+            <p class="servicio-card__sub">Come. Hidratate. Recupérate.</p>
+            <p class="servicio-card__text">Food y bebidas de calidad antes y después del entrenamiento. Vestuario disponible para que salgas como llegaste.</p>
+          </div>
+        </article>
+
+        <!-- SERVICIO 2: Tienda KOS -->
+        <article class="servicio-card reveal-up" style="--delay: 0.1s">
+          <div class="servicio-card__icon servicio-card__icon--store">
+            <i class="fas fa-bicycle" aria-hidden="true"></i>
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Tienda KOS</h3>
+            <p class="servicio-card__sub">Equipamiento para seguir rodando.</p>
+            <p class="servicio-card__text">Guantes, cascos y accesorios seleccionados para ciclistas. Sin apuro de compra. ¿Te interesa algo? Lo separamos.</p>
+            <a href="#tienda" class="btn btn--green btn--sm">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- SERVICIO 3: El Checkpoint -->
+        <article class="servicio-card reveal-up" style="--delay: 0.2s">
+          <div class="servicio-card__icon">
+            <img
+              src="assets/images/icon-hi.jpg"
+              alt=""
+              width="80"
+              height="80"
+              loading="lazy"
+              aria-hidden="true"
+            />
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">El Checkpoint</h3>
+            <p class="servicio-card__sub">No tenés que consumir. Solo llegar.</p>
+            <p class="servicio-card__text">Este es el punto donde todos paramos. TV, buena música y gente que entiende de lo que hablás. La comunidad no requiere membresía.</p>
+          </div>
+        </article>
+
+        <!-- SERVICIO 4: Service Técnico -->
+        <article class="servicio-card reveal-up" style="--delay: 0.3s">
+          <div class="servicio-card__icon servicio-card__icon--tools">
+            <i class="fas fa-tools" aria-hidden="true"></i>
+          </div>
+          <div class="servicio-card__body">
+            <h3 class="servicio-card__title">Service Técnico</h3>
+            <p class="servicio-card__sub">Tu bici también merece un descanso.</p>
+            <p class="servicio-card__text">Cambio de cubiertas, inflado y ajuste básico post-competencia. Lista para la próxima salida.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TIENDA — #tienda ░░ -->
+  <section class="tienda" id="tienda">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Equipamiento</span>
+        <h2 class="section-title">Equipamiento.</h2>
+        <p class="section-lead">Sin apuro de compra. Sin presión.<br>Explorá, consultá y decidís cuando querés.</p>
+      </div>
+
+      <!-- Tabs de filtro -->
+      <div class="tienda__tabs" role="tablist" aria-label="Filtrar productos">
+        <button class="tienda__tab is-active" data-filter="todos"        role="tab" aria-selected="true" >Todos</button>
+        <button class="tienda__tab"            data-filter="cascos"      role="tab" aria-selected="false">Cascos</button>
+        <button class="tienda__tab"            data-filter="guantes"     role="tab" aria-selected="false">Guantes</button>
+        <button class="tienda__tab"            data-filter="luces"       role="tab" aria-selected="false">Luces</button>
+        <button class="tienda__tab"            data-filter="gafas"       role="tab" aria-selected="false">Gafas</button>
+        <button class="tienda__tab"            data-filter="ropa"        role="tab" aria-selected="false">Ropa técnica</button>
+        <button class="tienda__tab"            data-filter="suplementos" role="tab" aria-selected="false">Suplementos</button>
+      </div>
+
+      <div class="tienda__grid" id="tiendaGrid">
+
+        <!-- ── CASCO ──────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="cascos" style="--delay:0.0s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/casco-01.jpg" alt="Casco de ciclismo — vista frontal"        width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/casco-02.jpg" alt="Casco de ciclismo — vista lateral"        width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/casco-03.jpg" alt="Casco de ciclismo — detalle ventilación"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--cascos">Cascos</span>
+            <h3 class="tienda__product-name">Casco de Ciclismo</h3>
+            <p class="tienda__product-desc">Protección ligera con sistema de ventilación optimizado. Ideal para ciclismo urbano y de ruta.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Casco de Ciclismo" aria-label="Consultar por Casco de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── GUANTES ─────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="guantes" style="--delay:0.1s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/guantes-01.jpg" alt="Guantes de ciclismo — vista palmar"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/guantes-02.jpg" alt="Guantes de ciclismo — vista dorsal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/guantes-03.jpg" alt="Guantes de ciclismo — detalle grip"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--guantes">Guantes</span>
+            <h3 class="tienda__product-name">Guantes de Ciclismo</h3>
+            <p class="tienda__product-desc">Gel acolchado en palma, agarre antideslizante y dorso transpirable. Tallas S a XL disponibles.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Guantes de Ciclismo" aria-label="Consultar por Guantes de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── LUCES ───────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="luces" style="--delay:0.2s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/luces-01.jpg" alt="Set de luces para bicicleta — vista general"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/luces-02.jpg" alt="Luz delantera LED — detalle montaje"           width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/luces-03.jpg" alt="Luz trasera LED roja — en uso nocturno"        width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--luces">Luces</span>
+            <h3 class="tienda__product-name">Luces LED (Delantera + Trasera)</h3>
+            <p class="tienda__product-desc">Set completo recargable por USB. Delantera blanca de alto brillo y trasera roja con modo flash. Clip universal.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Set de Luces LED (Delantera + Trasera)" aria-label="Consultar por Luces LED en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── GAFAS ───────────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="gafas" style="--delay:0.3s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/gafas-01.jpg" alt="Gafas de ciclismo — vista frontal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/gafas-02.jpg" alt="Gafas de ciclismo — vista lateral"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/gafas-03.jpg" alt="Gafas de ciclismo — detalle lente"  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--gafas">Gafas</span>
+            <h3 class="tienda__product-name">Gafas de Ciclismo</h3>
+            <p class="tienda__product-desc">Lente polarizado UV400, montura ligera y antideslizante. Protección total contra viento y polvo en ruta.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Gafas de Ciclismo" aria-label="Consultar por Gafas de Ciclismo en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── ROPA TÉCNICA ────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="ropa" style="--delay:0.4s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/ropa-01.jpg" alt="Conjunto ciclismo maillot y culotte — vista frontal"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/ropa-02.jpg" alt="Maillot técnico — detalle tejido transpirable"         width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/ropa-03.jpg" alt="Culotte con badana — detalle costura"                  width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--ropa">Ropa técnica</span>
+            <h3 class="tienda__product-name">Ropa Técnica (Maillot + Culotte)</h3>
+            <p class="tienda__product-desc">Conjunto de ciclismo en tejido transpirable y compresivo. Maillot manga corta + culotte con badana anatomica. Tallas S a XL.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Ropa Técnica (Maillot + Culotte)" aria-label="Consultar por Ropa Técnica en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+        <!-- ── SUPLEMENTOS ────────────────────────────────────── -->
+        <article class="tienda__card reveal-up" data-category="suplementos" style="--delay:0.5s">
+          <div class="tienda__carousel" data-index="0">
+            <div class="tienda__carousel-track">
+              <img src="assets/images/tienda/creatina-01.jpg" alt="Creatina monohidrato — presentación tarro"  width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/creatina-02.jpg" alt="Creatina monohidrato — detalle etiqueta"    width="800" height="800" loading="lazy"/>
+              <img src="assets/images/tienda/creatina-03.jpg" alt="Creatina monohidrato — dosis y uso"         width="800" height="800" loading="lazy"/>
+            </div>
+            <button class="tienda__carousel-btn tienda__carousel-btn--prev js-carousel-prev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="tienda__carousel-btn tienda__carousel-btn--next js-carousel-next" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+            <div class="tienda__carousel-dots">
+              <span class="tienda__dot is-active" data-dot="0"></span>
+              <span class="tienda__dot"            data-dot="1"></span>
+              <span class="tienda__dot"            data-dot="2"></span>
+            </div>
+          </div>
+          <div class="tienda__card-body">
+            <span class="tienda__badge tienda__badge--suplementos">Suplementos</span>
+            <h3 class="tienda__product-name">Creatina Monohidrato</h3>
+            <p class="tienda__product-desc">Creatina pura de alta solubilidad. Ideal para rendimiento explosivo y recuperación muscular post-entreno. Sin aditivos.</p>
+            <a href="#" class="btn btn--green btn--sm tienda__btn-wa js-wa-product" data-product="Creatina Monohidrato" aria-label="Consultar por Creatina Monohidrato en WhatsApp">Consultar equipo <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </article>
+
+      </div><!-- /tienda__grid -->
+    </div>
+  </section>
+
+  <!-- ░░ ABASTECIMIENTO — #abastecimiento ░░ -->
+  <section class="abastecimiento" id="abastecimiento">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag section-tag--cream">Abastecimiento</span>
+        <h2 class="section-title section-title--cream">Abastecimiento.</h2>
+        <p class="section-lead section-lead--cream">Todo lo que necesitás para el próximo entreno.<br>Nutrición deportiva, indumentaria y accesorios en un solo punto.</p>
+      </div>
+      <div class="abastecimiento__grid">
+
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.0s">
+          <div class="abastecimiento__img-wrap">
             <img
               src="assets/images/menu-item-1.jpg"
-              alt="El Sprint — espresso corto e intenso"
-              width="400"
-              height="400"
+              alt="Espresso KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
-            <div class="menu-card__badge">Favorito</div>
           </div>
-          <div class="menu-card__body">
-            <h3>El Sprint</h3>
-            <p>Corto, intenso, para los que no se detienen.</p>
-            <!-- FRONT-008: precio visible en card -->
-            <span class="menu-card__price">$850</span>
+          <div class="abastecimiento__body">
+            <h3>Coffee Sprint</h3>
+            <p>Yogurt natural, granola artesanal y frutas de estación. El combo que te pone de pie antes de salir.</p>
           </div>
         </article>
 
-        <article class="menu-card menu-card--featured reveal-up" style="--delay: 0.2s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.1s">
+          <div class="abastecimiento__img-wrap">
             <img
-              src="assets/images/menu-item-2.png"
-              alt="Cadencia Plana — café equilibrado"
-              width="400"
-              height="400"
+              src="assets/images/menu-item-2.jpg"
+              alt="Latte KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
           </div>
-          <div class="menu-card__body">
-            <h3>Cadencia Plana</h3>
-            <p>Equilibrio perfecto entre fuerza y suavidad.</p>
-            <span class="menu-card__price">$1.100</span>
+          <div class="abastecimiento__body">
+            <h3>Cadencia</h3>
+            <p>Café con leche de especialidad. Lento cuando el cuerpo lo pide. Perfecto para bajar las pulsaciones.</p>
           </div>
         </article>
 
-        <article class="menu-card reveal-up" style="--delay: 0.3s">
-          <div class="menu-card__img-wrap">
-            <!-- FRONT-006: extensión normalizada a .jpg → renombrar archivo físico -->
+        <article class="abastecimiento__card reveal-up" style="--delay: 0.2s">
+          <div class="abastecimiento__img-wrap">
             <img
-              src="assets/images/menu-item-3.png"
-              alt="Tostón Finisher — pan de masa madre con palta y huevo"
-              width="400"
-              height="400"
+              src="assets/images/menu-item-3.jpg"
+              alt="Tostón Finisher KOS"
+              width="500"
+              height="500"
               loading="lazy"
             />
           </div>
-          <div class="menu-card__body">
+          <div class="abastecimiento__body">
             <h3>Tostón Finisher</h3>
-            <p><em>Pan de masa madre, palta, huevo soft y semillas.</em></p>
-            <span class="menu-card__price">$1.800</span>
+            <p>Pan de masa madre, palta, huevo soft y semillas. El finisher que el cuerpo merecía.</p>
           </div>
         </article>
 
       </div>
-
-      <!-- FRONT-013: texto corregido — ya no dice "Ver menú completo" apuntando a #contacto -->
-      <div class="menu-cta reveal">
-        <a href="#contacto" class="btn btn--outline">Contactanos <i class="fas fa-arrow-right"></i></a>
+      <div class="abastecimiento__cta reveal">
+        <!-- WHATS-001: número unificado -->
+        <a
+          href="https://wa.me/542604331727"
+          class="btn btn--cream"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Sumarte <i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
   </section>
 
-  <!-- ░░ CLUB ░░ -->
-  <section class="club" id="club">
+  <!-- ░░ EVENTOS / EL PATIO — #eventos ░░ -->
+  <section class="eventos" id="eventos">
     <div class="container">
-      <div class="club__header reveal">
-        <h2 class="section-title club__title">KOS no es un local de paso;<br>es un <em>club sin membresía.</em></h2>
+      <div class="eventos__grid">
+        <div class="eventos__text reveal-left">
+          <span class="section-tag">El Patio</span>
+          <h2 class="section-title">El punto de concentración.</h2>
+          <div class="divider"></div>
+          <p>El punto de concentración antes de la largada. Espacio abierto para grupos, charlas y encuentros. Sin membresía. Sin burocracia. Solo llegás.</p>
+          <ul class="eventos__list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Charlas de nutrición deportiva</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Encuentros de comunidad ciclista</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Concentración pre-competencia</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Eventos de portología</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Alquiler del espacio para eventos</li>
+          </ul>
+          <!-- WHATS-001 -->
+          <a
+            href="https://wa.me/542604331727?text=Hola%20KOS!%20%F0%9F%91%8B%20Quer%C3%ADa%20consultar%20sobre%20disponibilidad%20del%20espacio."
+            class="btn btn--green"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Consultar disponibilidad <i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="eventos__gallery reveal-right">
+          <div class="eventos__gallery-grid">
+            <div class="eventos__gallery-item eventos__gallery-item--tall">
+              <img
+                src="assets/images/gallery-1.jpg"
+                alt="KOS Coffee Sport — comunidad ciclista"
+                width="400"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="eventos__gallery-item">
+              <img
+                src="assets/images/gallery-2.jpg"
+                alt="KOS Coffee Sport — ambiente"
+                width="400"
+                height="240"
+                loading="lazy"
+              />
+            </div>
+            <div class="eventos__gallery-item">
+              <img
+                src="assets/images/gallery-3.jpg"
+                alt="KOS Coffee Sport — post-entreno"
+                width="400"
+                height="240"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="gallery-grid">
-        <!-- FRONT-006: extensiones normalizadas a .jpg → renombrar archivos físicos -->
-        <!-- FRONT-011: dimensiones explícitas para prevenir CLS               -->
-        <div class="gallery-grid__item gallery-grid__item--tall reveal-up" style="--delay: 0s">
-          <img
-            src="assets/images/gallery/gallery-1.png"
-            alt="Comunidad KOS — ciclistas reunidos"
-            width="400"
-            height="416"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.1s">
-          <img
-            src="assets/images/gallery/gallery-2.png"
-            alt="Staff KOS atendiendo"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.2s">
-          <img
-            src="assets/images/gallery/gallery-3.png"
-            alt="Café para llevar en KOS"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-        <div class="gallery-grid__item reveal-up" style="--delay: 0.3s">
-          <img
-            src="assets/images/gallery/gallery-4.png"
-            alt="Ambiente KOS Coffee Corner"
-            width="400"
-            height="200"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      <p class="club__tagline reveal"><em>Te estabamos esperando.</em></p>
     </div>
   </section>
 
-  <!-- ░░ CONTACTO ░░ -->
+  <!-- ░░ CONTACTO — #contacto ░░ -->
+  <!-- FRONT-007: TODO — reemplazar con datos reales del cliente -->
   <section class="contact" id="contacto">
     <div class="container contact__grid">
       <div class="contact__map reveal-left">
-        <!-- FRONT-010: eliminado .contact__map-placeholder del DOM -->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.134103031805!2d-68.31328774010848!3d-34.627094441236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a818f1c440df%3A0x1ccba11ccf2cd5a9!2sPlaza%20Esp%C3%ADnola!5e0!3m2!1sen!2sar!4v1774455015744!5m2!1sen!2sar"
           width="600"
@@ -1324,53 +2201,53 @@ desktop.ini
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Ubicación KOS Coffee Corner en Google Maps"
+          title="Ubicación KOS Coffee Sport en Google Maps"
         ></iframe>
       </div>
       <div class="contact__info reveal-right">
-        <span class="section-tag">Encontranos</span>
-        <h2 class="section-title">Frená.<br>Estamos acá.</h2>
-        <div class="divider"></div>
-        <!-- FRONT-007: TODO — reemplazar con datos reales del cliente -->
+        <span class="section-tag section-tag--cream">Encontranos</span>
+        <h2 class="section-title section-title--cream">Llegá.</h2>
+        <p class="contact__lead">Ya sabés dónde es. Solo falta que aparezcas.</p>
+        <div class="divider divider--cream"></div>
+        <!-- FRONT-007: reemplazar con datos reales -->
         <ul class="contact__list">
           <li>
-            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-            <span>Av. Ejemplo 123, Ciudad Real</span>
+            <img src="assets/images/icon-location.jpg" alt="" width="24" height="24" aria-hidden="true" class="contact__icon-img"/>
+            <span>Av. Ejemplo 123, Ciudad Real</span><!-- TODO: dirección real -->
           </li>
           <li>
             <i class="fas fa-phone" aria-hidden="true"></i>
-            <a href="tel:+5411123456789">11 1234-5678</a>
+            <a href="tel:+5411123456789">11 1234-5678</a><!-- TODO: teléfono real -->
           </li>
           <li>
             <i class="fab fa-whatsapp" aria-hidden="true"></i>
-            <!-- WHATS-001: unificado a 542604331727 -->
-            <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
+            <!-- WHATS-001: número unificado -->
+            <a href="https://wa.me/542604331727" target="_blank" rel="noopener noreferrer">Escribirnos por WhatsApp</a>
           </li>
           <li>
             <i class="far fa-clock" aria-hidden="true"></i>
-            <!-- FRONT-007: MED-007 horario completo pendiente de datos reales -->
+            <!-- FRONT-007: SCH-001 horario completo pendiente -->
             <span>Sábados de 08:30 a 20:30 hs.</span>
           </li>
         </ul>
-        <!-- FRONT-014: target _blank + rel noopener en redes sociales -->
         <div class="contact__social">
           <a
-            href="https://www.instagram.com/koscoffeecorner"
+            href="https://www.instagram.com/koscoffeesport"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Instagram de KOS Coffee Corner"
+            aria-label="Instagram de KOS Coffee Sport"
           ><i class="fab fa-instagram"></i></a>
           <a
-            href="https://www.facebook.com/koscoffeecorner"
+            href="https://www.strava.com"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Facebook de KOS Coffee Corner"
-          ><i class="fab fa-facebook-f"></i></a>
+            aria-label="Strava de KOS Coffee Sport"
+          ><i class="fab fa-strava"></i></a>
           <a
-            href="https://www.tiktok.com/@koscoffeecorner"
+            href="https://www.tiktok.com/@koscoffeesport"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="TikTok de KOS Coffee Corner"
+            aria-label="TikTok de KOS Coffee Sport"
           ><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
@@ -1380,24 +2257,37 @@ desktop.ini
   <!-- ░░ FOOTER ░░ -->
   <footer class="footer">
     <div class="container footer__inner">
-      <div class="footer__logo">
-        <span class="logo-text">Kos</span>
-        <span class="logo-sub">COFFEE CORNER</span>
+      <a href="#inicio" class="footer__logo" aria-label="KOS Coffee Sport — volver al inicio">
+        <img
+          src="assets/images/logo-blanco.png"
+          alt="KOS Coffee Sport"
+          width="140"
+          height="56"
+          loading="lazy"
+        />
+      </a>
+      <div class="footer__ilus" aria-hidden="true">
+        <img
+          src="assets/images/about-runner.jpg"
+          alt=""
+          width="80"
+          height="100"
+          loading="lazy"
+        />
       </div>
-      <!-- FRONT-017: span.footer__year para que JS inserte el año dinámicamente -->
-      <p class="footer__copy">© <span class="footer__year"></span> KOS Coffee Corner — Todos los derechos reservados.</p>
-      <p class="footer__made">Hecho con ☕ para los que no paran.</p>
+      <p class="footer__copy">© <span class="footer__year"></span> KOS Coffee Sport — Todos los derechos reservados.</p>
+      <p class="footer__made">Hecho con café para los que no paran.</p>
     </div>
   </footer>
 
   <!-- ░░ FAB WHATSAPP — FRONT-015 ░░ -->
-  <!-- WHATS-001: unificado a 542604331727 -->
+  <!-- WHATS-001: número unificado -->
   <a
     href="https://wa.me/542604331727"
     class="fab-whatsapp"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Contactar KOS Coffee Corner por WhatsApp"
+    aria-label="Contactar KOS Coffee Sport por WhatsApp"
   >
     <i class="fab fa-whatsapp"></i>
   </a>
@@ -1408,24 +2298,28 @@ desktop.ini
 
 ================================================================================
 
-2.2.4.1. 📄 main.js
+2.1.3.1. 📄 main.js
 	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\js\main.js
 	codigo :
 --------------------------------------------------------------------------------
 /* ============================================================
-   KOS COFFEE CORNER — main.js
-   F1: FRONT-001 navbar | FRONT-009 rAF parallax | FRONT-017 año
+   KOS COFFEE SPORT — main.js  v4.1
+   Navbar | Reveal | Parallax | Tienda tabs | WhatsApp
    ============================================================ */
+
+/* ── WHATS-001: número centralizado ─────────────────────────── */
+/* Cambiar solo aquí — se aplica en toda la página              */
+const WHATSAPP_NUMBER = '542604331727'; /* TODO: confirmar número real */
 
 /* ── Año actual en footer ────────────────────────────────────── */
 const yearEl = document.querySelector('.footer__year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 /* ── Scroll reveal con IntersectionObserver ─────────────────── */
+/* REGLA: no eliminar — animations.css depende de .is-visible   */
 const revealEls = document.querySelectorAll(
   '.reveal, .reveal-left, .reveal-right, .reveal-up'
 );
-
 const revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -1435,71 +2329,72 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+  { threshold: 0.12, rootMargin: '0px 0px -36px 0px' }
 );
-
 revealEls.forEach((el) => revealObserver.observe(el));
 
 /* ── Smooth scroll para links de navegación ─────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
   link.addEventListener('click', (e) => {
-    const target = document.querySelector(link.getAttribute('href'));
+    const href = link.getAttribute('href');
+    if (href === '#') return; /* botones js-wa-product usan href="#" */
+    const target = document.querySelector(href);
     if (target) {
       e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       /* Cerrar menú mobile si está abierto */
-      navMenu.classList.remove('is-open');
-      navBurger.classList.remove('is-open');
-      navBurger.setAttribute('aria-expanded', 'false');
+      if (navMenu.classList.contains('is-open')) {
+        navMenu.classList.remove('is-open');
+        navBurger.classList.remove('is-open');
+        navBurger.setAttribute('aria-expanded', 'false');
+      }
     }
   });
 });
 
 /* ── Parallax con rAF ────────────────────────────────────────── */
-/* FRONT-009: cancelAnimationFrame evita acumulación de callbacks */
 const hero = document.querySelector('.hero');
 let rafId;
-
 if (hero) {
   window.addEventListener('scroll', () => {
     cancelAnimationFrame(rafId);
     rafId = requestAnimationFrame(() => {
       const scrollY = window.scrollY;
       if (scrollY < window.innerHeight) {
-        hero.style.backgroundPositionY = `calc(50% + ${scrollY * 0.35}px)`;
+        hero.style.backgroundPositionY = `calc(40% + ${scrollY * 0.32}px)`;
       }
     });
   }, { passive: true });
 }
 
-/* ── Navbar: clase scrolled + burger ────────────────────────── */
-/* FRONT-001 */
+/* ── Navbar: scrolled state + logo swap + burger ────────────── */
 const navbar    = document.getElementById('navbar');
 const navMenu   = document.getElementById('navMenu');
 const navBurger = document.getElementById('navBurger');
+const navLogo   = document.getElementById('navLogo');
 
-/* Opacidad al hacer scroll */
-const navScrollThreshold = 60;
+const NAV_THRESHOLD = 60;
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > navScrollThreshold) {
+function updateNavbar() {
+  if (window.scrollY > NAV_THRESHOLD) {
     navbar.classList.add('navbar--scrolled');
+    /* LOGO-001: logo blanco sobre verde — CSS filter maneja esto */
+    /* Si se necesita swap real de imagen, descomentar las líneas siguientes:
+    if (navLogo) navLogo.src = navLogo.src.replace('logo-negro', 'logo-blanco');
+    */
   } else {
     navbar.classList.remove('navbar--scrolled');
   }
-}, { passive: true });
-
-/* Correr al cargar por si la página ya está scrolleada */
-if (window.scrollY > navScrollThreshold) {
-  navbar.classList.add('navbar--scrolled');
 }
+window.addEventListener('scroll', updateNavbar, { passive: true });
+updateNavbar(); /* ejecutar al cargar por si ya está scrolleada */
 
 /* Hamburger toggle */
 if (navBurger) {
   navBurger.addEventListener('click', () => {
     const isOpen = navMenu.classList.toggle('is-open');
     navBurger.classList.toggle('is-open', isOpen);
-    navBurger.setAttribute('aria-expanded', isOpen);
+    navBurger.setAttribute('aria-expanded', String(isOpen));
   });
 }
 
@@ -1514,3 +2409,147 @@ document.addEventListener('click', (e) => {
     navBurger.setAttribute('aria-expanded', 'false');
   }
 });
+
+/* ── Tienda: tabs de filtro por categoría ───────────────────── */
+/* SEC-002: lógica de la sección Tienda */
+const tiendaTabs  = document.querySelectorAll('.tienda__tab');
+const tiendaCards = document.querySelectorAll('.tienda__card');
+
+tiendaTabs.forEach((tab) => {
+  tab.addEventListener('click', () => {
+    /* Actualizar estado activo del tab */
+    tiendaTabs.forEach((t) => {
+      t.classList.remove('is-active');
+      t.setAttribute('aria-selected', 'false');
+    });
+    tab.classList.add('is-active');
+    tab.setAttribute('aria-selected', 'true');
+
+    const filter = tab.dataset.filter;
+
+    /* Limpiar estado expandido de todas las cards */
+    tiendaCards.forEach((card) => card.classList.remove('tienda__card--expanded'));
+
+    /* Filtrar cards */
+    tiendaCards.forEach((card) => {
+      if (filter === 'todos' || card.dataset.category === filter) {
+        card.classList.remove('is-hidden');
+      } else {
+        card.classList.add('is-hidden');
+      }
+    });
+
+    /* Vista expandida al filtrar por categoría específica:
+       muestra las 3 imágenes del producto en columnas, no en carrusel */
+    if (filter !== 'todos') {
+      const matchingCard = document.querySelector(
+        `.tienda__card[data-category="${filter}"]`
+      );
+      if (matchingCard) matchingCard.classList.add('tienda__card--expanded');
+    }
+  });
+});
+
+/* ── Carrusel de imágenes por producto en Tienda ────────────── */
+document.querySelectorAll('.tienda__carousel').forEach((carousel) => {
+  const track  = carousel.querySelector('.tienda__carousel-track');
+  const dots   = carousel.querySelectorAll('.tienda__dot');
+  const total  = track.querySelectorAll('img').length;
+  let current  = 0;
+
+  function goTo(idx) {
+    current = (idx + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('is-active', i === current));
+  }
+
+  carousel.querySelector('.js-carousel-prev')
+    .addEventListener('click', () => goTo(current - 1));
+  carousel.querySelector('.js-carousel-next')
+    .addEventListener('click', () => goTo(current + 1));
+
+  dots.forEach((dot) => {
+    dot.addEventListener('click', () => goTo(Number(dot.dataset.dot)));
+  });
+});
+
+/* ── WhatsApp: botones de producto con mensaje pre-cargado ──── */
+/* WHATS-001: usa la constante centralizada WHATSAPP_NUMBER      */
+document.querySelectorAll('.js-wa-product').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const productName = btn.dataset.product || 'un producto';
+    const msg = encodeURIComponent(
+      `Hola KOS! 👋 Me interesa el siguiente producto:\n${productName}\n¿Podés darme más info y disponibilidad?`
+    );
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  });
+});
+
+================================================================================
+
+2.1.6. 📄 vercel.json
+	ruta   : D:\desarrollo\3. proyectos\landing\cafeteria-deportiva\vercel.json
+	codigo :
+--------------------------------------------------------------------------------
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/assets/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
