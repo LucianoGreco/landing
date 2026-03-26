@@ -1,0 +1,1106 @@
+================================================================
+PLAN MAESTRO — KOS COFFEE SPORT | LANDING PAGE
+================================================================
+version:    4.0
+fecha:      2026-03-26
+proyecto:   kos-coffee-sport
+cliente:    KOS Coffee Sport
+base:       plan_maestro_landing_v1_0.txt (v3.0) + Brand Book KOS 2026
+fuentes:    plan_maestro_v3.0 + kos_Brand-book_MAR25.pdf + integración UX/branding
+paradigma:  HTML estático + CSS modular + Vanilla JS
+regla:      Si algo del proyecto no está aquí, no existe.
+filosofía:  Una landing que no convierte es un afiche bonito.
+            Una landing que no emociona es un afiche funcional.
+================================================================
+
+────────────────────────────────────────────────────────────────
+ÍNDICE
+────────────────────────────────────────────────────────────────
+  1.  Contexto y Diagnóstico (NUEVO v4.0)
+  2.  Estado General
+  3.  Cambios Críticos de esta Versión (v4.0 sobre v3.0)
+  4.  Estructura del Proyecto
+  5.  Identidad Visual — Brand Book (Fuente Oficial)
+  6.  Tono, Copy y Narrativa KOS (NUEVO v4.0)
+  7.  Secciones de la Landing — Estructura Actualizada
+  8.  Sección SERVICIOS
+  9.  Sección TIENDA DE CICLISMO
+  10. Menú de Navegación
+  11. Logo
+  12. Deuda Técnica Activa
+  13. Onboarding del Cliente — Datos a Solicitar
+  14. Criterios de Diseño y UX
+  15. Convenciones y Reglas Estrictas
+  16. Checklist de Entrega
+  17. Prompts de Generación de Imágenes (NUEVO v4.0)
+  18. Vocabulario Canónico
+
+================================================================
+
+
+================================================================
+
+1. CONTEXTO Y DIAGNÓSTICO (NUEVO v4.0)
+────────────────────────────────────────────────────────────────
+
+  1.1. OBJETIVO DE ESTA VERSIÓN
+  ──────────────────────────────
+  Integrar el Brand Book KOS 2026 de forma profunda en todos los
+  requerimientos de la landing. No solo aplicar colores y fuentes,
+  sino asegurar coherencia total entre UX/UI, contenido y
+  dirección estética/emocional.
+
+  1.2. DIAGNÓSTICO ACTUAL
+  ────────────────────────
+
+  ESTRUCTURA (UX/UI):
+  ✔ Requerimientos funcionales definidos (v3.0)
+  ✔ Secciones claras (Servicios, Tienda, Checkpoint)
+  ✔ Stack técnico definido y sin deuda de arquitectura
+  ✖ Falta alineación profunda con identidad de marca
+  ✖ Falta uso estratégico de tipografía display (Jelek)
+  ✖ Copy genérico sin tono emocional KOS
+  ✖ Microcopy de botones y CTAs no refleja la voz de marca
+
+  BRANDING DETECTADO (del Brand Book):
+  ✔ Concepto central: "Punto de llegada"
+  ✔ Personalidad: Urbana / Relajada / Empática
+  ✔ Tipografías definidas (Manrope / Jelek / UT Breado Script)
+  ✔ Paleta cromática definida (Verde Musetta / Crema / Lavanda)
+  ✔ Tono narrativo fuerte — manifiesto claro
+  ✔ Ilustraciones de marca: ciclista con café
+
+  PROBLEMA CLAVE:
+  👉 La landing está bien estructurada funcionalmente (v3.0),
+     pero aún no transmite la experiencia emocional KOS.
+     Un usuario que la visite debe sentir que llegó a su lugar,
+     no que está leyendo un catálogo de servicios.
+
+  1.3. ACCIÓN INMEDIATA
+  ──────────────────────
+  1. Aplicar jerarquía tipográfica del brand book (crítico)
+  2. Reescribir todos los copys con tono KOS
+  3. Renombrar secciones con naming correcto del concepto
+  4. Agregar capa emocional a los CTAs y microcopy
+  5. Definir Checkpoint como núcleo de comunidad
+  6. Aplicar dirección visual (texturas reales, no glossy)
+
+  1.4. VALIDACIONES CON EL CLIENTE (hacer ANTES de diseñar)
+  ────────────────────────────────────────────────────────────
+  Validar SOLO estas 3 preguntas para evitar retrabajos:
+
+  ① ¿El concepto "Punto de llegada" es el eje central de toda
+    la web y toda la comunicación?
+  ② ¿El tono emocional (menos técnico, más humano) es correcto?
+  ③ ¿La tienda es solo consulta vía WhatsApp y no venta online?
+
+  Si las 3 respuestas son SÍ → proceder al diseño sin más rondas.
+
+================================================================
+
+
+================================================================
+
+2. ESTADO GENERAL
+────────────────────────────────────────────────────────────────
+  2.1. Ruta:    cafeteria-deportiva/
+  2.2. Entry:   index.html
+  2.3. Stack:   HTML5 semántico
+                CSS modular: styles.css + animations.css
+                Vanilla JS: main.js
+                Sin frameworks. Sin build tools.
+
+  2.4. Fases:
+       F1–F5   ✅ Completadas
+       F6      🟠 En progreso — datos reales del cliente
+       F7      🟠 En progreso — mejoras frontend
+       F9      🔴 Nueva fase v3.0 — implementar cambios estructurales
+       F10     🔴 Nueva fase v4.0 — integración branding profunda
+       F8      ⏳ Pendiente  — entrega final
+
+  2.5. Visión:
+       KOS es el "Punto de Llegada" para ciclistas y deportistas.
+       La landing debe reflejar comunidad, energía post-esfuerzo
+       y pertenencia. No es solo una cafetería: es el checkpoint
+       oficial del atleta urbano.
+
+  2.6. Bloqueantes críticos activos:
+       WHATS-001  🔴 WhatsApp inconsistente (unificar número)
+       FRONT-007  🔴 Datos de contacto son placeholder
+       IMG-001    🟠 Imágenes son de ejemplo
+       IMG-002    🟠 Renders del local no entregados
+       LOGO-001   🟠 Logo debe actualizarse
+       COPY-001   🟠 Copy genérico sin tono KOS (NUEVO v4.0)
+
+================================================================
+
+
+================================================================
+
+3. CAMBIOS CRÍTICOS DE ESTA VERSIÓN (v4.0 sobre v3.0)
+────────────────────────────────────────────────────────────────
+
+  3.1. INTEGRACIÓN COMPLETA DEL BRAND BOOK           [NUEVO v4.0]
+       Todos los textos, secciones y componentes deben reflejar
+       el tono, la personalidad y los valores del brand book.
+       Ver Sección 6 para el sistema completo de copy.
+
+  3.2. JERARQUÍA TIPOGRÁFICA REDEFINIDA              [NUEVO v4.0]
+       Aplicar exactamente:
+       H1 → Jelek Type    (títulos principales / emocionales)
+       H2 → Manrope Bold  (secciones funcionales)
+       H3 → UT Breado Script (frases aspiracionales/slogan)
+       Body → Manrope Regular / Light
+
+  3.3. NAMING DE SECCIONES ACTUALIZADO               [NUEVO v4.0]
+       v3.0              →  v4.0 (con copy KOS)
+       ─────────────────────────────────────────────
+       Servicios         →  "Tu punto de llegada"
+       Tienda            →  "Equipamiento"
+       Checkpoint (ok)   →  "El Checkpoint"
+       El Manifiesto     →  "El Manifiesto" (sin cambio)
+
+  3.4. COPY EMOCIONAL EN TODOS LOS BLOQUES           [NUEVO v4.0]
+       Reemplazar todos los textos placeholder y genéricos
+       por copy con tono KOS. Ver Sección 6 para sistema completo.
+
+  3.5. MICROCOPY ACTUALIZADO                         [NUEVO v4.0]
+       ❌ Eliminar:    "Comprar" / "Ver más" / "Más información"
+       ✅ Usar:        "Seguir explorando" / "Ver equipo" / "Sumarte"
+                      "Consultar equipo" / "Llegar"
+
+  3.6. CHECKPOINT COMO NÚCLEO DE COMUNIDAD           [NUEVO v4.0]
+       Reformular el Checkpoint no como "servicio" sino como
+       la razón de ser de KOS. Ver Sección 8.3 para copy completo.
+
+  3.7. DIRECCIÓN VISUAL EMOCIONAL                    [NUEVO v4.0]
+       Fotografía: post-entreno real, sudor real, bicicletas usadas.
+       Evitar: stock photos glossy, figuras perfectas, producto aséptico.
+       Ver Sección 17 para prompts de generación de imágenes.
+
+  ── Cambios heredados de v3.0 que siguen vigentes ──
+
+  3.8. SECCIÓN PRECIOS → SERVICIOS                   [v3.0]
+  3.9. TIENDA DE CICLISMO                            [v3.0]
+  3.10. CAMBIOS EN MENÚ DE NAVEGACIÓN                [v3.0]
+  3.11. LOGO ACTUALIZADO                             [v3.0]
+  3.12. SECCIÓN PATIO / CONCENTRACIÓN                [v3.0]
+
+================================================================
+
+
+================================================================
+
+4. ESTRUCTURA DEL PROYECTO
+────────────────────────────────────────────────────────────────
+
+  cafeteria-deportiva/
+  ├── index.html                    → landing PRODUCCIÓN
+  ├── assets/
+  │   ├── images/
+  │   │   ├── logo_color.png        → ★ LOGO NUEVO (ciclista + KOS verde)
+  │   │   ├── logo_positivo.png     → logo positivo (navbar clara)
+  │   │   ├── logo_negativo.png     → logo negativo (navbar verde)
+  │   │   ├── hero-bg.jpg           → imagen hero principal    [PENDIENTE]
+  │   │   ├── about.jpg             → imagen El Manifiesto     [PENDIENTE]
+  │   │   ├── render-exterior.jpg   → render patio exterior    [PENDIENTE]
+  │   │   ├── render-interior.jpg   → render interior local    [PENDIENTE]
+  │   │   ├── render-tienda.jpg     → render zona tienda       [PENDIENTE]
+  │   │   ├── ilustraciones/
+  │   │   │   ├── ciclista-bike.png    → sticker ciclista en bici (lavanda)
+  │   │   │   ├── ciclista-runner.png  → sticker ciclista corriendo (lavanda)
+  │   │   │   ├── icon-coffee.png      → icono taza (lavanda)
+  │   │   │   ├── icon-hi.png          → icono burbuja Hi! (lavanda)
+  │   │   │   └── icon-location.png    → icono pin (lavanda)
+  │   │   ├── servicios/
+  │   │   │   ├── servicio-comedor.jpg    [PENDIENTE]
+  │   │   │   ├── servicio-tienda.jpg     [PENDIENTE]
+  │   │   │   ├── servicio-checkpoint.jpg [PENDIENTE]
+  │   │   │   └── servicio-bici.jpg       [PENDIENTE]
+  │   │   └── tienda/
+  │   │       ├── guante-01..05.jpg   [PENDIENTE]
+  │   │       ├── casco-01..05.jpg    [PENDIENTE]
+  │   │       └── accesorio-01..05.jpg [PENDIENTE]
+  ├── css/
+  │   ├── styles.css                → estilos + brand book
+  │   └── animations.css           → keyframes + .reveal-*
+  ├── js/
+  │   └── main.js                  → navbar, scroll, parallax, WhatsApp
+  └── descargas/
+      ├── index.html
+      ├── config.js
+      ├── main.js
+      └── cliente-data.txt
+
+  NOTA: Las ilustraciones del brand book (ciclista, iconos) están
+  disponibles en los assets entregados. Usarlas como elementos
+  decorativos recurrentes en la landing.
+
+================================================================
+
+
+================================================================
+
+5. IDENTIDAD VISUAL — BRAND BOOK (FUENTE OFICIAL)
+────────────────────────────────────────────────────────────────
+  Fuente: kos_Brand-book_MAR25.pdf
+  REGLA: estos valores REEMPLAZAN los de versiones anteriores.
+
+  5.1. PALETA OFICIAL BRAND BOOK
+  ──────────────────────────────
+  Nombre           HEX        RGB             Uso principal
+  ─────────────────────────────────────────────────────────────────
+  Verde Musetta    #0e3e34    14, 62, 52      Base / Navbar / Footer / fondos oscuros
+  Crema Cafe       #f9f5dd    249, 245, 221   Fondo principal / textos sobre verde
+  Lavanda Sprint   #d2cbed    210, 203, 237   Sección servicios / acentos / ilustraciones
+
+  Escala del Verde Musetta:
+  80% → rgba(14,62,52,0.8)  → overlays sobre fotografía
+  50% → rgba(14,62,52,0.5)  → hover suave, separadores
+  30% → rgba(14,62,52,0.3)  → fondos alternativos sutiles
+
+  REGLA: no agregar colores fuera de este sistema.
+
+  5.2. TIPOGRAFÍA OFICIAL BRAND BOOK
+  ────────────────────────────────────
+  Rol            Familia             Peso        Uso específico
+  ──────────────────────────────────────────────────────────────────
+  PRINCIPAL      Manrope (sans)      Light/Regular/Bold  Body, H2, UI
+  DISPLAY        Jelek Type          Regular     H1, títulos emocionales grandes
+  SCRIPT         UT Breado Script    Regular     Slogans, taglines aspiracionales
+
+  Jerarquía aplicada en la landing:
+  H1 → Jelek Type | Títulos principales de sección
+       Ejemplo: "El café que te ganaste." / "Tu punto de llegada."
+  H2 → Manrope Bold | Subtítulos de bloque funcional
+       Ejemplo: "Tu ritual de cierre después de entrenar."
+  H3 → UT Breado Script | Frases de valor / aspiracionales
+       Ejemplo: "Entrenar. Frenar. Café." / "Coffee club."
+  Body → Manrope Regular | Descripciones, datos, listas
+  Small → Manrope Light | Labels, badges, metadata
+
+  Carga de fuentes:
+  Manrope → Google Fonts (https://fonts.google.com/specimen/Manrope)
+  Jelek Type → importar desde assets o licencia
+  UT Breado Script → importar desde assets o licencia
+
+  5.3. ILUSTRACIONES DE MARCA
+  ────────────────────────────
+  Disponibles en assets entregados:
+  - Ciclista en bici (about.jpg / icon-bike)      → fondo lavanda
+  - Ciclista corriendo (about-runner.jpg)          → fondo lavanda
+  - Taza de café (icon-coffee.jpg)                 → fondo lavanda
+  - Burbuja "Hi!" (icon-hi.jpg)                    → fondo lavanda
+  - Pin de localización (icon-location.jpg)        → fondo lavanda
+  - Sticker pack (brand-stickers.jpg)              → colección completa
+
+  Uso recomendado:
+  - Separadores de sección → ciclista runner
+  - Ícono de servicio Checkpoint → burbuja Hi!
+  - Ícono de Zona de Carga → taza
+  - Ícono de Contacto → pin location
+  - Hero decoration → ciclista en bici (grande)
+  - Footer decoration → ciclista runner (pequeño)
+
+  5.4. PERSONALIDAD Y TONO
+  ──────────────────────────
+  EMPATÍA ACTIVA → Validar el esfuerzo. No juzgar el estado en que llega.
+                   "Te estábamos esperando."
+  URBANA         → Real, no perfecto. Trazo manual, honestidad de materiales.
+                   "Real, no perfecto."
+  RELAJADA       → Excelencia técnica en lenguaje simple y directo.
+                   "Café serio para gente que no se toma tan en serio."
+
+  5.5. MANIFIESTO (texto oficial para sección #manifiesto)
+  ──────────────────────────────────────────────────────────
+  "No importa por dónde viniste, ni cuántos kilómetros marcó tu reloj hoy.
+   Lo que importa es que ya estás acá.
+   Entrenar. Frenar. Café. Bienvenido a tu punto de llegada."
+
+  5.6. VALORES (apoyo visual en secciones)
+  ──────────────────────────────────────────
+  NOBLEZA      → Materia prima real. Transparencia. Sin adornos innecesarios.
+  RESILIENCIA  → Celebramos cada kilómetro. Honramos la disciplina.
+  PERTENENCIA  → Club sin membresía. Hogar fuera de casa.
+
+================================================================
+
+
+================================================================
+
+6. TONO, COPY Y NARRATIVA KOS (NUEVO v4.0)
+────────────────────────────────────────────────────────────────
+  Este es el sistema de copy completo para la landing.
+  Reemplaza todos los textos genéricos y placeholder.
+  REGLA: nunca usar copy técnico o funcional en títulos de sección.
+
+  6.1. HERO SECTION (#inicio)
+  ────────────────────────────
+  H1:       "Tu punto de llegada."
+  Subtítulo (UT Breado Script):
+            "Entrenar. Frenar. Café."
+  Párrafo:  "No importa cuántos kilómetros quedan en las piernas.
+             Acá se para. Acá se recupera. Acá sos parte."
+  CTA:      "Llegar" → scroll to #manifiesto
+  CTA 2:    "Ver servicios" → scroll to #servicios
+
+  6.2. EL MANIFIESTO (#manifiesto)
+  ──────────────────────────────────
+  H1 (Jelek): "No importa por dónde viniste."
+  Cuerpo:     Texto completo del manifiesto oficial (Sección 5.5)
+  Subtítulo:  "Bienvenido a KOS Coffee Sport."
+  Valores visuales (3 columnas):
+    NOBLEZA      → "Materia prima real."
+    RESILIENCIA  → "Cada kilómetro cuenta."
+    PERTENENCIA  → "Club sin membresía."
+
+  6.3. SERVICIOS (#servicios)
+  ────────────────────────────
+  H1 (Jelek): "Tu punto de llegada."
+  Lead:       "Bajá las pulsaciones. Recuperá.
+               Este es tu lugar."
+
+  Servicio 1 — Zona de Carga:
+    Título:  "Zona de Carga"
+    Copy:    "Come. Hidratate. Recupérate.
+              Food y bebidas de calidad antes y después del entrenamiento.
+              Vestuario disponible para que salgas como llegaste."
+
+  Servicio 2 — Tienda KOS:
+    Título:  "Equipamiento para seguir rodando"
+    Copy:    "Todo lo que necesita tu bici y tu cuerpo.
+              Guantes, cascos y accesorios seleccionados para ciclistas.
+              ¿Te interesa algo? Lo separamos por WhatsApp."
+    CTA:     "Consultar equipo" (no "Comprar" / no "Ver más")
+
+  Servicio 3 — El Checkpoint:
+    Título:  "El Checkpoint"
+    Copy:    "No tenés que consumir. Solo llegar.
+              Este es el punto donde todos paramos.
+              TV, buena música y gente que entiende de lo que hablás."
+
+  Servicio 4 — Service de Bici:
+    Título:  "Service Técnico"
+    Copy:    "Tu bici también merece un descanso.
+              Cambio de cubiertas, inflado y ajuste básico.
+              Lista para la próxima salida."
+
+  6.4. TIENDA (#tienda)
+  ──────────────────────
+  H1 (Jelek): "Equipamiento"
+  Lead:       "Sin apuro de compra. Sin presión.
+               Explorá, consultá y decidís cuando querés."
+  Texto vacío (si no hay filtros): "Todos los productos en un lugar."
+  CTA por producto: "Consultar equipo"  (WA con mensaje pre-cargado)
+
+  Mensaje WA pre-cargado:
+  "Hola KOS! 👋 Me interesa el siguiente producto:
+  [NOMBRE DEL PRODUCTO]
+  ¿Podés darme más info y disponibilidad?"
+
+  6.5. ABASTECIMIENTO (#abastecimiento)
+  ──────────────────────────────────────
+  H1 (Jelek): "Abastecimiento"
+  Lead:       "Todo lo que necesitás para el próximo entreno.
+               Nutrición deportiva, indumentaria y accesorios
+               de ciclismo en un solo punto."
+  CTA:        "Sumarte"
+
+  6.6. EVENTOS (#eventos)
+  ────────────────────────
+  H1 (Jelek): "El Patio"
+  Lead:       "El punto de concentración antes de la largada.
+               Espacio abierto para grupos, charlas y encuentros.
+               Sin membresía. Sin burocracia. Solo llegás."
+  Sub-items:
+    "Charlas de nutrición"
+    "Encuentros de comunidad ciclista"
+    "Concentración pre-competencia"
+    "Eventos de portología"
+  CTA:        "Consultar disponibilidad"
+
+  6.7. CONTACTO (#contacto)
+  ──────────────────────────
+  H1 (Jelek): "Llegá"
+  Lead:       "Ya sabés dónde es. Solo falta que aparezcas."
+  CTA WhatsApp: "Escribirnos"
+  CTA Mapa:     "Cómo llegar"
+
+  6.8. MICROCOPY GLOBAL
+  ──────────────────────
+  ❌ NUNCA usar:    Comprar / Ver más / Más información / Saber más
+  ✅ SIEMPRE usar:
+     → Acción principal:    "Llegar" / "Sumarte" / "Ver equipo"
+     → Consulta:            "Consultar equipo" / "Escribirnos"
+     → Navegación:          "Seguir explorando" / "Ver todo"
+     → Contacto:            "Cómo llegar" / "Reservar espacio"
+
+================================================================
+
+
+================================================================
+
+7. SECCIONES DE LA LANDING — ESTRUCTURA ACTUALIZADA
+────────────────────────────────────────────────────────────────
+
+  ORDEN EN index.html:
+
+  #inicio         → Hero / portada
+  #manifiesto     → El Manifiesto
+  #servicios      → Los 4 servicios del local
+  #tienda         → Tienda de ciclismo
+  #abastecimiento → Nutrición / indumentaria deportiva
+  #eventos        → El Patio / Eventos / Comunidad
+  #contacto       → Contacto + mapa + redes
+
+  NAVBAR refleja este orden exacto.
+  Ver Sección 10 para labels del menú.
+
+================================================================
+
+
+================================================================
+
+8. SECCIÓN SERVICIOS
+────────────────────────────────────────────────────────────────
+  ID en HTML:   #servicios
+  Label menú:   "Servicios"
+  Fondo:        Lavanda Sprint (#d2cbed)
+
+  Ver copys completos en Sección 6.3.
+
+  8.1. SERVICIO 1 — ZONA DE CARGA
+  ─────────────────────────────────
+  Imagen:      assets/images/servicios/servicio-comedor.jpg
+  Ícono:       icon-coffee.png (taza lavanda)
+  Imagen alt:  hero-bg_1.jpg (espresso / café real disponible)
+
+  8.2. SERVICIO 2 — TIENDA KOS
+  ──────────────────────────────
+  Imagen:      assets/images/servicios/servicio-tienda.jpg
+  CTA:         "Consultar equipo" → scroll to #tienda
+
+  8.3. SERVICIO 3 — EL CHECKPOINT
+  ─────────────────────────────────
+  Imagen:      assets/images/servicios/servicio-checkpoint.jpg
+  Ícono:       icon-hi.png (burbuja Hi! lavanda)
+  NOTA:        Este es el servicio más importante emocionalmente.
+               Debe comunicar comunidad, no consumo.
+               Copy: "No tenés que consumir. Solo llegar."
+                     "Este es el punto donde todos paramos."
+
+  8.4. SERVICIO 4 — SERVICE DE BICI
+  ────────────────────────────────────
+  Imagen:      assets/images/servicios/servicio-bici.jpg
+
+  8.5. DISEÑO DEL COMPONENTE
+  ────────────────────────────
+  Layout:      Grid 2×2 (desktop) / 1 col (mobile)
+  Card:        Imagen de fondo con overlay verde al 50%
+               Ícono SVG o ilustración en esquina superior
+               H2 en Manrope Bold (crema sobre verde)
+               Copy en Manrope Light (crema)
+               Solo Tienda KOS tiene CTA visible
+  Animación:   .reveal-up con delay escalonado (0.1s por card)
+
+================================================================
+
+
+================================================================
+
+9. SECCIÓN TIENDA DE CICLISMO
+────────────────────────────────────────────────────────────────
+  ID en HTML:   #tienda
+  Label menú:   "Tienda" (o dentro de "Servicios")
+  REGLA CLAVE:  Sin botón de compra. Solo WhatsApp.
+
+  9.1. CATEGORÍAS Y PRODUCTOS
+  ────────────────────────────
+  CATEGORÍA A — GUANTES (5 items)
+  Imágenes: assets/images/tienda/guante-01..05.jpg  [PENDIENTE]
+
+  CATEGORÍA B — CASCOS (5 items)
+  Imágenes: assets/images/tienda/casco-01..05.jpg   [PENDIENTE]
+
+  CATEGORÍA C — ACCESORIOS (5 items)
+  Imágenes: assets/images/tienda/accesorio-01..05.jpg [PENDIENTE]
+
+  9.2. BOTÓN WHATSAPP
+  ────────────────────
+  CTA por producto: "Consultar equipo"
+  const msg = encodeURIComponent(
+    `Hola KOS! 👋 Me interesa el siguiente producto:\n${nombre}\n¿Podés darme más info y disponibilidad?`
+  );
+  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+  window.open(url, '_blank');
+
+  9.3. DISEÑO DEL COMPONENTE
+  ────────────────────────────
+  Layout:  Grid 3 col (desktop) / 2 col (tablet) / 1 col (mobile)
+  Tabs:    [Todos] [Guantes] [Cascos] [Accesorios]
+  Card:    Imagen cuadrada (aspect-ratio: 1/1)
+           Nombre del producto (Manrope Bold)
+           Badge de categoría (color sistema: lavanda/verde/crema)
+           Botón "Consultar equipo" (verde con ícono WA)
+  Sin precios visibles en la landing.
+
+================================================================
+
+
+================================================================
+
+10. MENÚ DE NAVEGACIÓN
+────────────────────────────────────────────────────────────────
+
+  NAVBAR COMPLETO:
+  [Logo KOS] | El Manifiesto | Servicios | Tienda | Abastecimiento | Contacto
+
+  Mapeo:
+  "El Manifiesto"  →  #manifiesto
+  "Servicios"      →  #servicios
+  "Tienda"         →  #tienda
+  "Abastecimiento" →  #abastecimiento
+  "Contacto"       →  #contacto
+
+  Logo en navbar:
+  - Fondo claro → logo_positivo.png (negro)
+  - Fondo oscuro (scroll) → logo_negativo.png (crema)
+
+  10.1. SECCIÓN ABASTECIMIENTO (#abastecimiento)
+  ───────────────────────────────────────────────
+  Contenido: Ropa de ciclismo, geles, sales, proteínas, barras.
+  Ver copy completo en Sección 6.5.
+
+================================================================
+
+
+================================================================
+
+11. LOGO
+────────────────────────────────────────────────────────────────
+  ID deuda:  LOGO-001
+  Prioridad: 🟠 ALTO
+
+  ARCHIVOS DISPONIBLES (en assets entregados):
+  ★ logo.png          → Logo con fondo verde (#0e3e34) — ciclista + KOS
+    logo-blanco.png   → Logo sobre fondo negro — texto crema
+    logo-negro.png    → Logo sobre fondo blanco — texto negro
+
+  USOS:
+  - Hero:    logo.png (verde)
+  - Navbar scroll activo: logo-blanco.png o logo-negro.png según fondo
+  - Footer:  logo.png o logo-blanco.png
+  - og:image: logo.png
+  - Favicon: extraer ícono ciclista en 32×32px [TAREA]
+
+================================================================
+
+
+================================================================
+
+12. DEUDA TÉCNICA ACTIVA
+────────────────────────────────────────────────────────────────
+
+  CRÍTICOS 🔴
+  ─────────────────────────────────────────────────────────
+  WHATS-001  WhatsApp inconsistente — unificar número
+  FRONT-007  Datos de contacto placeholder
+  COPY-001   Copy genérico sin tono KOS (NUEVO v4.0)
+
+  ALTOS 🟠
+  ─────────────────────────────────────────────────────────
+  LOGO-001   Logo desactualizado
+  IMG-001    Imágenes genéricas en hero y secciones
+  IMG-002    Renders del local no entregados
+  PROD-001   Productos tienda sin datos reales
+  NAV-001    Navbar no actualizada
+  SEC-001    Sección Servicios a construir
+  SEC-002    Sección Tienda a construir
+  TYP-001    Tipografías no actualizadas (Manrope + Jelek)
+
+  MEDIOS 🟡
+  ─────────────────────────────────────────────────────────
+  SEO-001    og:url hardcodeada — confirmar dominio real
+  SEO-002    og:image debe ser URL absoluta
+  SCH-001    Schema.org openingHours incompleto
+  FAV-001    Favicons pendientes
+  CSS-002    Paleta CSS no actualizada al brand book
+
+================================================================
+
+
+================================================================
+
+13. ONBOARDING DEL CLIENTE — DATOS A SOLICITAR
+────────────────────────────────────────────────────────────────
+
+  13.1. DATOS DE CONTACTO
+  ─────────────────────────
+  [ ] Dirección física completa
+  [ ] Número de WhatsApp (con código país: ej. 5492604XXXXXXX)
+  [ ] Correo electrónico
+  [ ] Horario de atención (días y horas exactos)
+  [ ] Instagram oficial (@usuario)
+  [ ] Strava / otras redes activas
+
+  13.2. INFORMACIÓN DEL LOCAL
+  ────────────────────────────
+  [ ] Nombre completo del negocio (confirmar: "KOS Coffee Sport")
+  [ ] Slogan oficial
+  [ ] Barrio / zona
+  [ ] Capacidad interior (personas sentadas aprox.)
+  [ ] Capacidad patio exterior (aprox.)
+  [ ] ¿El patio tiene techo/sombra? ¿Qué servicios tiene?
+  [ ] Dominio web (ej: koscoffeesport.com.ar)
+
+  13.3. IMÁGENES Y RENDERS
+  ──────────────────────────
+  [ ] Render / foto exterior del local
+  [ ] Render / foto interior (zona café)
+  [ ] Render / foto del patio exterior
+  [ ] Render / foto zona tienda
+  [ ] Render / foto zona service de bicicleta
+  [ ] Foto del equipo / personas
+  FORMATO MÍNIMO: JPG/PNG, 1200px de ancho mínimo.
+
+  13.4. TIENDA — PRODUCTOS (15 items)
+  ─────────────────────────────────────
+  Para cada producto: Nombre / Descripción breve / Talle-variante / Foto
+  Guantes (5): G1 a G5
+  Cascos (5):  C1 a C5
+  Accesorios (5): A1 a A5
+  FORMATO FOTOS: JPG/PNG, fondo blanco/limpio, 800×800px mínimo.
+
+  13.5. SERVICE DE BICICLETA
+  ────────────────────────────
+  [ ] ¿Qué servicios técnicos ofrece exactamente?
+  [ ] ¿Tiene precio o es gratuito?
+  [ ] ¿Requiere turno o es on-demand?
+
+  13.6. EVENTOS Y ALQUILER
+  ─────────────────────────
+  [ ] ¿Qué tipos de eventos se realizan?
+  [ ] Capacidad para eventos
+  [ ] ¿Cómo se reserva? (WA / mail / form)
+
+================================================================
+
+
+================================================================
+
+14. CRITERIOS DE DISEÑO Y UX
+────────────────────────────────────────────────────────────────
+
+  14.1. PALETA CSS — variables :root
+  ────────────────────────────────────
+  Variable              Hex / valor                  Uso
+  ─────────────────────────────────────────────────────────────────
+  --green-primary       #0e3e34                      Navbar, footer, fondos oscuros
+  --cream-primary       #f9f5dd                      Fondo principal, texto en verde
+  --lavender-primary    #d2cbed                      Servicios, badges, ilustraciones
+  --green-80            rgba(14,62,52,0.8)            Overlays sobre foto
+  --green-50            rgba(14,62,52,0.5)            Hover, separadores
+  --green-30            rgba(14,62,52,0.3)            Fondos sutiles
+  --text-dark           #1a1a1a                       Texto principal en claro
+  --text-cream          #f9f5dd                       Texto en fondos oscuros
+  --font-main           'Manrope', sans-serif         Cuerpo, UI
+  --font-display        'Jelek Type', sans-serif      H1, headlines
+  --font-script         'UT Breado Script', cursive   Slogans, taglines
+
+  14.2. PRINCIPIOS UX (ACTUALIZADO v4.0)
+  ────────────────────────────────────────
+  1. El CTA principal siempre apunta a #contacto o WhatsApp.
+  2. Tienda: el único CTA es "Consultar equipo" vía WhatsApp.
+  3. Mobile-first: funcionar perfectamente en 375px de ancho.
+  4. El FAB de WhatsApp nunca se oculta.
+  5. Cada sección transmite UN solo mensaje emocional.
+  6. Imágenes con texto: overlay --green-80 siempre.
+  7. Animaciones máximo 1s. Delay máximo 0.4s por elemento.
+  8. Las ilustraciones del ciclista son el hilo conductor visual.
+  9. No usar lorem ipsum en ningún estado del proyecto.
+  10. El microcopy refuerza el tono de marca en cada punto de contacto.
+
+  14.3. TONO VISUAL
+  ──────────────────
+  Objetivo:  Checkpoint deportivo. Comunidad ciclista. Energía + calma.
+  Estilo:    Urbano, manual, auténtico. Trazo a mano. No perfecto.
+  Evitar:    Stock photos glossy. Minimalismo vacío. Gradientes genéricos.
+             Figuras perfectas. Producto aséptico. Ambiente de lujo.
+  Buscar:    Verde oscuro + crema = calidez y seriedad.
+             Lavanda = energía y pertenencia.
+             Ilustraciones del ciclista KOS como hilo conductor.
+             Fotografías: post-entreno real, sudor, esfuerzo honesto.
+
+================================================================
+
+
+================================================================
+
+15. CONVENCIONES Y REGLAS ESTRICTAS
+────────────────────────────────────────────────────────────────
+
+  REGLAS ABSOLUTAS
+  ─────────────────
+  ✗  NO agregar frameworks (React, Vue, etc.)
+  ✗  NO agregar librerías JS externas
+  ✗  NO usar !important salvo @media prefers-reduced-motion
+  ✗  NO romper las clases .reveal-* (el observer las necesita)
+  ✗  NO escribir CSS inline en el HTML
+  ✗  NO duplicar estilos ya definidos en :root
+  ✗  NO crear archivos CSS nuevos (todo en styles.css / animations.css)
+  ✗  NO crear archivos JS nuevos (todo en main.js)
+  ✗  NO colocar botón de compra en la sección Tienda
+  ✗  NO mostrar precios en la Tienda
+  ✗  NO usar lorem ipsum en ninguna versión del proyecto (NUEVO v4.0)
+  ✗  NO usar microcopy genérico: "Ver más" / "Comprar" / "Saber más"
+
+  ✓  BEM estricto: bloque__elemento--modificador
+  ✓  Variables CSS: siempre las de :root (brand book)
+  ✓  Imágenes: width + height + loading="lazy" + alt descriptivo
+  ✓  Links externos: target="_blank" rel="noopener noreferrer"
+  ✓  ARIA: aria-label en elementos interactivos sin texto visible
+  ✓  WhatsApp: siempre la misma variable/constante de número
+  ✓  Copy KOS: siempre revisar con el sistema de tono de Sección 6
+
+  CONVENCIONES DE NAMING
+  ───────────────────────
+  IDs de sección:  #inicio | #manifiesto | #servicios | #tienda
+                   #abastecimiento | #eventos | #contacto
+  IDs únicos JS:   navbar | navMenu | navBurger
+  Clases reveal:   .reveal | .reveal-left | .reveal-right | .reveal-up
+  Clases estado:   .is-visible | .is-open | .navbar--scrolled
+  Clases tienda:   .tienda__card | .tienda__tabs | .tienda__btn-wa
+  Clases servicio: .servicio__card | .servicio__icon | .servicio__cta
+
+  ORDEN DE EDICIÓN
+  ─────────────────
+  Para cualquier cambio:
+  1. index.html (PROD)
+  2. descargas/config.js
+  3. descargas/main.js si el campo no estaba inyectado
+
+================================================================
+
+
+================================================================
+
+16. CHECKLIST DE ENTREGA
+────────────────────────────────────────────────────────────────
+
+  DATOS DEL CLIENTE
+  [ ] Dirección real en lista de contacto y Schema.org
+  [ ] Teléfono real con href tel: correcto
+  [ ] WhatsApp unificado en: lista, FAB, botones tienda (WHATS-001)
+  [ ] Horario completo y correcto
+  [ ] URL sitio en og:url y Schema.org
+  [ ] Redes sociales verificadas
+
+  COPY Y CONTENIDO (NUEVO v4.0)
+  [ ] Todos los títulos H1 usan tono KOS (Sección 6)
+  [ ] Ningún texto genérico / lorem ipsum en producción
+  [ ] Microcopy de botones: sin "Ver más" / "Comprar"
+  [ ] Sección Servicios con copy emocional aplicado
+  [ ] Checkpoint comunicado como comunidad, no como servicio
+  [ ] Manifiesto completo cargado en #manifiesto
+
+  ESTRUCTURA Y FUNCIONALIDAD
+  [ ] Navbar actualizada: El Manifiesto / Servicios / Tienda / Abastecimiento
+  [ ] Sección Servicios con 4 cards (copy KOS)
+  [ ] Sección Tienda con 15 productos y botones WhatsApp
+  [ ] Sección El Manifiesto con texto oficial
+  [ ] Sección Eventos / El Patio incluida
+  [ ] Mención patio como zona de concentración
+
+  IDENTIDAD VISUAL
+  [ ] Logo actualizado: logo.png (verde + ciclista)
+  [ ] Paleta CSS: Verde Musetta / Crema / Lavanda
+  [ ] Fuente Manrope desde Google Fonts
+  [ ] Fuentes Jelek Type y UT Breado Script importadas
+  [ ] Ilustraciones del ciclista como decoración recurrente
+  [ ] Sin colores fuera del sistema brand book
+
+  IMÁGENES
+  [ ] hero-bg.jpg reemplazada (ver prompts en Sección 17)
+  [ ] about.jpg reemplazada
+  [ ] Render exterior
+  [ ] Render interior
+  [ ] Render patio
+  [ ] Renders de 4 servicios
+  [ ] Fotos de 15 productos de tienda
+  [ ] Favicons reemplazados
+  [ ] og:image es URL absoluta
+
+  SEO Y TÉCNICO
+  [ ] Schema.org completo y real
+  [ ] title y meta description correctos
+
+  FUNCIONAL
+  [ ] Navbar sticky mobile y desktop
+  [ ] Burger menu funciona
+  [ ] Smooth scroll a todas las secciones
+  [ ] FAB WhatsApp funciona
+  [ ] Botones tienda abren WhatsApp con mensaje pre-cargado
+  [ ] Tabs tienda filtran correctamente
+  [ ] Mapa con ubicación real
+  [ ] Animaciones .reveal-* funcionan al scroll
+
+================================================================
+
+
+================================================================
+
+17. PROMPTS DE GENERACIÓN DE IMÁGENES (NUEVO v4.0)
+────────────────────────────────────────────────────────────────
+  Modelo recomendado: Midjourney v6 / DALL·E 3 / Flux
+  Estética objetivo: Urbano, real, post-esfuerzo, cálido.
+                     Sin glossy. Sin stock photos genérico.
+                     Paleta: verdes oscuros, cremas, tonos lavanda.
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 1 — HERO BACKGROUND (#inicio)
+  ─────────────────────────────────────────────────────────────
+  Uso: Fondo principal del hero section (con overlay verde oscuro al 80%)
+  Dimensiones: 1920×1080px mínimo (landscape)
+
+  PROMPT:
+  "A quiet urban cafe interior at golden hour, minimal industrial design,
+  dark forest green walls, warm cream accents, worn wooden tables,
+  bicycles visible through large glass windows outside, no people,
+  soft bokeh background, authentic post-workout atmosphere,
+  moody natural lighting, photorealistic, editorial photography style,
+  canon 5D, f/2.8, ISO 400, --ar 16:9 --style raw"
+
+  Variante con personas:
+  "Two cyclists in casual athletic wear relaxing at a cafe table,
+  post-ride, sweaty and happy, holding espresso cups,
+  dark green walls, cream tones, natural light, authentic moment,
+  not posed, real people, candid, photojournalism style,
+  --ar 16:9 --style raw"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 2 — EL MANIFIESTO / ABOUT (#manifiesto)
+  ─────────────────────────────────────────────────────────────
+  Uso: Imagen de fondo o imagen editorial de la sección Manifiesto
+  Dimensiones: 1200×800px (landscape o cuadrada)
+
+  PROMPT:
+  "Close up of a cyclist's hands wrapping around a ceramic espresso cup,
+  post-ride, worn cycling gloves partially removed, visible effort,
+  warm natural light, blurred background of a bike frame,
+  dark forest green tones, authentic, intimate moment,
+  food photography meets documentary, --ar 4:3 --style raw"
+
+  Variante abstracta:
+  "A silhouette of a cyclist arriving at a city cafe entrance,
+  soft morning light, steam rising from coffee cup on outdoor table,
+  green and cream color palette, urban poetry, quiet moment,
+  film grain, analog aesthetic, --ar 4:3"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 3 — ZONA DE CARGA / SERVICIO 1
+  ─────────────────────────────────────────────────────────────
+  Uso: Card o fondo del servicio Zona de Carga
+  Dimensiones: 800×600px
+
+  PROMPT:
+  "Overhead shot of a minimalist breakfast spread on a dark green
+  ceramic plate: natural yogurt, artisanal granola, seasonal fruits,
+  beside a black espresso cup, cream colored linen napkin,
+  worn wooden surface, warm morning light, no filters,
+  cafe food photography, --ar 4:3 --style raw"
+
+  Variante sport:
+  "A cyclist refueling at a cafe table, energy bar and coffee,
+  cycling jersey still on, helmet resting on the chair,
+  authentic post-ride recovery moment, warm light,
+  photorealistic, candid, --ar 4:3"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 4 — EL CHECKPOINT / SERVICIO 3
+  ─────────────────────────────────────────────────────────────
+  Uso: Card o fondo del Checkpoint
+  Dimensiones: 800×600px
+
+  PROMPT:
+  "Small group of cyclists relaxing inside a cozy urban cafe,
+  mix of ages, casual conversation, bikes parked outside visible,
+  dark green interior accents, warm light, TV on wall,
+  no pressure, belonging, community feel,
+  documentary photography style, natural, candid, --ar 4:3"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 5 — SERVICE DE BICICLETA / SERVICIO 4
+  ─────────────────────────────────────────────────────────────
+  Uso: Card del servicio de reparación
+  Dimensiones: 800×600px
+
+  PROMPT:
+  "Close up of hands doing a basic bicycle tune-up, tire check,
+  worn mechanic hands, natural light, industrial background,
+  real tools, authentic workshop feel, no studio lighting,
+  photorealistic, dark tones with cream highlights, --ar 4:3"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 6 — PATIO EXTERIOR / SECCIÓN EVENTOS
+  ─────────────────────────────────────────────────────────────
+  Uso: Fondo de sección Eventos o El Patio
+  Dimensiones: 1200×800px
+
+  PROMPT:
+  "Outdoor urban patio of a cafe at dawn, folding chairs and wooden
+  tables, group of cyclists gathered before a race, coffee cups,
+  bicycles leaning against fence, natural warm light,
+  community gathering, pre-race energy, authentic moment,
+  documentary photography, film grain, --ar 3:2"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 7 — HERO MOBILE / VERTICAL
+  ─────────────────────────────────────────────────────────────
+  Uso: Imagen hero para mobile (portrait)
+  Dimensiones: 750×1334px (9:16 ratio)
+
+  PROMPT:
+  "Portrait of a sweaty cyclist entering a cafe door,
+  triumphant and relaxed, casual athletic wear,
+  dark green entrance, warm interior light visible,
+  'I made it' energy, authentic not posed,
+  photorealistic, natural grain, --ar 9:16 --style raw"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 8 — PRODUCTOS TIENDA (guantes, template)
+  ─────────────────────────────────────────────────────────────
+  Uso: Template para fotos de productos en la tienda
+  Dimensiones: 800×800px (cuadrada)
+
+  PROMPT:
+  "Cycling gloves flat lay on cream colored background,
+  product photography, minimal, sharp focus,
+  dark green subtle accent, no logo, clean edges,
+  professional product shot, square format, --ar 1:1"
+
+  Variante casco:
+  "Cycling helmet product photo, 3/4 angle, cream background,
+  dark forest green accent lighting, minimal studio setup,
+  sharp product photography, no text, --ar 1:1"
+
+  ─────────────────────────────────────────────────────────────
+  IMAGEN 9 — GALERÍA / AMBIENTE GENERAL
+  ─────────────────────────────────────────────────────────────
+  Uso: Galería de imágenes de la sección nosotros o servicios
+  Dimensiones: 600×600px (cuadrada) — para grid
+
+  PROMPTS (4 imágenes para galería):
+
+  Galería 1 — El Espresso:
+  "Extreme close up of a double espresso being pulled from a
+  portafilter, dark roast, golden crema, dark green cup,
+  steam, dramatic light, moody, editorial coffee photography,
+  --ar 1:1"
+
+  Galería 2 — La Llegada:
+  "Cyclist arriving at cafe entrance, blurred motion of wheel,
+  sharp face expressing relief and satisfaction,
+  urban environment, natural light, authentic, --ar 1:1"
+
+  Galería 3 — El Detalle:
+  "Cycling shoes and cleats on a worn wooden cafe floor,
+  latte art cup beside them, urban real texture,
+  looking down perspective, natural light, --ar 1:1"
+
+  Galería 4 — La Comunidad:
+  "Three cyclists at outdoor cafe table, laughing, casual,
+  post-ride energy, authentic and relaxed,
+  bokeh background of bicycles, warm afternoon light, --ar 1:1"
+
+  ─────────────────────────────────────────────────────────────
+  NOTAS GENERALES PARA GENERACIÓN
+  ─────────────────────────────────────────────────────────────
+  - Paleta dominante en todas las imágenes: verde oscuro + crema
+  - Evitar: fondos blancos puros, lighting de estudio artificial,
+    modelos perfectos, ropa de ciclismo ultra-técnica/racing
+  - Buscar: luz natural, textura real, autenticidad urbana,
+    momentos honestos, esfuerzo visible pero sin drama
+  - Estilo fotográfico de referencia: Kinfolk Magazine,
+    Cereal Magazine (editorialidad cotidiana)
+  - Para imágenes con personas: diversidad de cuerpos y edades,
+    ciclismo urbano (no élite), casual pero apasionado
+
+================================================================
+
+
+================================================================
+
+18. VOCABULARIO CANÓNICO
+────────────────────────────────────────────────────────────────
+
+  Término              Significado
+  ─────────────────────────────────────────────────────────────
+  PROD                 Versión productiva (index.html)
+  DESCARGA             Versión data-driven (descargas/ + config.js)
+  Brand Book           kos_Brand-book_MAR25.pdf — fuente oficial
+  Checkpoint           Concepto central: punto de llegada del deportista
+  El Manifiesto        Sección de identidad y propósito de KOS
+  Abastecimiento       Sección ex-"Menú" — productos deportivos
+  Tienda               Catálogo ciclismo con CTA WhatsApp
+  El Patio             Espacio exterior de concentración pre-competencia
+  Verde Musetta        Color verde oscuro oficial (#0e3e34)
+  Crema Cafe           Color crema oficial (#f9f5dd)
+  Lavanda Sprint       Color lavanda oficial (#d2cbed)
+  Jelek Type           Tipografía display para H1
+  UT Breado Script     Tipografía script para slogans
+  Manrope              Tipografía principal para body y UI
+  reveal               Clase base de animación scroll
+  is-visible           Clase que JS agrega al entrar en viewport
+  FAB                  Floating Action Button (botón WA flotante)
+  BEM                  Block-Element-Modifier
+  Schema.org           Datos estructurados para SEO (LocalBusiness)
+  COPY-001             Copy genérico sin tono KOS (NUEVO v4.0)
+  FRONT-007            Datos de contacto placeholder (heredado)
+  WHATS-001            WhatsApp inconsistente (heredado)
+  IMG-001              Imágenes genéricas (heredado)
+  IMG-002              Renders del local no entregados (v3.0)
+  LOGO-001             Logo desactualizado (v3.0)
+  NAV-001              Navbar desactualizada (v3.0)
+  SEC-001              Sección Servicios a construir (v3.0)
+  SEC-002              Sección Tienda a construir (v3.0)
+  PROD-001             Productos tienda sin datos reales (v3.0)
+
+================================================================
+
+
+================================================================
+FIN PLAN MAESTRO v4.0 — KOS COFFEE SPORT
+Última actualización: 2026-03-26
+Basado en: v3.0 + kos_Brand-book_MAR25.pdf + integración branding/UX
+─────────────────────────────────────────────────────────────
+Estado resumido:
+  F1–F5   ✅ Completadas — estructura base, animaciones, SEO, descarga
+  F6      🟠 En progreso — datos reales del cliente (bloqueante)
+  F7      🟠 En progreso — mejoras frontend
+  F9      🔴 Fase v3.0   — cambios estructurales
+  F10     🔴 Fase v4.0   — integración branding profunda (NUEVA)
+  F8      ⏳ Pendiente   — entrega final
+─────────────────────────────────────────────────────────────
+Bloqueantes críticos:
+  1. WHATS-001 — WhatsApp sin número real unificado
+  2. FRONT-007 — Datos de contacto placeholder
+  3. COPY-001  — Copy genérico sin tono KOS        [NUEVO v4.0]
+  4. IMG-001   — Imágenes genéricas en hero y galería
+  5. IMG-002   — Renders del local no entregados   [v3.0]
+  6. LOGO-001  — Logo desactualizado               [v3.0]
+  7. PROD-001  — Productos tienda sin datos reales [v3.0]
+─────────────────────────────────────────────────────────────
+Próximos pasos:
+  1. Validar con cliente las 3 preguntas de Sección 1.4
+  2. Entregar cliente-data.txt (Sección 13) al cliente
+  3. Aplicar sistema de copy KOS (Sección 6) a toda la landing
+  4. Actualizar tipografía al brand book (TYP-001)
+  5. Actualizar paleta CSS al brand book (CSS-002)
+  6. Reemplazar logo (LOGO-001)
+  7. Actualizar navbar (NAV-001)
+  8. Construir sección Servicios con copy emocional (SEC-001)
+  9. Construir sección Tienda (SEC-002)
+  10. Generar o solicitar imágenes — ver prompts Sección 17
+  11. Integrar renders cuando estén disponibles (IMG-002)
+  12. Entrega final (F8)
+================================================================

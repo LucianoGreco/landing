@@ -1,0 +1,318 @@
+╔══════════════════════════════════════════════════════════════╗
+║         🚴 KOS COFFEE SPORT — FICHA DE DATOS REALES 🏁       ║
+║                    Proyecto: Landing Page                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+  Hola! 👋 Este documento tiene todos los datos que necesitamos
+  que nos confirmes o completes para terminar tu sitio web.
+
+  Una vez que lo tengas listo, mandánoslo por WhatsApp o mail
+  junto con las fotos y dejamos el sitio listo para publicar. 🚀
+
+  ⏱️  Tiempo estimado para completar: 10-15 minutos
+
+
+──────────────────────────────────────────────────────────────
+  📍 BLOQUE 1 — DATOS DE CONTACTO
+──────────────────────────────────────────────────────────────
+
+  1.1 🏠  Dirección física del local
+          Dato actual (ejemplo):  Av. Ejemplo 123, Ciudad Real
+          Tu dato real:           _________________________________
+
+  1.2 📞  Teléfono fijo
+          Dato actual (ejemplo):  11 1234-5678
+          Tu dato real:           _________________________________
+
+  1.3 💬  Número de WhatsApp
+          Dato actual (ejemplo):  542604331727
+          Tu dato real:           _________________________________
+
+          📌 Formato: código de país + código de área + número, sin espacios
+             Ejemplo:  5492616123456
+
+          ⚠️  Este número se usa en el botón flotante, los botones
+              de productos y las secciones El Patio y Abastecimiento.
+              Se actualiza en un solo lugar y aplica a toda la página.
+
+
+──────────────────────────────────────────────────────────────
+  🕐 BLOQUE 2 — HORARIOS DE ATENCIÓN
+──────────────────────────────────────────────────────────────
+
+  2.1 📅  Días y horarios completos
+          (Solo teníamos los sábados cargados — completar el resto)
+
+          Lunes:      ____________________________________
+          Martes:     ____________________________________
+          Miércoles:  ____________________________________
+          Jueves:     ____________________________________
+          Viernes:    ____________________________________
+          Sábado:     08:30 a 20:30 hs. ← ¿es correcto?  [ ] Sí  [ ] No
+          Domingo:    ____________________________________
+
+          💡 Si algún día están cerrados, escribir "Cerrado".
+
+
+──────────────────────────────────────────────────────────────
+  🌐 BLOQUE 3 — DOMINIO WEB
+──────────────────────────────────────────────────────────────
+
+  3.1 🔗  ¿Cuál es tu dominio definitivo?
+          Dato actual (ejemplo):  https://koscoffeesport.com.ar
+          Tu dato real:           _________________________________
+
+          💡 Si todavía no tenés dominio, avisanos y lo vemos juntos.
+
+
+──────────────────────────────────────────────────────────────
+  🗺️  BLOQUE 4 — UBICACIÓN EN GOOGLE MAPS
+──────────────────────────────────────────────────────────────
+
+  4.1 📌  Link para el mapa del local
+          El mapa actual apunta a una ubicación de ejemplo.
+          Necesitamos el tuyo real 👇
+
+          Cómo obtenerlo en 4 pasos:
+            1. Abrí  👉  maps.google.com
+            2. Buscá la dirección de tu local
+            3. Hacé clic en "Compartir" → "Insertar un mapa"
+            4. Copiá el link que aparece dentro de src="..."
+
+          Tu link embed:          _________________________________
+
+
+──────────────────────────────────────────────────────────────
+  📱 BLOQUE 5 — REDES SOCIALES
+──────────────────────────────────────────────────────────────
+
+  5.1 📸  Instagram
+          Dato actual:  https://www.instagram.com/koscoffeesport
+          ¿Es correcto?  [ ] Sí  [ ] No → Corrección: _______________
+
+  5.2 🚵  Strava
+          Dato actual:  https://www.strava.com  (sin perfil aún)
+          Tu perfil:    _________________________________
+          [ ] No tenemos perfil de Strava → ocultar el ícono
+
+  5.3 🎵  TikTok
+          Dato actual:  https://www.tiktok.com/@koscoffeesport
+          ¿Es correcto?  [ ] Sí  [ ] No → Corrección: _______________
+          [ ] No tenemos TikTok → ocultar el ícono
+
+
+──────────────────────────────────────────────────────────────
+  🖼️  BLOQUE 6 — IMÁGENES A ENTREGARNOS
+──────────────────────────────────────────────────────────────
+
+  📌 Importante: mandá las fotos con los mismos nombres de archivo
+     que figuran abajo, dentro de las carpetas indicadas.
+     Eso nos permite subirlas directo al sitio sin configuración extra.
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  📁  assets/images/                                     │
+  └─────────────────────────────────────────────────────────┘
+
+  hero-bg.jpg        🖼️  Foto principal (fondo de pantalla completa)
+                         Recomendado: exterior del local o ambiente
+                         Tamaño mínimo: 1920 × 1080 px
+
+  about.jpg          🖼️  Imagen decorativa del hero (esquina inferior)
+                         Puede ser logo, ilustración o foto del lugar
+
+  about-runner.jpg   🖼️  Foto de la sección "El Manifiesto"
+                         Sugerido: ciclista o cliente en acción
+                         Aspecto vertical (aprox. 4:5)
+                         ⚠️  También aparece como miniatura en el footer
+
+  icon-coffee.jpg    🎯  Ícono para tarjeta "Zona de Carga"   80×80 px
+  icon-hi.jpg        🎯  Ícono para tarjeta "El Checkpoint"   80×80 px
+  icon-location.jpg  📍  Ícono de dirección en Contacto       24×24 px
+
+  menu-item-1.jpg    ☕  Foto del ítem "Coffee Sprint"         500×500 px
+  menu-item-2.jpg    ☕  Foto del ítem "Cadencia"              500×500 px
+  menu-item-3.jpg    ☕  Foto del ítem "Tostón Finisher"       500×500 px
+
+  gallery-1.jpg      📷  Galería — foto principal (vertical)  400×500 px
+  gallery-2.jpg      📷  Galería — foto secundaria arriba     400×240 px
+  gallery-3.jpg      📷  Galería — foto secundaria abajo      400×240 px
+
+  logo.png           ✅  Logo versión completa    (fondo transparente)
+  logo-negro.png     ✅  Logo en oscuro/negro     (fondo transparente)
+  logo-blanco.png    ✅  Logo en blanco/crema     (fondo transparente)
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  📁  assets/images/tienda/  (3 fotos por producto)      │
+  └─────────────────────────────────────────────────────────┘
+
+  🪖  Cascos
+      casco-01.jpg   → vista frontal
+      casco-02.jpg   → vista lateral
+      casco-03.jpg   → detalle ventilación
+
+  🧤  Guantes
+      guantes-01.jpg → vista palmar
+      guantes-02.jpg → vista dorsal
+      guantes-03.jpg → detalle grip
+
+  💡  Luces
+      luces-01.jpg   → vista general
+      luces-02.jpg   → instalada en bici
+      luces-03.jpg   → detalle
+
+  🕶️  Gafas
+      gafas-01.jpg   → vista frontal
+      gafas-02.jpg   → vista lateral
+      gafas-03.jpg   → detalle lente
+
+  👕  Ropa técnica
+      ropa-01.jpg    → vista frente
+      ropa-02.jpg    → vista espalda
+      ropa-03.jpg    → detalle tela/costuras
+
+  💊  Suplementos
+      creatina-01.jpg → foto del producto
+      creatina-02.jpg → tabla nutricional o detalle
+      creatina-03.jpg → en uso / contexto deportivo
+
+  📐  Tamaño recomendado para todas las fotos de tienda: 800 × 800 px
+
+  ┌─────────────────────────────────────────────────────────┐
+  │  📁  assets/  (raíz — archivos pendientes)              │
+  └─────────────────────────────────────────────────────────┘
+
+  favicon.ico          → Ícono en la pestaña del navegador
+  favicon-32x32.png    → Ícono PNG 32×32 px
+  apple-touch-icon.png → Ícono para iPhone/iPad 180×180 px
+
+  💡 Los tres se generan automáticamente desde tu logo.
+     Herramienta gratuita: https://realfavicongenerator.net
+
+
+──────────────────────────────────────────────────────────────
+  ✍️  BLOQUE 7 — TEXTOS Y PRODUCTOS
+──────────────────────────────────────────────────────────────
+
+  Solo completar si querés cambiar algo. Si está bien así, no hace
+  falta escribir nada. 👌
+
+  7.1  Nombre del negocio
+       Actual:   KOS Coffee Sport
+       [ ] Está bien  [ ] Cambiar por: ___________________________
+
+  7.2  Tagline / slogan
+       Actual:   "Tu punto de llegada."
+       [ ] Está bien  [ ] Cambiar por: ___________________________
+
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+  7.3  🛒  Productos de la Tienda
+
+  🪖  Casco
+      Nombre actual:  Casco de Ciclismo
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Protección ligera con sistema de ventilación optimizado.
+         Ideal para ciclismo urbano y de ruta."
+      Descripción real:
+        _________________________________________________________
+
+  🧤  Guantes
+      Nombre actual:  Guantes de Ciclismo
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Gel acolchado en palma, agarre antideslizante y dorso
+         transpirable. Tallas S a XL disponibles."
+      Descripción real:
+        _________________________________________________________
+
+  💡  Luces
+      Nombre actual:  Luces LED para Bicicleta
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Delantera y trasera recargables USB. 3 modos de
+         iluminación. Resistencia al agua IPX4."
+      Descripción real:
+        _________________________________________________________
+
+  🕶️  Gafas
+      Nombre actual:  Gafas de Ciclismo
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Lentes intercambiables UV400. Patillas ajustables.
+         Protección total en ruta y montaña."
+      Descripción real:
+        _________________________________________________________
+
+  👕  Ropa Técnica
+      Nombre actual:  Ropa Técnica
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Tejido transpirable de alto rendimiento. Costuras
+         planas sin rozaduras. Tallas XS a XXL."
+      Descripción real:
+        _________________________________________________________
+
+  💊  Suplementos
+      Nombre actual:  Creatina Monohidrato
+      Nombre real:    _________________________________________
+      Descripción actual:
+        "Creatina pura de alta solubilidad. Ideal para
+         rendimiento explosivo y recuperación muscular."
+      Descripción real:
+        _________________________________________________________
+
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+  7.4  ☕  Ítems del menú (sección Abastecimiento)
+
+  Ítem 1
+      Nombre actual:  Coffee Sprint
+      Descripción actual:
+        "Yogurt natural, granola artesanal y frutas de estación.
+         El combo que te pone de pie antes de salir."
+      Nombre real:      _______________________________________
+      Descripción real: _______________________________________
+
+  Ítem 2
+      Nombre actual:  Cadencia
+      Descripción actual:
+        "Café con leche de especialidad. Lento cuando el cuerpo
+         lo pide. Perfecto para bajar las pulsaciones."
+      Nombre real:      _______________________________________
+      Descripción real: _______________________________________
+
+  Ítem 3
+      Nombre actual:  Tostón Finisher
+      Descripción actual:
+        "Pan de masa madre, palta, huevo soft y semillas.
+         El finisher que el cuerpo merecía."
+      Nombre real:      _______________________________________
+      Descripción real: _______________________________________
+
+
+══════════════════════════════════════════════════════════════
+  ✅  CHECKLIST FINAL — ANTES DE PUBLICAR
+══════════════════════════════════════════════════════════════
+
+  🔴  CRÍTICO — sin esto el sitio no funciona correctamente:
+      [ ] 1.3  Número de WhatsApp real
+      [ ] 4.1  Link de Google Maps del local
+      [ ] 3.1  Dominio definitivo confirmado
+      [ ] Logos (logo.png / logo-negro.png / logo-blanco.png)
+      [ ] Todas las fotos de assets/images/
+
+  🟡  IMPORTANTE — datos visibles para tus clientes:
+      [ ] 1.1  Dirección física real
+      [ ] 1.2  Teléfono fijo real
+      [ ] 2.1  Horarios completos de atención
+      [ ] 5.1 a 5.3  Redes sociales confirmadas
+      [ ] Fotos de assets/images/tienda/
+
+  🟢  RECOMENDADO — mejora SEO y branding:
+      [ ] Favicon (se genera desde el logo)
+      [ ] Revisar textos de productos y menú (Bloque 7)
+
+══════════════════════════════════════════════════════════════
+  💬  ¿Dudas? ¡Escribinos sin problema, estamos para ayudarte!
+══════════════════════════════════════════════════════════════
